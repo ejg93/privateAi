@@ -1,0 +1,29 @@
+# 대용량 원본 데이터
+대화내역/
+
+# node
+node_modules/
+
+# 크롤 임시 파일
+context/
+gemini-crawl.log
+gemini-progress.json
+
+# 개인정보/민감 콘텐츠 - GitHub 제외
+myRoutine.md
+AiChatHistory/chatGpt/classified/개인/
+AiChatHistory/chatGpt/classified/사회-철학/
+AiChatHistory/chatGpt/classified/게임/2024-12-16_그외 게임.md
+AiChatHistory/chatGpt/classified/게임/2024-12-30_발더스게이트3.md
+AiChatHistory/chatGpt/classified/게임/2026-05-17_림버스 컴퍼니 감상.md
+AiChatHistory/chatGpt/classified/기타/2025-08-10_부서지는 아이들.md
+AiChatHistory/chatGpt/classified/기타/2024-09-26_책영화등.md
+AiChatHistory/chatGpt/classified/기타/2025-11-07_버튜버.md
+AiChatHistory/chatGpt/classified/기타/2025-11-18_배트맨 언더더 레드후드 장면.md
+AiChatHistory/gemini-chat/개인/
+AiChatHistory/gemini-chat/일상-생활/
+AiChatHistory/gemini-chat/게임/
+AiChatHistory/gemini-chat/개발-코딩/
+AiChatHistory/gemini-chat/과학-잡학/
+논란관련/
+

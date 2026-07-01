@@ -1,0 +1,3508 @@
+[
+  {
+    "message": "카드팩을 찾을 수 없습니다.",
+    "status": 400
+  },
+  {
+    "message": "카드팩을 찾을 수 없습니다.",
+    "status": 400
+  },
+  {
+    "message": "카드팩을 찾을 수 없습니다.",
+    "status": 400
+  },
+  {
+    "message": "카드팩을 찾을 수 없습니다.",
+    "status": 400
+  },
+  {
+    "cardpackId": 5,
+    "title": "잊혀진 자들",
+    "themeType": 1,
+    "description": "1장",
+    "difficultyFloors": [
+      {
+        "difficulty": "하드",
+        "floors": [
+          1
+        ]
+      },
+      {
+        "difficulty": "노말",
+        "floors": [
+          1
+        ]
+      }
+    ],
+    "createdAt": "2025-12-14T14:51:48.913256",
+    "updatedAt": "2025-12-15T23:17:52.36485",
+    "thumbnail": {
+      "fileId": 796,
+      "path": "/uploads/CARD_PACK/original/b01a66b0-57e8-4b9d-8484-3f84c55d833e.webp",
+      "originalName": "잊혀진_자들.webp",
+      "storedName": "b01a66b0-57e8-4b9d-8484-3f84c55d833e.webp"
+    }
+  },
+  {
+    "cardpackId": 6,
+    "title": "속하지 못하는",
+    "themeType": 1,
+    "description": "1장",
+    "difficultyFloors": [
+      {
+        "difficulty": "하드",
+        "floors": [
+          1
+        ]
+      },
+      {
+        "difficulty": "노말",
+        "floors": [
+          1,
+          2
+        ]
+      }
+    ],
+    "createdAt": "2025-12-14T17:42:18.532889",
+    "updatedAt": "2025-12-15T23:17:59.157662",
+    "thumbnail": {
+      "fileId": 797,
+      "path": "/uploads/CARD_PACK/original/3ddc86aa-6d40-4d27-92c6-125149b46a9d.webp",
+      "originalName": "속하지_못하는.webp",
+      "storedName": "3ddc86aa-6d40-4d27-92c6-125149b46a9d.webp"
+    }
+  },
+  {
+    "cardpackId": 7,
+    "title": "헬스 치킨",
+    "themeType": 2,
+    "description": "3.5장",
+    "difficultyFloors": [
+      {
+        "difficulty": "하드",
+        "floors": [
+          2
+        ]
+      },
+      {
+        "difficulty": "노말",
+        "floors": [
+          2
+        ]
+      }
+    ],
+    "createdAt": "2025-12-14T18:32:18.726977",
+    "updatedAt": "2025-12-15T23:18:05.949665",
+    "thumbnail": {
+      "fileId": 798,
+      "path": "/uploads/CARD_PACK/original/a019774c-b136-4715-bbb6-f207bc2e61d7.webp",
+      "originalName": "헬스_치킨.webp",
+      "storedName": "a019774c-b136-4715-bbb6-f207bc2e61d7.webp"
+    }
+  },
+  {
+    "cardpackId": 8,
+    "title": "카지노 푸어",
+    "themeType": 1,
+    "description": "2장",
+    "difficultyFloors": [
+      {
+        "difficulty": "하드",
+        "floors": [
+          1
+        ]
+      },
+      {
+        "difficulty": "노말",
+        "floors": [
+          1,
+          2
+        ]
+      }
+    ],
+    "createdAt": "2025-12-15T22:53:40.125596",
+    "updatedAt": "2025-12-15T23:18:12.295752",
+    "thumbnail": {
+      "fileId": 799,
+      "path": "/uploads/CARD_PACK/original/44f1f198-de07-4d46-a7e7-2773226816c4.webp",
+      "originalName": "카지노_푸어.webp",
+      "storedName": "44f1f198-de07-4d46-a7e7-2773226816c4.webp"
+    }
+  },
+  {
+    "cardpackId": 9,
+    "title": "공장 자동화",
+    "themeType": 1,
+    "description": "2장",
+    "difficultyFloors": [
+      {
+        "difficulty": "하드",
+        "floors": [
+          1,
+          2
+        ]
+      },
+      {
+        "difficulty": "노말",
+        "floors": [
+          1,
+          2
+        ]
+      }
+    ],
+    "createdAt": "2025-12-15T22:53:57.138493",
+    "updatedAt": "2025-12-15T23:18:25.555063",
+    "thumbnail": {
+      "fileId": 800,
+      "path": "/uploads/CARD_PACK/original/4fa44ff6-c2d5-43b0-8fdf-af3d81fb62ab.webp",
+      "originalName": "공장_자동화.webp",
+      "storedName": "4fa44ff6-c2d5-43b0-8fdf-af3d81fb62ab.webp"
+    }
+  },
+  {
+    "cardpackId": 10,
+    "title": "사랑할 수 없는",
+    "themeType": 1,
+    "description": "2장",
+    "difficultyFloors": [
+      {
+        "difficulty": "하드",
+        "floors": [
+          1,
+          2
+        ]
+      },
+      {
+        "difficulty": "노말",
+        "floors": [
+          1,
+          2
+        ]
+      }
+    ],
+    "createdAt": "2025-12-15T22:54:23.051491",
+    "updatedAt": "2025-12-15T23:18:33.818632",
+    "thumbnail": {
+      "fileId": 801,
+      "path": "/uploads/CARD_PACK/original/c731339e-91b5-4ab4-8470-c5d0be8691e4.webp",
+      "originalName": "사랑할_수_없는.webp",
+      "storedName": "c731339e-91b5-4ab4-8470-c5d0be8691e4.webp"
+    }
+  },
+  {
+    "cardpackId": 11,
+    "title": "못과 망치",
+    "themeType": 1,
+    "description": "3장",
+    "difficultyFloors": [
+      {
+        "difficulty": "하드",
+        "floors": [
+          1
+        ]
+      },
+      {
+        "difficulty": "노말",
+        "floors": [
+          1
+        ]
+      }
+    ],
+    "createdAt": "2025-12-15T22:55:03.644517",
+    "updatedAt": "2025-12-15T23:18:40.111195",
+    "thumbnail": {
+      "fileId": 802,
+      "path": "/uploads/CARD_PACK/original/af73ee34-01d1-4e34-95b5-c6b7066ce56c.webp",
+      "originalName": "못과_망치.webp",
+      "storedName": "af73ee34-01d1-4e34-95b5-c6b7066ce56c.webp"
+    }
+  },
+  {
+    "cardpackId": 12,
+    "title": "신앙과 침식",
+    "themeType": 1,
+    "description": "3장",
+    "difficultyFloors": [
+      {
+        "difficulty": "하드",
+        "floors": [
+          1
+        ]
+      },
+      {
+        "difficulty": "노말",
+        "floors": [
+          1,
+          2
+        ]
+      }
+    ],
+    "createdAt": "2025-12-15T22:55:16.682493",
+    "updatedAt": "2025-12-15T23:17:37.251474",
+    "thumbnail": {
+      "fileId": 803,
+      "path": "/uploads/CARD_PACK/original/0b2870f7-0e44-4b8e-8d80-8c2b15b3f41b.webp",
+      "originalName": "신앙과_침식.webp",
+      "storedName": "0b2870f7-0e44-4b8e-8d80-8c2b15b3f41b.webp"
+    }
+  },
+  {
+    "cardpackId": 13,
+    "title": "마주하지 않는",
+    "themeType": 1,
+    "description": "3장",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          3
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          2,
+          3
+        ]
+      }
+    ],
+    "createdAt": "2025-12-15T22:55:37.171495",
+    "updatedAt": "2025-12-15T23:17:29.240431",
+    "thumbnail": {
+      "fileId": 804,
+      "path": "/uploads/CARD_PACK/original/1196e264-0666-4041-8a5c-e0cc6b787d53.webp",
+      "originalName": "마주하지_않는.webp",
+      "storedName": "1196e264-0666-4041-8a5c-e0cc6b787d53.webp"
+    }
+  },
+  {
+    "cardpackId": 14,
+    "title": "둥지, 공방, 기술",
+    "themeType": 1,
+    "description": "4장",
+    "difficultyFloors": [
+      {
+        "difficulty": "하드",
+        "floors": [
+          1
+        ]
+      },
+      {
+        "difficulty": "노말",
+        "floors": [
+          1,
+          2
+        ]
+      }
+    ],
+    "createdAt": "2025-12-16T22:32:28.4204",
+    "updatedAt": "2025-12-16T22:33:07.385625",
+    "thumbnail": {
+      "fileId": 805,
+      "path": "/uploads/CARD_PACK/original/e11d9956-e703-4b56-a373-eb9bd4a237d2.webp",
+      "originalName": "둥지_공방_기술.webp",
+      "storedName": "e11d9956-e703-4b56-a373-eb9bd4a237d2.webp"
+    }
+  },
+  {
+    "cardpackId": 15,
+    "title": "낙화",
+    "themeType": 1,
+    "description": "4장",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          3
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          2,
+          3
+        ]
+      }
+    ],
+    "createdAt": "2025-12-16T22:32:51.078596",
+    "updatedAt": "2025-12-16T22:32:51.078596",
+    "thumbnail": {
+      "fileId": 806,
+      "path": "/uploads/CARD_PACK/original/a663f7e3-7cf3-4fc7-b430-d5816b10f528.webp",
+      "originalName": "낙화.webp",
+      "storedName": "a663f7e3-7cf3-4fc7-b430-d5816b10f528.webp"
+    }
+  },
+  {
+    "cardpackId": 16,
+    "title": "흘리는 것들",
+    "themeType": 1,
+    "description": "4장",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          4,
+          5
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          3,
+          4
+        ]
+      }
+    ],
+    "createdAt": "2025-12-16T22:36:03.842281",
+    "updatedAt": "2025-12-16T22:36:03.842281",
+    "thumbnail": {
+      "fileId": 807,
+      "path": "/uploads/CARD_PACK/original/9894242a-1796-4d93-90c5-f1bb9e502ff8.webp",
+      "originalName": "흘리는_것들.webp",
+      "storedName": "9894242a-1796-4d93-90c5-f1bb9e502ff8.webp"
+    }
+  },
+  {
+    "cardpackId": 17,
+    "title": "변하지 않는",
+    "themeType": 1,
+    "description": "4장",
+    "difficultyFloors": [
+      {
+        "difficulty": "하드",
+        "floors": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ],
+    "createdAt": "2025-12-16T22:36:29.241805",
+    "updatedAt": "2025-12-16T22:36:29.241805",
+    "thumbnail": {
+      "fileId": 808,
+      "path": "/uploads/CARD_PACK/original/64a7c74a-d9d0-4abf-a743-63b80e8d0f11.webp",
+      "originalName": "변하지_않는.webp",
+      "storedName": "64a7c74a-d9d0-4abf-a743-63b80e8d0f11.webp"
+    }
+  },
+  {
+    "cardpackId": 18,
+    "title": "레이크 월드",
+    "themeType": 1,
+    "description": "5장",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          2
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          1
+        ]
+      }
+    ],
+    "createdAt": "2025-12-16T22:36:47.128011",
+    "updatedAt": "2025-12-16T22:36:47.128011",
+    "thumbnail": {
+      "fileId": 809,
+      "path": "/uploads/CARD_PACK/original/fc0abc7e-72df-42bf-b183-85580b272d57.webp",
+      "originalName": "레이크_월드.webp",
+      "storedName": "fc0abc7e-72df-42bf-b183-85580b272d57.webp"
+    }
+  },
+  {
+    "cardpackId": 19,
+    "title": "기어오는 심연",
+    "themeType": 1,
+    "description": "5장",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          4,
+          5
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          3,
+          4
+        ]
+      }
+    ],
+    "createdAt": "2025-12-16T22:37:07.340953",
+    "updatedAt": "2025-12-16T22:37:07.340953",
+    "thumbnail": {
+      "fileId": 810,
+      "path": "/uploads/CARD_PACK/original/f8e36b74-4d2f-49de-9684-09895d509148.webp",
+      "originalName": "기어오는_심연.webp",
+      "storedName": "f8e36b74-4d2f-49de-9684-09895d509148.webp"
+    }
+  },
+  {
+    "cardpackId": 20,
+    "title": "악으로 규정되는",
+    "themeType": 1,
+    "description": "5장",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          4,
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-16T22:37:27.499186",
+    "updatedAt": "2025-12-16T22:37:27.499186",
+    "thumbnail": {
+      "fileId": 811,
+      "path": "/uploads/CARD_PACK/original/b0f7ec81-02b7-4978-a3eb-5b5c40be2cb5.webp",
+      "originalName": "악으로_규정되는.webp",
+      "storedName": "b0f7ec81-02b7-4978-a3eb-5b5c40be2cb5.webp"
+    }
+  },
+  {
+    "cardpackId": 21,
+    "title": "저택의 부산물",
+    "themeType": 1,
+    "description": "6장",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          3
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          1
+        ]
+      }
+    ],
+    "createdAt": "2025-12-16T22:37:52.922578",
+    "updatedAt": "2025-12-16T22:37:52.922578",
+    "thumbnail": {
+      "fileId": 812,
+      "path": "/uploads/CARD_PACK/original/fe5459ba-c519-456b-808c-26ecfa2abf5a.webp",
+      "originalName": "저택의_부산물.webp",
+      "storedName": "fe5459ba-c519-456b-808c-26ecfa2abf5a.webp"
+    }
+  },
+  {
+    "cardpackId": 22,
+    "title": "어느 세계",
+    "themeType": 1,
+    "description": "6장",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          4,
+          5
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          3,
+          4
+        ]
+      }
+    ],
+    "createdAt": "2025-12-16T22:38:12.722161",
+    "updatedAt": "2025-12-16T22:38:12.722161",
+    "thumbnail": {
+      "fileId": 813,
+      "path": "/uploads/CARD_PACK/original/a9094c7f-d8b5-45d0-bdbc-5afb9074ead2.webp",
+      "originalName": "어느_세계.webp",
+      "storedName": "a9094c7f-d8b5-45d0-bdbc-5afb9074ead2.webp"
+    }
+  },
+  {
+    "cardpackId": 23,
+    "title": "마음이 어긋나는",
+    "themeType": 1,
+    "description": "6장",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-16T22:38:33.341026",
+    "updatedAt": "2025-12-16T22:38:33.341026",
+    "thumbnail": {
+      "fileId": 814,
+      "path": "/uploads/CARD_PACK/original/56abbb53-6568-45eb-b370-ba559fde84b6.webp",
+      "originalName": "마음이_어긋나는.webp",
+      "storedName": "56abbb53-6568-45eb-b370-ba559fde84b6.webp"
+    }
+  },
+  {
+    "cardpackId": 24,
+    "title": "다시 열린 라만차랜드",
+    "themeType": 1,
+    "description": "7장",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-16T22:39:00.574604",
+    "updatedAt": "2025-12-16T22:39:00.574604",
+    "thumbnail": {
+      "fileId": 815,
+      "path": "/uploads/CARD_PACK/original/729f9587-44b7-4839-8de2-e7ec72d3b4c1.webp",
+      "originalName": "다시_열린_라만차랜드.webp",
+      "storedName": "729f9587-44b7-4839-8de2-e7ec72d3b4c1.webp"
+    }
+  },
+  {
+    "cardpackId": 25,
+    "title": "끝나지 않는 행렬",
+    "themeType": 1,
+    "description": "7장",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-16T22:39:28.603562",
+    "updatedAt": "2025-12-16T22:39:28.603562",
+    "thumbnail": {
+      "fileId": 816,
+      "path": "/uploads/CARD_PACK/original/b3f9c913-abb1-45dd-80af-950e30ecbc5d.webp",
+      "originalName": "끝나지_않는_행렬.webp",
+      "storedName": "b3f9c913-abb1-45dd-80af-950e30ecbc5d.webp"
+    }
+  },
+  {
+    "cardpackId": 26,
+    "title": "꿈이 끝나는",
+    "themeType": 1,
+    "description": "7장",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-16T22:40:09.778424",
+    "updatedAt": "2025-12-16T22:40:09.778424",
+    "thumbnail": {
+      "fileId": 817,
+      "path": "/uploads/CARD_PACK/original/1626904e-e4b1-4aed-b0ea-094ab86895f6.webp",
+      "originalName": "꿈이_끝나는.webp",
+      "storedName": "1626904e-e4b1-4aed-b0ea-094ab86895f6.webp"
+    }
+  },
+  {
+    "cardpackId": 27,
+    "title": "사대 가문과 욕망",
+    "themeType": 1,
+    "description": "8장",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-16T22:40:54.857499",
+    "updatedAt": "2025-12-16T22:40:54.857499",
+    "thumbnail": {
+      "fileId": 818,
+      "path": "/uploads/CARD_PACK/original/f1b27bb4-1b13-4718-949e-05870ec5df36.webp",
+      "originalName": "사대_가문과_욕망.webp",
+      "storedName": "f1b27bb4-1b13-4718-949e-05870ec5df36.webp"
+    }
+  },
+  {
+    "cardpackId": 28,
+    "title": "바라볼 수밖에 없는",
+    "themeType": 1,
+    "description": "8장",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-16T22:41:11.230206",
+    "updatedAt": "2025-12-16T22:41:11.230206",
+    "thumbnail": {
+      "fileId": 819,
+      "path": "/uploads/CARD_PACK/original/32c9b735-9dfb-4542-87d6-2cafe21955af.webp",
+      "originalName": "바라볼_수밖에_없는.webp",
+      "storedName": "32c9b735-9dfb-4542-87d6-2cafe21955af.webp"
+    }
+  },
+  {
+    "cardpackId": 29,
+    "title": "우.미.다",
+    "themeType": 2,
+    "description": "4.5장",
+    "difficultyFloors": [
+      {
+        "difficulty": "하드",
+        "floors": [
+          2,
+          3
+        ]
+      },
+      {
+        "difficulty": "노말",
+        "floors": [
+          2
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:11:14.046676",
+    "updatedAt": "2025-12-17T22:11:14.046676",
+    "thumbnail": {
+      "fileId": 820,
+      "path": "/uploads/CARD_PACK/original/1dab9033-31a4-468b-a0be-150899be37cb.webp",
+      "originalName": "우.미.다.webp",
+      "storedName": "1dab9033-31a4-468b-a0be-150899be37cb.webp"
+    }
+  },
+  {
+    "cardpackId": 30,
+    "title": "20번구의 기적",
+    "themeType": 2,
+    "description": "5.5장",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          4
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          3
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:11:36.229686",
+    "updatedAt": "2025-12-17T22:11:36.229686",
+    "thumbnail": {
+      "fileId": 821,
+      "path": "/uploads/CARD_PACK/original/753d198a-5849-4385-9a5e-677a97e63e32.webp",
+      "originalName": "20번구의_기적.webp",
+      "storedName": "753d198a-5849-4385-9a5e-677a97e63e32.webp"
+    }
+  },
+  {
+    "cardpackId": 31,
+    "title": "20번구의 기적 BokGak",
+    "themeType": 2,
+    "description": "5.5장",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          4,
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:12:01.397852",
+    "updatedAt": "2025-12-17T22:12:01.397852",
+    "thumbnail": {
+      "fileId": 822,
+      "path": "/uploads/CARD_PACK/original/49ac0a7d-3174-41bf-aded-c33e62e89582.webp",
+      "originalName": "20번구의_기적_BokGak.webp",
+      "storedName": "49ac0a7d-3174-41bf-aded-c33e62e89582.webp"
+    }
+  },
+  {
+    "cardpackId": 32,
+    "title": "육참골단",
+    "themeType": 2,
+    "description": "5.5장",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          4,
+          5
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          3,
+          4
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:13:11.529793",
+    "updatedAt": "2025-12-17T22:13:11.529793",
+    "thumbnail": {
+      "fileId": 823,
+      "path": "/uploads/CARD_PACK/original/7ac25d44-e8be-430b-9c28-f71452f6e210.webp",
+      "originalName": "육참골단.webp",
+      "storedName": "7ac25d44-e8be-430b-9c28-f71452f6e210.webp"
+    }
+  },
+  {
+    "cardpackId": 33,
+    "title": "육참골단 BokGak",
+    "themeType": 2,
+    "description": "5.5장",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          4,
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:14:13.001464",
+    "updatedAt": "2025-12-17T22:14:13.001464",
+    "thumbnail": {
+      "fileId": 824,
+      "path": "/uploads/CARD_PACK/original/f290a0b2-a940-4464-991f-3184f122b171.webp",
+      "originalName": "육참골단_BokGak.webp",
+      "storedName": "f290a0b2-a940-4464-991f-3184f122b171.webp"
+    }
+  },
+  {
+    "cardpackId": 34,
+    "title": "시간살인시간",
+    "themeType": 2,
+    "description": "6.5장",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          4,
+          5
+        ]
+      },
+      {
+        "difficulty": "노말",
+        "floors": [
+          4,
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:21:52.615493",
+    "updatedAt": "2025-12-17T22:21:52.615493",
+    "thumbnail": {
+      "fileId": 825,
+      "path": "/uploads/CARD_PACK/original/eac91714-62d0-4871-a23a-35d9463ee7a0.webp",
+      "originalName": "시간살인시간.webp",
+      "storedName": "eac91714-62d0-4871-a23a-35d9463ee7a0.webp"
+    }
+  },
+  {
+    "cardpackId": 35,
+    "title": "시간살인시간 BokGak",
+    "themeType": 2,
+    "description": "6.5장",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          4,
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:22:17.373516",
+    "updatedAt": "2025-12-17T22:22:17.373516",
+    "thumbnail": {
+      "fileId": 826,
+      "path": "/uploads/CARD_PACK/original/9d3be698-d39a-4777-9b85-4a647bbe631c.webp",
+      "originalName": "시간살인시간_BokGak.webp",
+      "storedName": "9d3be698-d39a-4777-9b85-4a647bbe631c.webp"
+    }
+  },
+  {
+    "cardpackId": 36,
+    "title": "워프특급 살인사건",
+    "themeType": 2,
+    "description": "6.5장",
+    "difficultyFloors": [
+      {
+        "difficulty": "하드",
+        "floors": [
+          4,
+          5
+        ]
+      },
+      {
+        "difficulty": "노말",
+        "floors": [
+          4,
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:22:42.254517",
+    "updatedAt": "2025-12-17T22:22:42.254517",
+    "thumbnail": {
+      "fileId": 827,
+      "path": "/uploads/CARD_PACK/original/e78b63eb-34d3-44c9-8eb8-cab707a38306.webp",
+      "originalName": "워프특급_살인사건.webp",
+      "storedName": "e78b63eb-34d3-44c9-8eb8-cab707a38306.webp"
+    }
+  },
+  {
+    "cardpackId": 37,
+    "title": "워프특급 살인사건 BokGak",
+    "themeType": 2,
+    "description": "6.5장",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          4,
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:23:03.562516",
+    "updatedAt": "2025-12-17T22:23:03.562516",
+    "thumbnail": {
+      "fileId": 828,
+      "path": "/uploads/CARD_PACK/original/814e2ef5-ff6c-43ad-b4e9-2c60c9acf722.webp",
+      "originalName": "워프특급_살인사건_BokGak.webp",
+      "storedName": "814e2ef5-ff6c-43ad-b4e9-2c60c9acf722.webp"
+    }
+  },
+  {
+    "cardpackId": 38,
+    "title": "LCB 정기검진",
+    "themeType": 2,
+    "description": "7.5장",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "노말",
+        "floors": [
+          5
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          4,
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:23:28.926517",
+    "updatedAt": "2025-12-17T22:23:28.926517",
+    "thumbnail": {
+      "fileId": 829,
+      "path": "/uploads/CARD_PACK/original/da3e8668-a4b9-4e5e-bbda-a2b0bce5cca4.webp",
+      "originalName": "LCB_정기검진.webp",
+      "storedName": "da3e8668-a4b9-4e5e-bbda-a2b0bce5cca4.webp"
+    }
+  },
+  {
+    "cardpackId": 39,
+    "title": "심야청소",
+    "themeType": 2,
+    "description": "7.5장",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "노말",
+        "floors": [
+          5
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          4,
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:24:19.635517",
+    "updatedAt": "2025-12-17T22:24:19.635517",
+    "thumbnail": {
+      "fileId": 830,
+      "path": "/uploads/CARD_PACK/original/5f0a2734-b85f-466a-9946-0092275f85b3.webp",
+      "originalName": "심야청소.webp",
+      "storedName": "5f0a2734-b85f-466a-9946-0092275f85b3.webp"
+    }
+  },
+  {
+    "cardpackId": 40,
+    "title": "절차탁춘",
+    "themeType": 2,
+    "description": "8.5장",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          5
+        ]
+      },
+      {
+        "difficulty": "노말",
+        "floors": [
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:24:58.095518",
+    "updatedAt": "2025-12-17T22:24:58.095518",
+    "thumbnail": {
+      "fileId": 831,
+      "path": "/uploads/CARD_PACK/original/876a1432-def9-4270-8b2b-11fcc20e7118.webp",
+      "originalName": "절차탁춘.webp",
+      "storedName": "876a1432-def9-4270-8b2b-11fcc20e7118.webp"
+    }
+  },
+  {
+    "cardpackId": 41,
+    "title": "자색 정오의 시련",
+    "themeType": 2,
+    "description": "제4회 발푸르기스의 밤",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          4
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          3,
+          4
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:25:32.594517",
+    "updatedAt": "2025-12-17T22:25:32.594517",
+    "thumbnail": {
+      "fileId": 832,
+      "path": "/uploads/CARD_PACK/original/d8604ba5-4901-4cbe-ba5a-7eee152aebcf.webp",
+      "originalName": "자색_정오의_시련.webp",
+      "storedName": "d8604ba5-4901-4cbe-ba5a-7eee152aebcf.webp"
+    }
+  },
+  {
+    "cardpackId": 42,
+    "title": "탄환이 찍은 마침표",
+    "themeType": 2,
+    "description": "제5회 발푸르기스의 밤",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          4
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          3,
+          4
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:26:02.582517",
+    "updatedAt": "2025-12-17T22:26:02.582517",
+    "thumbnail": {
+      "fileId": 833,
+      "path": "/uploads/CARD_PACK/original/3d33ce3a-9f20-4b36-8151-0c779a933d2b.webp",
+      "originalName": "탄환이_찍은_마침표.webp",
+      "storedName": "3d33ce3a-9f20-4b36-8151-0c779a933d2b.webp"
+    }
+  },
+  {
+    "cardpackId": 43,
+    "title": "증오와 절망",
+    "themeType": 2,
+    "description": "제6회 발푸르기스의 밤",
+    "difficultyFloors": [
+      {
+        "difficulty": "하드",
+        "floors": [
+          3,
+          4
+        ]
+      },
+      {
+        "difficulty": "노말",
+        "floors": [
+          3,
+          4
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:26:22.490516",
+    "updatedAt": "2025-12-17T22:26:22.490516",
+    "thumbnail": {
+      "fileId": 834,
+      "path": "/uploads/CARD_PACK/original/132dda7c-5fc9-42fc-b5b3-6f0d8f969e94.webp",
+      "originalName": "증오와_절망.webp",
+      "storedName": "132dda7c-5fc9-42fc-b5b3-6f0d8f969e94.webp"
+    }
+  },
+  {
+    "cardpackId": 44,
+    "title": "1호선",
+    "themeType": 2,
+    "description": "거울굴절철도 1호선",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          4,
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:26:52.778516",
+    "updatedAt": "2025-12-17T22:26:52.778516",
+    "thumbnail": {
+      "fileId": 835,
+      "path": "/uploads/CARD_PACK/original/1b063e30-0967-4227-aad1-e6de6c5f6b85.webp",
+      "originalName": "1호선.webp",
+      "storedName": "1b063e30-0967-4227-aad1-e6de6c5f6b85.webp"
+    }
+  },
+  {
+    "cardpackId": 45,
+    "title": "2호선",
+    "themeType": 2,
+    "description": "거울굴절철도 2호선",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          4,
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:27:16.643523",
+    "updatedAt": "2025-12-17T22:27:16.643523",
+    "thumbnail": {
+      "fileId": 836,
+      "path": "/uploads/CARD_PACK/original/af9fc601-74b8-4302-83f1-125e19c72342.webp",
+      "originalName": "2호선.webp",
+      "storedName": "af9fc601-74b8-4302-83f1-125e19c72342.webp"
+    }
+  },
+  {
+    "cardpackId": 46,
+    "title": "3호선",
+    "themeType": 2,
+    "description": "거울굴절철도 3호선",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:27:44.691551",
+    "updatedAt": "2025-12-17T22:27:44.691551",
+    "thumbnail": {
+      "fileId": 837,
+      "path": "/uploads/CARD_PACK/original/7f557f29-60d8-4c9a-9f91-965136d51ac1.webp",
+      "originalName": "3호선.webp",
+      "storedName": "7f557f29-60d8-4c9a-9f91-965136d51ac1.webp"
+    }
+  },
+  {
+    "cardpackId": 47,
+    "title": "4호선 - 제 3 구간",
+    "themeType": 2,
+    "description": "거울굴절철도 4호선",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:28:09.953621",
+    "updatedAt": "2025-12-17T22:28:09.953621",
+    "thumbnail": {
+      "fileId": 838,
+      "path": "/uploads/CARD_PACK/original/574b406e-9bd8-42be-a1e1-3ab815dce6ff.webp",
+      "originalName": "4호선_제_3_구간.webp",
+      "storedName": "574b406e-9bd8-42be-a1e1-3ab815dce6ff.webp"
+    }
+  },
+  {
+    "cardpackId": 48,
+    "title": "4호선 - 제 4 구간",
+    "themeType": 2,
+    "description": "거울굴절철도 4호선",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:28:38.965515",
+    "updatedAt": "2025-12-17T22:28:38.965515",
+    "thumbnail": {
+      "fileId": 839,
+      "path": "/uploads/CARD_PACK/original/8edf5a05-bbe9-41bb-8635-2a9e24a8e7ab.webp",
+      "originalName": "4호선_제_4_구간.webp",
+      "storedName": "8edf5a05-bbe9-41bb-8635-2a9e24a8e7ab.webp"
+    }
+  },
+  {
+    "cardpackId": 49,
+    "title": "5호선",
+    "themeType": 2,
+    "description": "거울굴절철도 5호선",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:29:02.960518",
+    "updatedAt": "2025-12-17T22:29:02.960518",
+    "thumbnail": {
+      "fileId": 840,
+      "path": "/uploads/CARD_PACK/original/089b2090-a8bd-4244-89e3-0d1e1ff6638b.webp",
+      "originalName": "5호선.webp",
+      "storedName": "089b2090-a8bd-4244-89e3-0d1e1ff6638b.webp"
+    }
+  },
+  {
+    "cardpackId": 50,
+    "title": "가르고 베는 이들",
+    "themeType": 3,
+    "description": "참격 사용 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          5
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          4
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:29:35.515034",
+    "updatedAt": "2025-12-17T22:29:35.515034",
+    "thumbnail": {
+      "fileId": 841,
+      "path": "/uploads/CARD_PACK/original/7c8a0c3e-b409-46df-992c-faeb4692902c.webp",
+      "originalName": "가르고_베는_이들.webp",
+      "storedName": "7c8a0c3e-b409-46df-992c-faeb4692902c.webp"
+    }
+  },
+  {
+    "cardpackId": 51,
+    "title": "베어낼 것",
+    "themeType": 3,
+    "description": "참격 취약 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          2,
+          3
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          1,
+          2
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:29:59.916033",
+    "updatedAt": "2025-12-17T22:29:59.916033",
+    "thumbnail": {
+      "fileId": 842,
+      "path": "/uploads/CARD_PACK/original/118453f4-cfd3-442e-b4f5-38709be6de39.webp",
+      "originalName": "베어낼_것.webp",
+      "storedName": "118453f4-cfd3-442e-b4f5-38709be6de39.webp"
+    }
+  },
+  {
+    "cardpackId": 52,
+    "title": "꿰고 뚫는 이들",
+    "themeType": 3,
+    "description": "관통 사용 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          5
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          4
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:30:19.707057",
+    "updatedAt": "2025-12-17T22:30:19.707057",
+    "thumbnail": {
+      "fileId": 843,
+      "path": "/uploads/CARD_PACK/original/c3a84c6d-95f9-4648-963b-7d0002886c29.webp",
+      "originalName": "꿰고_뚫는_이들.webp",
+      "storedName": "c3a84c6d-95f9-4648-963b-7d0002886c29.webp"
+    }
+  },
+  {
+    "cardpackId": 53,
+    "title": "꿰뚫을 것",
+    "themeType": 3,
+    "description": "관통 취약 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          2,
+          3
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          1,
+          2
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:30:55.606034",
+    "updatedAt": "2025-12-17T22:30:55.606034",
+    "thumbnail": {
+      "fileId": 844,
+      "path": "/uploads/CARD_PACK/original/fc2933b9-875b-46cd-964a-677e73742755.webp",
+      "originalName": "꿰뚫을_것.webp",
+      "storedName": "fc2933b9-875b-46cd-964a-677e73742755.webp"
+    }
+  },
+  {
+    "cardpackId": 54,
+    "title": "부수고 깨뜨릴 이들",
+    "themeType": 3,
+    "description": "타격 사용 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          5
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          4
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:31:30.741111",
+    "updatedAt": "2025-12-17T22:31:30.741111",
+    "thumbnail": {
+      "fileId": 845,
+      "path": "/uploads/CARD_PACK/original/b1ec1a92-6685-4a1a-8db5-a6354ad5ed4a.webp",
+      "originalName": "부수고_깨뜨릴_이들.webp",
+      "storedName": "b1ec1a92-6685-4a1a-8db5-a6354ad5ed4a.webp"
+    }
+  },
+  {
+    "cardpackId": 55,
+    "title": "바스라질 것",
+    "themeType": 3,
+    "description": "타격 취약 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          2,
+          3
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          1,
+          2
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:31:58.359109",
+    "updatedAt": "2025-12-17T22:31:58.359109",
+    "thumbnail": {
+      "fileId": 846,
+      "path": "/uploads/CARD_PACK/original/274009a4-6e68-496d-b816-46dba5c7abb1.webp",
+      "originalName": "바스라질_것.webp",
+      "storedName": "274009a4-6e68-496d-b816-46dba5c7abb1.webp"
+    }
+  },
+  {
+    "cardpackId": 56,
+    "title": "억눌린 분노",
+    "themeType": 4,
+    "description": "분노 속성 사용 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          4,
+          5
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          3,
+          4
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:34:13.076112",
+    "updatedAt": "2025-12-17T22:34:13.076112",
+    "thumbnail": {
+      "fileId": 847,
+      "path": "/uploads/CARD_PACK/original/44d970b7-1d36-4107-b4f8-d53899e42dbd.webp",
+      "originalName": "억눌린_분노.webp",
+      "storedName": "44d970b7-1d36-4107-b4f8-d53899e42dbd.webp"
+    }
+  },
+  {
+    "cardpackId": 57,
+    "title": "해방된 분노",
+    "themeType": 4,
+    "description": "분노 속성 사용 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:34:38.17016",
+    "updatedAt": "2025-12-17T22:34:38.17016",
+    "thumbnail": {
+      "fileId": 848,
+      "path": "/uploads/CARD_PACK/original/2147f208-3c26-472d-8fc3-818b727e34fd.webp",
+      "originalName": "해방된_분노.webp",
+      "storedName": "2147f208-3c26-472d-8fc3-818b727e34fd.webp"
+    }
+  },
+  {
+    "cardpackId": 58,
+    "title": "감정에 짓눌리는 것",
+    "themeType": 4,
+    "description": "분노 속성 취약 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          3
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          2
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:34:58.759112",
+    "updatedAt": "2025-12-17T22:34:58.759112",
+    "thumbnail": {
+      "fileId": 849,
+      "path": "/uploads/CARD_PACK/original/1958c511-a5e8-42c6-b2ce-4a5d28ce8330.webp",
+      "originalName": "감정에_짓눌리는_것.webp",
+      "storedName": "1958c511-a5e8-42c6-b2ce-4a5d28ce8330.webp"
+    }
+  },
+  {
+    "cardpackId": 59,
+    "title": "빠져드는 색욕",
+    "themeType": 4,
+    "description": "색욕 속성 사용 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          4,
+          5
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          3,
+          4
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:35:27.64611",
+    "updatedAt": "2025-12-17T22:35:27.64611",
+    "thumbnail": {
+      "fileId": 850,
+      "path": "/uploads/CARD_PACK/original/31220bd6-5e86-4ac4-a2da-f731fc85c1ae.webp",
+      "originalName": "빠져드는_색욕.webp",
+      "storedName": "31220bd6-5e86-4ac4-a2da-f731fc85c1ae.webp"
+    }
+  },
+  {
+    "cardpackId": 60,
+    "title": "옭아매는 색욕",
+    "themeType": 4,
+    "description": "색욕 속성 사용 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:35:55.847231",
+    "updatedAt": "2025-12-17T22:35:55.847231",
+    "thumbnail": {
+      "fileId": 851,
+      "path": "/uploads/CARD_PACK/original/86925c5a-2e90-49e5-868e-f0ce9b268cd6.webp",
+      "originalName": "옭아매는_색욕.webp",
+      "storedName": "86925c5a-2e90-49e5-868e-f0ce9b268cd6.webp"
+    }
+  },
+  {
+    "cardpackId": 61,
+    "title": "감정에 홀리는 것",
+    "themeType": 4,
+    "description": "색욕 속성 취약 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          3
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          2
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:36:18.55211",
+    "updatedAt": "2025-12-17T22:36:18.55211",
+    "thumbnail": {
+      "fileId": 852,
+      "path": "/uploads/CARD_PACK/original/62b021fe-8f00-48da-aa33-444ade9262fc.webp",
+      "originalName": "감정에_홀리는_것.webp",
+      "storedName": "62b021fe-8f00-48da-aa33-444ade9262fc.webp"
+    }
+  },
+  {
+    "cardpackId": 62,
+    "title": "헛도는 나태",
+    "themeType": 4,
+    "description": "나태 속성 사용 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          4,
+          5
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          3,
+          4
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:40:43.321692",
+    "updatedAt": "2025-12-17T22:40:43.321692",
+    "thumbnail": {
+      "fileId": 853,
+      "path": "/uploads/CARD_PACK/original/6ae080f3-679f-4a6b-966f-a1d68aac49c6.webp",
+      "originalName": "헛도는_나태.webp",
+      "storedName": "6ae080f3-679f-4a6b-966f-a1d68aac49c6.webp"
+    }
+  },
+  {
+    "cardpackId": 63,
+    "title": "멎어버린 나태",
+    "themeType": 4,
+    "description": "나태 속성 사용 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:41:08.766666",
+    "updatedAt": "2025-12-17T22:41:08.766666",
+    "thumbnail": {
+      "fileId": 854,
+      "path": "/uploads/CARD_PACK/original/239f701a-cdca-4a49-9689-ab9daa053c40.webp",
+      "originalName": "멎어버린_나태.webp",
+      "storedName": "239f701a-cdca-4a49-9689-ab9daa053c40.webp"
+    }
+  },
+  {
+    "cardpackId": 64,
+    "title": "감정 앞에 게으른 것",
+    "themeType": 4,
+    "description": "나태 속성 취약 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          3
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          2
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:41:30.33264",
+    "updatedAt": "2025-12-17T22:41:30.33264",
+    "thumbnail": {
+      "fileId": 855,
+      "path": "/uploads/CARD_PACK/original/87c40679-02c5-491d-b16d-96056cde51c7.webp",
+      "originalName": "감정_앞에_게으른_것.webp",
+      "storedName": "87c40679-02c5-491d-b16d-96056cde51c7.webp"
+    }
+  },
+  {
+    "cardpackId": 65,
+    "title": "먹어치운 탐식",
+    "themeType": 4,
+    "description": "탐식 속성 사용 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          4,
+          5
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          3,
+          4
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:41:55.761679",
+    "updatedAt": "2025-12-17T22:41:55.761679",
+    "thumbnail": {
+      "fileId": 856,
+      "path": "/uploads/CARD_PACK/original/44c67a21-13d6-427c-a635-826c02a562bd.webp",
+      "originalName": "먹어치운_탐식.webp",
+      "storedName": "44c67a21-13d6-427c-a635-826c02a562bd.webp"
+    }
+  },
+  {
+    "cardpackId": 66,
+    "title": "넘쳐흐른 탐식",
+    "themeType": 4,
+    "description": "탐식 속성 사용 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:42:14.918574",
+    "updatedAt": "2025-12-17T22:42:14.918574",
+    "thumbnail": {
+      "fileId": 857,
+      "path": "/uploads/CARD_PACK/original/3d7ce7ea-9c1a-49f0-800d-a6526aa1ae0c.webp",
+      "originalName": "넘쳐흐른_탐식.webp",
+      "storedName": "3d7ce7ea-9c1a-49f0-800d-a6526aa1ae0c.webp"
+    }
+  },
+  {
+    "cardpackId": 67,
+    "title": "감정에 굶주린 것",
+    "themeType": 4,
+    "description": "탐식 속성 취약 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          3
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          2
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:42:34.436574",
+    "updatedAt": "2025-12-17T22:42:34.436574",
+    "thumbnail": {
+      "fileId": 858,
+      "path": "/uploads/CARD_PACK/original/393d1411-c9f1-4e73-8b20-68cb862c1953.webp",
+      "originalName": "감정에_굶주린_것.webp",
+      "storedName": "393d1411-c9f1-4e73-8b20-68cb862c1953.webp"
+    }
+  },
+  {
+    "cardpackId": 68,
+    "title": "전락하는 우울",
+    "themeType": 4,
+    "description": "우울 속성 사용 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          4,
+          5
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          3,
+          4
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:42:54.293575",
+    "updatedAt": "2025-12-17T22:42:54.293575",
+    "thumbnail": {
+      "fileId": 859,
+      "path": "/uploads/CARD_PACK/original/a1652c9b-b5fb-4a4c-ab86-228df163cb63.webp",
+      "originalName": "전락하는_우울.webp",
+      "storedName": "a1652c9b-b5fb-4a4c-ab86-228df163cb63.webp"
+    }
+  },
+  {
+    "cardpackId": 69,
+    "title": "가라앉은 우울",
+    "themeType": 4,
+    "description": "우울 속성 사용 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:43:12.015572",
+    "updatedAt": "2025-12-17T22:43:12.015572",
+    "thumbnail": {
+      "fileId": 860,
+      "path": "/uploads/CARD_PACK/original/8fd36b1b-1a04-4366-b536-b455d63d96b7.webp",
+      "originalName": "가라앉은_우울.webp",
+      "storedName": "8fd36b1b-1a04-4366-b536-b455d63d96b7.webp"
+    }
+  },
+  {
+    "cardpackId": 70,
+    "title": "감정에 침수된 것",
+    "themeType": 4,
+    "description": "우울 속성 취약 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          3
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          2
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:43:29.026683",
+    "updatedAt": "2025-12-17T22:43:29.026683",
+    "thumbnail": {
+      "fileId": 861,
+      "path": "/uploads/CARD_PACK/original/5878cc5b-c314-4710-b5bc-d4950b3386b0.webp",
+      "originalName": "감정에_침수된_것.webp",
+      "storedName": "5878cc5b-c314-4710-b5bc-d4950b3386b0.webp"
+    }
+  },
+  {
+    "cardpackId": 71,
+    "title": "허세짙은 오만",
+    "themeType": 4,
+    "description": "오만 속성 사용 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          4,
+          5
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          3,
+          4
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:43:52.293573",
+    "updatedAt": "2025-12-17T22:43:52.293573",
+    "thumbnail": {
+      "fileId": 862,
+      "path": "/uploads/CARD_PACK/original/26737667-3773-4176-b20e-0277a366674d.webp",
+      "originalName": "허세짙은_오만.webp",
+      "storedName": "26737667-3773-4176-b20e-0277a366674d.webp"
+    }
+  },
+  {
+    "cardpackId": 72,
+    "title": "독선적인 오만",
+    "themeType": 4,
+    "description": "오만 속성 사용 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:44:13.293575",
+    "updatedAt": "2025-12-17T22:44:13.293575",
+    "thumbnail": {
+      "fileId": 863,
+      "path": "/uploads/CARD_PACK/original/09b2eba0-9dde-4f62-813e-d05a25e6f6df.webp",
+      "originalName": "독선적인_오만.webp",
+      "storedName": "09b2eba0-9dde-4f62-813e-d05a25e6f6df.webp"
+    }
+  },
+  {
+    "cardpackId": 73,
+    "title": "감정에 복종한 것",
+    "themeType": 4,
+    "description": "오만 속성 취약 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          3
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          2
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:44:29.439576",
+    "updatedAt": "2025-12-17T22:44:29.439576",
+    "thumbnail": {
+      "fileId": 864,
+      "path": "/uploads/CARD_PACK/original/9515b4d0-008c-473d-8d36-883f8d7d4983.webp",
+      "originalName": "감정에_복종한_것.webp",
+      "storedName": "9515b4d0-008c-473d-8d36-883f8d7d4983.webp"
+    }
+  },
+  {
+    "cardpackId": 74,
+    "title": "초라한 질투",
+    "themeType": 4,
+    "description": "질투 속성 사용 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          4,
+          5
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          3,
+          4
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:44:50.919496",
+    "updatedAt": "2025-12-17T22:48:32.920801",
+    "thumbnail": {
+      "fileId": 865,
+      "path": "/uploads/CARD_PACK/original/b9af5102-dd1f-4961-8cdc-ab779009245e.webp",
+      "originalName": "초라한_질투.webp",
+      "storedName": "b9af5102-dd1f-4961-8cdc-ab779009245e.webp"
+    }
+  },
+  {
+    "cardpackId": 75,
+    "title": "처량한 질투",
+    "themeType": 4,
+    "description": "질투 속성 사용 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:45:11.526813",
+    "updatedAt": "2025-12-17T22:45:11.526813",
+    "thumbnail": {
+      "fileId": 866,
+      "path": "/uploads/CARD_PACK/original/3dc2b117-3279-4ccc-9771-897ce1008483.webp",
+      "originalName": "처량한_질투.webp",
+      "storedName": "3dc2b117-3279-4ccc-9771-897ce1008483.webp"
+    }
+  },
+  {
+    "cardpackId": 76,
+    "title": "감정으로 평가된 것",
+    "themeType": 4,
+    "description": "질투 속성 취약 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          3
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          2
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:45:27.829832",
+    "updatedAt": "2025-12-17T22:45:27.829832",
+    "thumbnail": {
+      "fileId": 867,
+      "path": "/uploads/CARD_PACK/original/8f508bcb-824d-47b2-8964-d53b4ab6f83e.webp",
+      "originalName": "감정으로_평가된_것.webp",
+      "storedName": "8f508bcb-824d-47b2-8964-d53b4ab6f83e.webp"
+    }
+  },
+  {
+    "cardpackId": 77,
+    "title": "타오르는 일렁임",
+    "themeType": 5,
+    "description": "화상 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "하드",
+        "floors": [
+          3
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:46:05.299808",
+    "updatedAt": "2025-12-17T22:46:05.299808",
+    "thumbnail": {
+      "fileId": 868,
+      "path": "/uploads/CARD_PACK/original/d7c243cc-b36b-4d93-9680-b667b4a1bb57.webp",
+      "originalName": "타오르는_일렁임.webp",
+      "storedName": "d7c243cc-b36b-4d93-9680-b667b4a1bb57.webp"
+    }
+  },
+  {
+    "cardpackId": 78,
+    "title": "화왕지절",
+    "themeType": 5,
+    "description": "화상 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          4,
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:46:23.9738",
+    "updatedAt": "2025-12-17T22:46:23.9738",
+    "thumbnail": {
+      "fileId": 869,
+      "path": "/uploads/CARD_PACK/original/8a27d642-e558-49a7-acc8-77101c0c5069.webp",
+      "originalName": "화왕지절.webp",
+      "storedName": "8a27d642-e558-49a7-acc8-77101c0c5069.webp"
+    }
+  },
+  {
+    "cardpackId": 79,
+    "title": "새어나온 적혈",
+    "themeType": 5,
+    "description": "출혈 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "하드",
+        "floors": [
+          3
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:46:41.616833",
+    "updatedAt": "2025-12-17T22:46:41.616833",
+    "thumbnail": {
+      "fileId": 870,
+      "path": "/uploads/CARD_PACK/original/25f8f18b-5205-4603-9812-ce688da201a5.webp",
+      "originalName": "새어나온_적혈.webp",
+      "storedName": "25f8f18b-5205-4603-9812-ce688da201a5.webp"
+    }
+  },
+  {
+    "cardpackId": 80,
+    "title": "시산혈해",
+    "themeType": 5,
+    "description": "출혈 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          4,
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:47:00.698807",
+    "updatedAt": "2025-12-17T22:47:00.698807",
+    "thumbnail": {
+      "fileId": 871,
+      "path": "/uploads/CARD_PACK/original/48848799-3438-4044-9f77-217fa4a7d93d.webp",
+      "originalName": "시산혈해.webp",
+      "storedName": "48848799-3438-4044-9f77-217fa4a7d93d.webp"
+    }
+  },
+  {
+    "cardpackId": 81,
+    "title": "어지러운 파동",
+    "themeType": 5,
+    "description": "진동 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "하드",
+        "floors": [
+          3
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:47:19.615807",
+    "updatedAt": "2025-12-17T22:48:02.840805",
+    "thumbnail": {
+      "fileId": 872,
+      "path": "/uploads/CARD_PACK/original/09532cc0-8aef-4ef7-a0f9-213f3a441f46.webp",
+      "originalName": "어지러운_파동.webp",
+      "storedName": "09532cc0-8aef-4ef7-a0f9-213f3a441f46.webp"
+    }
+  },
+  {
+    "cardpackId": 82,
+    "title": "이상진역",
+    "themeType": 5,
+    "description": "진동 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          4,
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:47:46.1788",
+    "updatedAt": "2025-12-17T22:47:46.1788",
+    "thumbnail": {
+      "fileId": 873,
+      "path": "/uploads/CARD_PACK/original/afc9f9dd-d392-4f3c-aaa9-f387b1565c90.webp",
+      "originalName": "이상진역.webp",
+      "storedName": "afc9f9dd-d392-4f3c-aaa9-f387b1565c90.webp"
+    }
+  },
+  {
+    "cardpackId": 83,
+    "title": "부서뜨리는 외력",
+    "themeType": 5,
+    "description": "파열 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "하드",
+        "floors": [
+          3
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:49:27.4358",
+    "updatedAt": "2025-12-17T22:49:27.4358",
+    "thumbnail": {
+      "fileId": 874,
+      "path": "/uploads/CARD_PACK/original/44ef48ea-a77f-49a6-8a29-ff7628789d8e.webp",
+      "originalName": "부서뜨리는_외력.webp",
+      "storedName": "44ef48ea-a77f-49a6-8a29-ff7628789d8e.webp"
+    }
+  },
+  {
+    "cardpackId": 84,
+    "title": "파죽지세",
+    "themeType": 5,
+    "description": "파열 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          4,
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:49:46.5968",
+    "updatedAt": "2025-12-17T22:49:46.5968",
+    "thumbnail": {
+      "fileId": 875,
+      "path": "/uploads/CARD_PACK/original/bb909d98-174e-428c-a609-1310f647e35f.webp",
+      "originalName": "파죽지세.webp",
+      "storedName": "bb909d98-174e-428c-a609-1310f647e35f.webp"
+    }
+  },
+  {
+    "cardpackId": 85,
+    "title": "잠겨드는 아림",
+    "themeType": 5,
+    "description": "침잠 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "하드",
+        "floors": [
+          3
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:50:04.372814",
+    "updatedAt": "2025-12-17T22:50:04.372814",
+    "thumbnail": {
+      "fileId": 876,
+      "path": "/uploads/CARD_PACK/original/b33f156f-ace1-4e3c-bd1c-b25f0e6dd111.webp",
+      "originalName": "잠겨드는_아림.webp",
+      "storedName": "b33f156f-ace1-4e3c-bd1c-b25f0e6dd111.webp"
+    }
+  },
+  {
+    "cardpackId": 86,
+    "title": "침잠쇄도",
+    "themeType": 5,
+    "description": "침잠 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          4,
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:50:25.230801",
+    "updatedAt": "2025-12-17T22:50:25.230801",
+    "thumbnail": {
+      "fileId": 877,
+      "path": "/uploads/CARD_PACK/original/6e88ee45-e33e-41dc-8084-e00d3f65870c.webp",
+      "originalName": "침잠쇄도.webp",
+      "storedName": "6e88ee45-e33e-41dc-8084-e00d3f65870c.webp"
+    }
+  },
+  {
+    "cardpackId": 87,
+    "title": "내쉬어진 한숨",
+    "themeType": 5,
+    "description": "호흡 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "하드",
+        "floors": [
+          3
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:50:42.357802",
+    "updatedAt": "2025-12-17T22:50:42.357802",
+    "thumbnail": {
+      "fileId": 878,
+      "path": "/uploads/CARD_PACK/original/f853c2ce-6ffb-415a-85aa-5a389dd3e122.webp",
+      "originalName": "내쉬어진_한숨.webp",
+      "storedName": "f853c2ce-6ffb-415a-85aa-5a389dd3e122.webp"
+    }
+  },
+  {
+    "cardpackId": 88,
+    "title": "순환호흡",
+    "themeType": 5,
+    "description": "호흡 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          4,
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:51:24.632799",
+    "updatedAt": "2025-12-17T22:51:24.632799",
+    "thumbnail": {
+      "fileId": 879,
+      "path": "/uploads/CARD_PACK/original/42b29474-818b-4c45-a7d0-378f458b328d.webp",
+      "originalName": "순환호흡.webp",
+      "storedName": "42b29474-818b-4c45-a7d0-378f458b328d.webp"
+    }
+  },
+  {
+    "cardpackId": 89,
+    "title": "차오르는 동력",
+    "themeType": 5,
+    "description": "충전 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "하드",
+        "floors": [
+          3
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:52:06.629799",
+    "updatedAt": "2025-12-17T22:52:06.629799",
+    "thumbnail": {
+      "fileId": 880,
+      "path": "/uploads/CARD_PACK/original/fab38c43-4200-463f-ac65-259aecab9282.webp",
+      "originalName": "차오르는_동력.webp",
+      "storedName": "fab38c43-4200-463f-ac65-259aecab9282.webp"
+    }
+  },
+  {
+    "cardpackId": 90,
+    "title": "벽력섬전",
+    "themeType": 5,
+    "description": "충전 개체",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          4,
+          5
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:52:35.850809",
+    "updatedAt": "2025-12-17T22:52:35.850809",
+    "thumbnail": {
+      "fileId": 881,
+      "path": "/uploads/CARD_PACK/original/1262d7b1-0018-4903-9157-42da229a1e11.webp",
+      "originalName": "벽력섬전.webp",
+      "storedName": "1262d7b1-0018-4903-9157-42da229a1e11.webp"
+    }
+  },
+  {
+    "cardpackId": 91,
+    "title": "N사 신 구인회",
+    "themeType": 6,
+    "description": "N사 소속 보스",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:52:59.6738",
+    "updatedAt": "2025-12-17T22:52:59.6738",
+    "thumbnail": {
+      "fileId": 882,
+      "path": "/uploads/CARD_PACK/original/836c978e-cc90-451f-8c37-da93d8f98cfa.webp",
+      "originalName": "EX_N사_신_구인회.webp",
+      "storedName": "836c978e-cc90-451f-8c37-da93d8f98cfa.webp"
+    }
+  },
+  {
+    "cardpackId": 92,
+    "title": "개화하는 녹림",
+    "themeType": 6,
+    "description": "식물 관련 보스",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:53:24.7248",
+    "updatedAt": "2025-12-17T22:53:24.7248",
+    "thumbnail": {
+      "fileId": 883,
+      "path": "/uploads/CARD_PACK/original/c321a1f0-683f-4346-b370-0d65cc2ce753.webp",
+      "originalName": "EX_개화하는_녹림.webp",
+      "storedName": "c321a1f0-683f-4346-b370-0d65cc2ce753.webp"
+    }
+  },
+  {
+    "cardpackId": 93,
+    "title": "3호선 - 종착역",
+    "themeType": 6,
+    "description": "거울굴절철도 3호선",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:53:49.3758",
+    "updatedAt": "2025-12-17T22:53:49.3758",
+    "thumbnail": {
+      "fileId": 884,
+      "path": "/uploads/CARD_PACK/original/f15cbfad-ffc4-47ef-8454-67fe71e41490.webp",
+      "originalName": "EX_3호선_종착역.webp",
+      "storedName": "f15cbfad-ffc4-47ef-8454-67fe71e41490.webp"
+    }
+  },
+  {
+    "cardpackId": 94,
+    "title": "영겁의 굴레",
+    "themeType": 6,
+    "description": "불사 관련 보스",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:54:05.591799",
+    "updatedAt": "2025-12-17T22:54:05.591799",
+    "thumbnail": {
+      "fileId": 885,
+      "path": "/uploads/CARD_PACK/original/dbfdd9e3-c033-4077-903d-56b051f07622.webp",
+      "originalName": "EX_영겁의_굴레.webp",
+      "storedName": "dbfdd9e3-c033-4077-903d-56b051f07622.webp"
+    }
+  },
+  {
+    "cardpackId": 95,
+    "title": "우.미.다 게.판",
+    "themeType": 6,
+    "description": "4.5장",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:54:24.306801",
+    "updatedAt": "2025-12-17T22:54:24.306801",
+    "thumbnail": {
+      "fileId": 886,
+      "path": "/uploads/CARD_PACK/original/270a497a-2d99-4125-aaef-3e4b5217ad1e.webp",
+      "originalName": "EX_우.미.다_게.판.webp",
+      "storedName": "270a497a-2d99-4125-aaef-3e4b5217ad1e.webp"
+    }
+  },
+  {
+    "cardpackId": 96,
+    "title": "끝도 없이 막힌 길",
+    "themeType": 6,
+    "description": "6장",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:54:43.418802",
+    "updatedAt": "2025-12-17T22:54:43.418802",
+    "thumbnail": {
+      "fileId": 887,
+      "path": "/uploads/CARD_PACK/original/31ca363b-0742-42f9-a969-4c61eb2ab67e.webp",
+      "originalName": "EX_끝도_없이_막힌_길.webp",
+      "storedName": "31ca363b-0742-42f9-a969-4c61eb2ab67e.webp"
+    }
+  },
+  {
+    "cardpackId": 97,
+    "title": "혈귀가 되지 못한 자들",
+    "themeType": 6,
+    "description": "6.5장, 7장",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:55:08.430802",
+    "updatedAt": "2025-12-17T22:55:08.430802",
+    "thumbnail": {
+      "fileId": 888,
+      "path": "/uploads/CARD_PACK/original/cc3d71e3-4dc2-441a-9565-3e9a59ec1981.webp",
+      "originalName": "EX_혈귀가_되지_못한_자들.webp",
+      "storedName": "cc3d71e3-4dc2-441a-9565-3e9a59ec1981.webp"
+    }
+  },
+  {
+    "cardpackId": 98,
+    "title": "아름다운 목소리",
+    "themeType": 6,
+    "description": "뒤틀림 보스",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:55:25.789813",
+    "updatedAt": "2025-12-17T22:55:25.789813",
+    "thumbnail": {
+      "fileId": 889,
+      "path": "/uploads/CARD_PACK/original/12568004-9983-4091-af87-40edb4abeb0e.webp",
+      "originalName": "EX_아름다운_목소리.webp",
+      "storedName": "12568004-9983-4091-af87-40edb4abeb0e.webp"
+    }
+  },
+  {
+    "cardpackId": 99,
+    "title": "녹빛 여명의 시련",
+    "themeType": 6,
+    "description": "제2회 발푸르기스의 밤",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:55:42.444802",
+    "updatedAt": "2025-12-17T22:55:42.444802",
+    "thumbnail": {
+      "fileId": 890,
+      "path": "/uploads/CARD_PACK/original/cd9ed8ce-50bc-4315-a593-16a8fd462c61.webp",
+      "originalName": "EX_녹빛_여명의_시련.webp",
+      "storedName": "cd9ed8ce-50bc-4315-a593-16a8fd462c61.webp"
+    }
+  },
+  {
+    "cardpackId": 100,
+    "title": "어느 도서관의 어느 책 속으로",
+    "themeType": 6,
+    "description": "제3회 발푸르기스의 밤",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ],
+    "createdAt": "2025-12-17T22:56:01.011819",
+    "updatedAt": "2025-12-17T22:56:01.011819",
+    "thumbnail": {
+      "fileId": 891,
+      "path": "/uploads/CARD_PACK/original/ca22b009-5b02-4a2a-a832-a01c6f54392f.webp",
+      "originalName": "EX_어느_도서관의_어떤_책_속으로.webp",
+      "storedName": "ca22b009-5b02-4a2a-a832-a01c6f54392f.webp"
+    }
+  },
+  {
+    "cardpackId": 101,
+    "title": "현혹, 방황, 불신",
+    "themeType": 1,
+    "description": "",
+    "difficultyFloors": [
+      {
+        "difficulty": "노말",
+        "floors": [
+          4,
+          5
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          3,
+          4
+        ]
+      }
+    ],
+    "createdAt": "2026-02-28T14:09:56.455742",
+    "updatedAt": "2026-02-28T14:09:56.455746",
+    "thumbnail": {
+      "fileId": 927,
+      "path": "/uploads/CARD_PACK/original/b8db78d2-d7bf-4e0f-9fae-26a0b0ef4034.png",
+      "originalName": "현혹,방황,불신.png",
+      "storedName": "b8db78d2-d7bf-4e0f-9fae-26a0b0ef4034.png"
+    }
+  },
+  {
+    "cardpackId": 102,
+    "title": "교본",
+    "themeType": 1,
+    "description": "",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          5
+        ]
+      }
+    ],
+    "createdAt": "2026-02-28T14:40:15.685262",
+    "updatedAt": "2026-02-28T14:40:15.685266",
+    "thumbnail": {
+      "fileId": 929,
+      "path": "/uploads/CARD_PACK/original/37955472-e82f-4104-9537-65310c3c858b.png",
+      "originalName": "교본.png",
+      "storedName": "37955472-e82f-4104-9537-65310c3c858b.png"
+    }
+  },
+  {
+    "cardpackId": 103,
+    "title": "검과 작품",
+    "themeType": 1,
+    "description": "",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          5
+        ]
+      }
+    ],
+    "createdAt": "2026-02-28T14:41:00.98037",
+    "updatedAt": "2026-02-28T14:41:00.980371",
+    "thumbnail": {
+      "fileId": 930,
+      "path": "/uploads/CARD_PACK/original/b183f89c-1eb1-4154-9eeb-f5045eedb9bf.png",
+      "originalName": "검과작품.png",
+      "storedName": "b183f89c-1eb1-4154-9eeb-f5045eedb9bf.png"
+    }
+  },
+  {
+    "cardpackId": 104,
+    "title": "끊어지지 않는",
+    "themeType": 1,
+    "description": "",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          5
+        ]
+      }
+    ],
+    "createdAt": "2026-02-28T14:41:25.114521",
+    "updatedAt": "2026-02-28T14:41:25.114523",
+    "thumbnail": {
+      "fileId": 931,
+      "path": "/uploads/CARD_PACK/original/cea42740-4d6b-4c03-b25f-a3888f837679.png",
+      "originalName": "끊어지지않는.png",
+      "storedName": "cea42740-4d6b-4c03-b25f-a3888f837679.png"
+    }
+  },
+  {
+    "cardpackId": 105,
+    "title": "호박색 어스름의 시련",
+    "themeType": 2,
+    "description": "제8회 발푸르기스의 밤",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          4,
+          5
+        ]
+      },
+      {
+        "difficulty": "노말",
+        "floors": [
+          4,
+          5
+        ]
+      }
+    ],
+    "createdAt": "2026-03-07T15:41:34.554598",
+    "updatedAt": "2026-03-07T15:41:34.5546",
+    "thumbnail": {
+      "fileId": 952,
+      "path": "/uploads/CARD_PACK/original/da7ea633-92bf-4878-a5bf-5196ceed7364.png",
+      "originalName": "화면_캡처_2026-03-07_153833-removebg-preview.png",
+      "storedName": "da7ea633-92bf-4878-a5bf-5196ceed7364.png"
+    }
+  },
+  {
+    "cardpackId": 106,
+    "title": "LCB 정기검진 BokGak",
+    "themeType": 2,
+    "description": "",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          4,
+          5
+        ]
+      }
+    ],
+    "createdAt": "2026-03-21T17:01:23.956825",
+    "updatedAt": "2026-03-21T17:01:23.956827",
+    "thumbnail": {
+      "fileId": 973,
+      "path": "/uploads/CARD_PACK/original/775aa021-4553-4165-9284-25b24208bf67.png",
+      "originalName": "Canto_LCBCheckUp_BokGak-CAB-55316116f4d590550e5467a77b9faaa4--7836482313176900363.png",
+      "storedName": "775aa021-4553-4165-9284-25b24208bf67.png"
+    }
+  },
+  {
+    "cardpackId": 107,
+    "title": "타래엮기",
+    "themeType": 2,
+    "description": "",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          5
+        ]
+      },
+      {
+        "difficulty": "노말",
+        "floors": [
+          5
+        ]
+      }
+    ],
+    "createdAt": "2026-04-16T20:30:50.632131",
+    "updatedAt": "2026-04-16T20:30:50.632132",
+    "thumbnail": {
+      "fileId": 1013,
+      "path": "/uploads/CARD_PACK/original/6fd5bf6d-931e-4d6f-8f52-dafff1b47ee3.webp",
+      "originalName": "타래엮기.webp",
+      "storedName": "6fd5bf6d-931e-4d6f-8f52-dafff1b47ee3.webp"
+    }
+  },
+  {
+    "cardpackId": 108,
+    "title": "심야청소 BokGak",
+    "themeType": 2,
+    "description": "",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          4,
+          5
+        ]
+      }
+    ],
+    "createdAt": "2026-05-01T23:52:55.864971",
+    "updatedAt": "2026-05-01T23:52:55.864972",
+    "thumbnail": {
+      "fileId": 1479,
+      "path": "/uploads/CARD_PACK/original/1d45790e-0cf8-4cf2-87c9-5cf159391737.png",
+      "originalName": "심야청소복각-removebg-preview.png",
+      "storedName": "1d45790e-0cf8-4cf2-87c9-5cf159391737.png"
+    }
+  },
+  {
+    "cardpackId": 109,
+    "title": "무게를 진 자들",
+    "themeType": 6,
+    "description": "",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ],
+    "createdAt": "2026-05-02T23:06:07.484328",
+    "updatedAt": "2026-05-02T23:06:07.48433",
+    "thumbnail": {
+      "fileId": 1489,
+      "path": "/uploads/CARD_PACK/original/2bf89cf8-df8c-4d97-a6e0-839a839450a1.png",
+      "originalName": "무게를_진_자들.png",
+      "storedName": "2bf89cf8-df8c-4d97-a6e0-839a839450a1.png"
+    }
+  },
+  {
+    "cardpackId": 110,
+    "title": "삽시호",
+    "themeType": 6,
+    "description": "",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ],
+    "createdAt": "2026-05-02T23:06:31.838953",
+    "updatedAt": "2026-05-02T23:06:31.838954",
+    "thumbnail": {
+      "fileId": 1490,
+      "path": "/uploads/CARD_PACK/original/f76af86c-7475-4b7f-98e4-04898330f10a.png",
+      "originalName": "삽시호.png",
+      "storedName": "f76af86c-7475-4b7f-98e4-04898330f10a.png"
+    }
+  },
+  {
+    "cardpackId": 111,
+    "title": "라만차랜드의 주인",
+    "themeType": 6,
+    "description": "",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ],
+    "createdAt": "2026-05-02T23:08:04.415195",
+    "updatedAt": "2026-05-02T23:08:04.415196",
+    "thumbnail": {
+      "fileId": 1491,
+      "path": "/uploads/CARD_PACK/original/5379df8d-320f-49a9-99da-bd74a6537a57.png",
+      "originalName": "라만차랜드의_주인.png",
+      "storedName": "5379df8d-320f-49a9-99da-bd74a6537a57.png"
+    }
+  },
+  {
+    "cardpackId": 112,
+    "title": "1호선 : 광기",
+    "themeType": 6,
+    "description": "",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ],
+    "createdAt": "2026-05-02T23:08:22.939275",
+    "updatedAt": "2026-05-02T23:08:22.939277",
+    "thumbnail": {
+      "fileId": 1492,
+      "path": "/uploads/CARD_PACK/original/46a7dac6-3f09-40d4-afaf-3a4cf40c8be5.png",
+      "originalName": "1호선_광기.png",
+      "storedName": "46a7dac6-3f09-40d4-afaf-3a4cf40c8be5.png"
+    }
+  },
+  {
+    "cardpackId": 113,
+    "title": "축복의 카니발",
+    "themeType": 6,
+    "description": "",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ],
+    "createdAt": "2026-05-02T23:08:40.633652",
+    "updatedAt": "2026-05-02T23:08:40.633654",
+    "thumbnail": {
+      "fileId": 1493,
+      "path": "/uploads/CARD_PACK/original/0839c563-51b9-4591-8847-11e783596c2f.png",
+      "originalName": "축복의_카니발.png",
+      "storedName": "0839c563-51b9-4591-8847-11e783596c2f.png"
+    }
+  },
+  {
+    "cardpackId": 114,
+    "title": "페어리테일",
+    "themeType": 6,
+    "description": "",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ],
+    "createdAt": "2026-05-02T23:09:07.724269",
+    "updatedAt": "2026-05-02T23:09:07.72427",
+    "thumbnail": {
+      "fileId": 1494,
+      "path": "/uploads/CARD_PACK/original/c8a19eab-6fb4-4f95-a71c-0c9cf7603d30.png",
+      "originalName": "페어리테일.png",
+      "storedName": "c8a19eab-6fb4-4f95-a71c-0c9cf7603d30.png"
+    }
+  },
+  {
+    "cardpackId": 115,
+    "title": "한 봄 밤의 꿈 2",
+    "themeType": 6,
+    "description": "",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ],
+    "createdAt": "2026-05-02T23:09:33.46677",
+    "updatedAt": "2026-05-02T23:09:33.466772",
+    "thumbnail": {
+      "fileId": 1495,
+      "path": "/uploads/CARD_PACK/original/e9d50700-74c1-47cb-9735-4159aad79c4d.png",
+      "originalName": "한_봄_밤의_꿈_2.png",
+      "storedName": "e9d50700-74c1-47cb-9735-4159aad79c4d.png"
+    }
+  },
+  {
+    "cardpackId": 116,
+    "title": "코드 퍼플",
+    "themeType": 6,
+    "description": "",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ],
+    "createdAt": "2026-05-02T23:09:51.617656",
+    "updatedAt": "2026-05-02T23:09:51.617658",
+    "thumbnail": {
+      "fileId": 1496,
+      "path": "/uploads/CARD_PACK/original/bda7d88b-297d-4e17-9647-4b2832d37d0b.png",
+      "originalName": "코드퍼플.png",
+      "storedName": "bda7d88b-297d-4e17-9647-4b2832d37d0b.png"
+    }
+  },
+  {
+    "cardpackId": 117,
+    "title": "핏물진 비린내",
+    "themeType": 6,
+    "description": "",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ],
+    "createdAt": "2026-05-02T23:10:07.264869",
+    "updatedAt": "2026-05-02T23:10:07.264871",
+    "thumbnail": {
+      "fileId": 1497,
+      "path": "/uploads/CARD_PACK/original/66a477ed-ed05-4fe1-b586-22b63328c16d.png",
+      "originalName": "핏물진_비린내.png",
+      "storedName": "66a477ed-ed05-4fe1-b586-22b63328c16d.png"
+    }
+  },
+  {
+    "cardpackId": 118,
+    "title": "즉결처형의 시간",
+    "themeType": 6,
+    "description": "",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ],
+    "createdAt": "2026-05-02T23:10:24.611045",
+    "updatedAt": "2026-05-02T23:10:24.611046",
+    "thumbnail": {
+      "fileId": 1498,
+      "path": "/uploads/CARD_PACK/original/ba01d602-0bd0-4c26-a9da-414d907c09a3.png",
+      "originalName": "즉결처형의_시간.png",
+      "storedName": "ba01d602-0bd0-4c26-a9da-414d907c09a3.png"
+    }
+  },
+  {
+    "message": "카드팩을 찾을 수 없습니다.",
+    "status": 400
+  },
+  {
+    "cardpackId": 120,
+    "title": "경험기억",
+    "themeType": 2,
+    "description": "",
+    "difficultyFloors": [
+      {
+        "difficulty": "익스트림",
+        "floors": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "difficulty": "하드",
+        "floors": [
+          5
+        ]
+      },
+      {
+        "difficulty": "노말",
+        "floors": [
+          5
+        ]
+      }
+    ],
+    "createdAt": "2026-06-13T22:35:42.76053",
+    "updatedAt": "2026-06-13T22:35:42.760531",
+    "thumbnail": {
+      "fileId": 1517,
+      "path": "/uploads/CARD_PACK/original/cbef2e17-2d64-4b3b-a814-c09e600e8faa.png",
+      "originalName": "경험기억-removebg-preview.png",
+      "storedName": "cbef2e17-2d64-4b3b-a814-c09e600e8faa.png"
+    }
+  },
+  {
+    "message": "카드팩을 찾을 수 없습니다.",
+    "status": 400
+  },
+  {
+    "message": "카드팩을 찾을 수 없습니다.",
+    "status": 400
+  },
+  {
+    "message": "카드팩을 찾을 수 없습니다.",
+    "status": 400
+  },
+  {
+    "message": "카드팩을 찾을 수 없습니다.",
+    "status": 400
+  },
+  {
+    "message": "카드팩을 찾을 수 없습니다.",
+    "status": 400
+  },
+  {
+    "message": "카드팩을 찾을 수 없습니다.",
+    "status": 400
+  },
+  {
+    "message": "카드팩을 찾을 수 없습니다.",
+    "status": 400
+  },
+  {
+    "message": "카드팩을 찾을 수 없습니다.",
+    "status": 400
+  },
+  {
+    "message": "카드팩을 찾을 수 없습니다.",
+    "status": 400
+  },
+  {
+    "message": "카드팩을 찾을 수 없습니다.",
+    "status": 400
+  }
+]

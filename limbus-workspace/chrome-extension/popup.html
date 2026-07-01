@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { width: 270px; padding: 14px; font-family: sans-serif; font-size: 13px; }
+    label { display: block; text-align: left; margin-top: 9px; color: #444; font-size: 11px; }
+    input[type=text], input[type=number] {
+      width: 100%; box-sizing: border-box; padding: 5px 7px;
+      border: 1px solid #ccc; border-radius: 4px; font-size: 12px; margin-top: 2px;
+    }
+    .row { display: flex; align-items: center; gap: 8px; margin-top: 9px; }
+    .row label { margin: 0; flex: 1; }
+    .row input[type=number] { width: 60px; flex: none; }
+    button {
+      width: 100%; padding: 9px; color: #fff; border: none;
+      border-radius: 6px; font-size: 13px; cursor: pointer; margin-top: 8px;
+    }
+    #crawlBtn { background: #c0392b; } #crawlBtn:hover { background: #a93226; }
+    #batchBtn { background: #2471a3; } #batchBtn:hover { background: #1a5276; }
+    #stopBtn  { background: #7f8c8d; display: none; } #stopBtn:hover { background: #626567; }
+    #status { margin-top: 8px; font-size: 12px; color: #555; min-height: 16px; text-align: center; }
+    #progress { margin-top: 6px; height: 5px; background: #ddd; border-radius: 3px; display: none; }
+    #progressBar { height: 100%; background: #2471a3; border-radius: 3px; width: 0%; transition: width 0.3s; }
+    hr { border: none; border-top: 1px solid #eee; margin: 10px 0 2px; }
+    h4 { margin: 6px 0 2px; font-size: 12px; color: #333; text-align: left; }
+  </style>
+</head>
+<body>
+  <div style="text-align:center">🔴 림버스 크롤러</div>
+  <button id="crawlBtn">이 페이지 저장</button>
+  <hr>
+  <h4>배치 설정</h4>
+  <label>URL 포함 키워드 (쉼표 구분)
+    <input type="text" id="includeKw" value="림버스,Limbus,LCB,Project_Moon,프로젝트_문,(Project Moon 세계관),뫼르소,파우스트,돈키호테,료슈,홍루,히스클리프,이스마엘,로쟈,싱클레어,오티스,그레고르">
+  </label>
+  <label>URL 제외 경로 시작 (쉼표 구분)
+    <input type="text" id="excludePfx" value="로보토미_코퍼레이션,라이브러리_오브_루이나,Library_of_Ruina,Lobotomy_Corporation">
+  </label>
+  <div class="row">
+    <label><input type="checkbox" id="recursive" checked> 재귀 크롤링</label>
+    <label style="font-size:11px;color:#444">최대
+      <input type="number" id="maxPages" value="600" min="10" max="2000">
+    </label>
+  </div>
+  <button id="batchBtn">링크 배치 크롤링</button>
+  <button id="resumeBtn" style="background:#27ae60;display:none">▶ 이어서 크롤링</button>
+  <button id="stopBtn">⏹ 중단</button>
+  <div id="progress"><div id="progressBar"></div></div>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>

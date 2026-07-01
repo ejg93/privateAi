@@ -1,0 +1,3750 @@
+[
+  {
+    "id": 8,
+    "recipes": [
+      {
+        "recipeId": 1,
+        "title": "훔쳐온 불꽃",
+        "createdAt": "2025-11-30T14:03:40.84481",
+        "updatedAt": "2025-11-30T14:03:40.844812",
+        "items": [
+          {
+            "mapId": 1,
+            "egogiftId": 14,
+            "egogiftName": "타오르는 지성",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/dff6944d-febf-486c-8a12-e0a353936331.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 2,
+            "egogiftId": 19,
+            "egogiftName": "그을린 원반",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/e6b84edb-fe4f-4925-9def-bceadf0b84d2.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 3,
+            "egogiftId": 4,
+            "egogiftName": "만년 화롯불",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/9b41fdfb-e194-44b0-8a7d-63df51316162.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 4,
+            "egogiftId": 8,
+            "egogiftName": "훔쳐온 불꽃",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/fbc2d5dd-8404-44e5-9807-cbc9a4436d92.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "recipes": [
+      {
+        "recipeId": 2,
+        "title": "요리 비법 전서",
+        "createdAt": "2025-11-30T14:32:02.414",
+        "updatedAt": "2025-11-30T14:32:02.414",
+        "items": [
+          {
+            "mapId": 5,
+            "egogiftId": 3,
+            "egogiftName": "융해된 파라핀",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/95bc47bd-990b-4464-b53b-754616806663.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 6,
+            "egogiftId": 9,
+            "egogiftName": "만년 동안 끓는 솥",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/42170783-48a1-4a1a-89d9-f07c4400cffa.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 7,
+            "egogiftId": 11,
+            "egogiftName": "요리 비법 전서",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/8c4ac9bc-16d3-4d55-a3df-103adcc20fd6.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      },
+      {
+        "recipeId": 4,
+        "title": "진혼 2",
+        "createdAt": "2025-11-30T14:32:54.698",
+        "updatedAt": "2025-11-30T14:32:54.698",
+        "items": [
+          {
+            "mapId": 13,
+            "egogiftId": 6,
+            "egogiftName": "재에서 재로",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/16cdd50e-44f2-4431-990b-96c5e9ee3444.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 14,
+            "egogiftId": 13,
+            "egogiftName": "먼지에서 먼지로",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/88cb3333-e8fc-453b-ad0f-f273c4f9a5f3.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 15,
+            "egogiftId": 11,
+            "egogiftName": "요리 비법 전서",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/8c4ac9bc-16d3-4d55-a3df-103adcc20fd6.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 16,
+            "egogiftId": 18,
+            "egogiftName": "진혼",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/f42f32d3-3644-4e05-80fc-d89237d9f0d7.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "recipes": [
+      {
+        "recipeId": 3,
+        "title": "진혼 1",
+        "createdAt": "2025-11-30T14:32:35.897",
+        "updatedAt": "2025-11-30T14:32:35.897",
+        "items": [
+          {
+            "mapId": 8,
+            "egogiftId": 6,
+            "egogiftName": "재에서 재로",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/16cdd50e-44f2-4431-990b-96c5e9ee3444.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 9,
+            "egogiftId": 13,
+            "egogiftName": "먼지에서 먼지로",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/88cb3333-e8fc-453b-ad0f-f273c4f9a5f3.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 10,
+            "egogiftId": 3,
+            "egogiftName": "융해된 파라핀",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/95bc47bd-990b-4464-b53b-754616806663.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 11,
+            "egogiftId": 9,
+            "egogiftName": "만년 동안 끓는 솥",
+            "sortOrder": 4,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/42170783-48a1-4a1a-89d9-f07c4400cffa.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 12,
+            "egogiftId": 18,
+            "egogiftName": "진혼",
+            "sortOrder": 5,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/f42f32d3-3644-4e05-80fc-d89237d9f0d7.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      },
+      {
+        "recipeId": 4,
+        "title": "진혼 2",
+        "createdAt": "2025-11-30T14:32:54.698",
+        "updatedAt": "2025-11-30T14:32:54.698",
+        "items": [
+          {
+            "mapId": 13,
+            "egogiftId": 6,
+            "egogiftName": "재에서 재로",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/16cdd50e-44f2-4431-990b-96c5e9ee3444.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 14,
+            "egogiftId": 13,
+            "egogiftName": "먼지에서 먼지로",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/88cb3333-e8fc-453b-ad0f-f273c4f9a5f3.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 15,
+            "egogiftId": 11,
+            "egogiftName": "요리 비법 전서",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/8c4ac9bc-16d3-4d55-a3df-103adcc20fd6.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 16,
+            "egogiftId": 18,
+            "egogiftName": "진혼",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/f42f32d3-3644-4e05-80fc-d89237d9f0d7.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "recipes": [
+      {
+        "recipeId": 8,
+        "title": "출혈성 쇼크",
+        "createdAt": "2025-12-03T23:27:27.255815",
+        "updatedAt": "2025-12-03T23:27:27.255816",
+        "items": [
+          {
+            "mapId": 29,
+            "egogiftId": 32,
+            "egogiftName": "늘어붙은 쇠말뚝",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/c55e5a79-88db-4b04-bad8-adc176bfea30.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 30,
+            "egogiftId": 31,
+            "egogiftName": "녹슨 커터 나이프",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/014eeb45-629e-4821-8932-b4c69b06658e.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 31,
+            "egogiftId": 43,
+            "egogiftName": "찢어진 피주머니",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/91fbacb3-0615-4da9-a8e7-c06bbb588546.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 32,
+            "egogiftId": 35,
+            "egogiftName": "출혈성 쇼크",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/d84f09dc-3f49-484f-ad09-4023c5e3a948.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "recipes": [
+      {
+        "recipeId": 5,
+        "title": "치성",
+        "createdAt": "2025-12-03T23:25:24.577045",
+        "updatedAt": "2025-12-03T23:25:24.577046",
+        "items": [
+          {
+            "mapId": 17,
+            "egogiftId": 38,
+            "egogiftName": "억류된 찬송",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/9874f3af-a7de-4427-9f31-86cf17997e0e.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 18,
+            "egogiftId": 28,
+            "egogiftName": "밀라르카",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/21638bdb-c6f5-4c30-aaea-76efa1477b1d.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 19,
+            "egogiftId": 36,
+            "egogiftName": "치성",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/4dd49618-2df6-448c-b2fb-55b8c052eae9.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      },
+      {
+        "recipeId": 7,
+        "title": "피안개 2",
+        "createdAt": "2025-12-03T23:26:43.650991",
+        "updatedAt": "2025-12-03T23:26:43.650993",
+        "items": [
+          {
+            "mapId": 25,
+            "egogiftId": 47,
+            "egogiftName": "녹슨 입마개",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/920bb06c-a354-450a-aca9-ccdca7388b9c.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 26,
+            "egogiftId": 30,
+            "egogiftName": "연기와 철조망",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/011b76a4-2523-4479-8f10-4da599358099.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 27,
+            "egogiftId": 36,
+            "egogiftName": "치성",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/4dd49618-2df6-448c-b2fb-55b8c052eae9.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 28,
+            "egogiftId": 39,
+            "egogiftName": "피안개",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/47de00fa-2a14-4d4f-b343-8e8e0a1a34ae.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "recipes": [
+      {
+        "recipeId": 6,
+        "title": "피안개 1",
+        "createdAt": "2025-12-03T23:26:19.799245",
+        "updatedAt": "2025-12-03T23:26:19.799246",
+        "items": [
+          {
+            "mapId": 20,
+            "egogiftId": 47,
+            "egogiftName": "녹슨 입마개",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/920bb06c-a354-450a-aca9-ccdca7388b9c.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 21,
+            "egogiftId": 30,
+            "egogiftName": "연기와 철조망",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/011b76a4-2523-4479-8f10-4da599358099.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 22,
+            "egogiftId": 38,
+            "egogiftName": "억류된 찬송",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/9874f3af-a7de-4427-9f31-86cf17997e0e.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 23,
+            "egogiftId": 28,
+            "egogiftName": "밀라르카",
+            "sortOrder": 4,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/21638bdb-c6f5-4c30-aaea-76efa1477b1d.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 24,
+            "egogiftId": 39,
+            "egogiftName": "피안개",
+            "sortOrder": 5,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/47de00fa-2a14-4d4f-b343-8e8e0a1a34ae.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      },
+      {
+        "recipeId": 7,
+        "title": "피안개 2",
+        "createdAt": "2025-12-03T23:26:43.650991",
+        "updatedAt": "2025-12-03T23:26:43.650993",
+        "items": [
+          {
+            "mapId": 25,
+            "egogiftId": 47,
+            "egogiftName": "녹슨 입마개",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/920bb06c-a354-450a-aca9-ccdca7388b9c.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 26,
+            "egogiftId": 30,
+            "egogiftName": "연기와 철조망",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/011b76a4-2523-4479-8f10-4da599358099.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 27,
+            "egogiftId": 36,
+            "egogiftName": "치성",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/4dd49618-2df6-448c-b2fb-55b8c052eae9.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 28,
+            "egogiftId": 39,
+            "egogiftName": "피안개",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/47de00fa-2a14-4d4f-b343-8e8e0a1a34ae.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "recipes": [
+      {
+        "recipeId": 9,
+        "title": "완전함",
+        "createdAt": "2025-12-04T22:41:15.784283",
+        "updatedAt": "2025-12-04T22:41:15.784284",
+        "items": [
+          {
+            "mapId": 33,
+            "egogiftId": 50,
+            "egogiftName": "못과 망치의 책",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/35540dab-2d02-4086-979b-570e95ce07a1.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 34,
+            "egogiftId": 51,
+            "egogiftName": "불결함",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/c66d62db-bd6c-4688-9206-7502c181abfe.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 35,
+            "egogiftId": 64,
+            "egogiftName": "완전함",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/83b46d79-13be-41f9-9c42-8f028df25786.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "recipes": [
+      {
+        "recipeId": 10,
+        "title": "절경",
+        "createdAt": "2025-12-04T22:43:22.263786",
+        "updatedAt": "2025-12-04T22:43:22.263788",
+        "items": [
+          {
+            "mapId": 36,
+            "egogiftId": 54,
+            "egogiftName": "조각난 칼날",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/3b380756-3b25-4825-b8d8-9cab6959715a.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 37,
+            "egogiftId": 66,
+            "egogiftName": "낡은 칼자루",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/ac26b7f5-f3f2-4d47-b9b9-86a4c35db21b.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 38,
+            "egogiftId": 65,
+            "egogiftName": "절경",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/74089b95-838d-4900-aa8b-2101ad941bb9.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "recipes": [
+      {
+        "recipeId": 19,
+        "title": "손거울",
+        "createdAt": "2025-12-06T14:36:37.0951",
+        "updatedAt": "2025-12-06T14:36:37.095102",
+        "items": [
+          {
+            "mapId": 67,
+            "egogiftId": 73,
+            "egogiftName": "거울 촉각 공감각",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/33957124-ef01-4c86-84ad-605ba06d0871.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 68,
+            "egogiftId": 106,
+            "egogiftName": "치프 버틀러의 비급서",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/194e82ba-5193-40df-8862-9c6f9d9c0ae1.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 69,
+            "egogiftId": 92,
+            "egogiftName": "손거울",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/c4db322d-9517-4af4-976b-7d723cfbdc51.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "recipes": [
+      {
+        "recipeId": 20,
+        "title": "그림자 괴물",
+        "createdAt": "2025-12-06T14:36:54.442969",
+        "updatedAt": "2025-12-06T14:36:54.44297",
+        "items": [
+          {
+            "mapId": 70,
+            "egogiftId": 72,
+            "egogiftName": "불 꺼진 랜턴",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/6524b044-ffaf-4bd3-a7ce-9868f3b27963.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 71,
+            "egogiftId": 107,
+            "egogiftName": "불 꺼진 촛대",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/346dfce6-a440-4e53-b2c7-cd83d4d27515.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 72,
+            "egogiftId": 93,
+            "egogiftName": "그림자 괴물",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/f8677463-2266-43c4-b2c7-9e9e7bb888a0.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "recipes": [
+      {
+        "recipeId": 13,
+        "title": "연성진동",
+        "createdAt": "2025-12-05T00:31:19.89233",
+        "updatedAt": "2025-12-05T00:31:19.892332",
+        "items": [
+          {
+            "mapId": 46,
+            "egogiftId": 87,
+            "egogiftName": "진실의 종",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/313d2017-e7f3-4399-b665-f3acfedb1691.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 47,
+            "egogiftId": 86,
+            "egogiftName": "감합된 톱니바퀴",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/797b8bb9-779e-44d7-a0a2-e91070b532fd.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 48,
+            "egogiftId": 68,
+            "egogiftName": "닉시 다이버전스",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/725bd966-90fd-451f-b627-55edb8b3aee1.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 49,
+            "egogiftId": 100,
+            "egogiftName": "연성진동",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/a3cda8e6-bea1-441f-ad2a-e422147a3755.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "recipes": [
+      {
+        "recipeId": 12,
+        "title": "무진팔방종",
+        "createdAt": "2025-12-05T00:30:59.85657",
+        "updatedAt": "2025-12-05T00:30:59.856571",
+        "items": [
+          {
+            "mapId": 42,
+            "egogiftId": 67,
+            "egogiftName": "극독성 외피",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/3439ceb6-b370-4ce7-934b-2e359eda8b67.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 43,
+            "egogiftId": 88,
+            "egogiftName": "톱니바퀴 태엽",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/9f0f126b-5235-4ed9-ab4e-992bc29aa683.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 44,
+            "egogiftId": 91,
+            "egogiftName": "진원점",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/9f9f849d-5539-424a-a47a-5440904e07df.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 45,
+            "egogiftId": 101,
+            "egogiftName": "무진팔방종",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/34d4e41c-e0a9-46f9-8143-a9b38cc73c43.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      },
+      {
+        "recipeId": 18,
+        "title": "무진팔방종",
+        "createdAt": "2025-12-05T00:35:06.681331",
+        "updatedAt": "2025-12-05T00:35:06.681332",
+        "items": [
+          {
+            "mapId": 62,
+            "egogiftId": 67,
+            "egogiftName": "극독성 외피",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/3439ceb6-b370-4ce7-934b-2e359eda8b67.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 63,
+            "egogiftId": 88,
+            "egogiftName": "톱니바퀴 태엽",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/9f0f126b-5235-4ed9-ab4e-992bc29aa683.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 64,
+            "egogiftId": 69,
+            "egogiftName": "보석 진동자",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/aba369b3-07e2-4a49-9124-1a86a330d7ff.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 65,
+            "egogiftId": 78,
+            "egogiftName": "흔들리는 술통",
+            "sortOrder": 4,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/ca05e6fc-8fcf-4d39-b9c3-67002ed45447.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 66,
+            "egogiftId": 101,
+            "egogiftName": "무진팔방종",
+            "sortOrder": 5,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/34d4e41c-e0a9-46f9-8143-a9b38cc73c43.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "recipes": [
+      {
+        "recipeId": 14,
+        "title": "회중시계: 타입 E",
+        "createdAt": "2025-12-05T00:31:37.798834",
+        "updatedAt": "2025-12-05T00:31:37.798836",
+        "items": [
+          {
+            "mapId": 50,
+            "egogiftId": 83,
+            "egogiftName": "은빛 시계 케이스",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/c926b5b3-d3b7-465f-b9b8-7e87a6a5dfe5.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 51,
+            "egogiftId": 79,
+            "egogiftName": "녹슨 시계침",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/e5e0c9db-c205-4ff2-b9ab-fb23370f07c4.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 52,
+            "egogiftId": 102,
+            "egogiftName": "회중시계: 타입 E",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/3cffbf2a-8677-454d-9969-9ab3a4a3654f.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "recipes": [
+      {
+        "recipeId": 15,
+        "title": "회중시계: 타입 L",
+        "createdAt": "2025-12-05T00:31:56.621257",
+        "updatedAt": "2025-12-05T00:31:56.621258",
+        "items": [
+          {
+            "mapId": 53,
+            "egogiftId": 83,
+            "egogiftName": "은빛 시계 케이스",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/c926b5b3-d3b7-465f-b9b8-7e87a6a5dfe5.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 54,
+            "egogiftId": 82,
+            "egogiftName": "에칭 시계침",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/d8d856e2-bd84-40df-9f73-5bc89905cfac.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 55,
+            "egogiftId": 103,
+            "egogiftName": "회중시계: 타입 L",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/b55411ee-39f9-4f6d-a491-8ec8ed92ede0.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "recipes": [
+      {
+        "recipeId": 16,
+        "title": "회중시계: 타입 P",
+        "createdAt": "2025-12-05T00:32:16.094259",
+        "updatedAt": "2025-12-05T00:32:16.094261",
+        "items": [
+          {
+            "mapId": 56,
+            "egogiftId": 80,
+            "egogiftName": "빛바랜 시계 케이스",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/a32ca788-a968-434a-a40b-539477a2bbbf.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 57,
+            "egogiftId": 79,
+            "egogiftName": "녹슨 시계침",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/e5e0c9db-c205-4ff2-b9ab-fb23370f07c4.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 58,
+            "egogiftId": 104,
+            "egogiftName": "회중시계: 타입 P",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/d9c3673e-89ec-47c6-84f6-2aeee2de8a37.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "recipes": [
+      {
+        "recipeId": 11,
+        "title": "회중시계: 타입 Y",
+        "createdAt": "2025-12-05T00:26:29.167598",
+        "updatedAt": "2025-12-05T00:26:29.1676",
+        "items": [
+          {
+            "mapId": 39,
+            "egogiftId": 80,
+            "egogiftName": "빛바랜 시계 케이스",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/a32ca788-a968-434a-a40b-539477a2bbbf.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 40,
+            "egogiftId": 82,
+            "egogiftName": "에칭 시계침",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/d8d856e2-bd84-40df-9f73-5bc89905cfac.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 41,
+            "egogiftId": 105,
+            "egogiftName": "회중시계: 타입 Y",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/4af094ae-1cb2-4539-99ef-176bbac9ad95.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "recipes": [
+      {
+        "recipeId": 21,
+        "title": "기괴한 석상",
+        "createdAt": "2025-12-06T15:37:22.534496",
+        "updatedAt": "2025-12-06T15:37:22.534497",
+        "items": [
+          {
+            "mapId": 73,
+            "egogiftId": 110,
+            "egogiftName": "뼈 말뚝",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/56dcaa88-6c1e-40ef-993a-5bdc3e73e47e.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 74,
+            "egogiftId": 117,
+            "egogiftName": "종말의 파편",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/28ba93ef-e84e-46e5-a31a-9b6885c1813c.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 75,
+            "egogiftId": 134,
+            "egogiftName": "기괴한 석상",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/c9b2b0cd-665e-48bc-b066-6764843a1614.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      },
+      {
+        "recipeId": 22,
+        "title": "파탄 1",
+        "createdAt": "2025-12-06T15:37:55.616338",
+        "updatedAt": "2025-12-06T15:37:55.616339",
+        "items": [
+          {
+            "mapId": 76,
+            "egogiftId": 108,
+            "egogiftName": "부서진 리볼버",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/de3998f6-8859-456f-befe-9ad30c4b01ff.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 77,
+            "egogiftId": 125,
+            "egogiftName": "벼락가지",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/affd42d1-ec41-4065-9322-bcbc7d3f80d3.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 78,
+            "egogiftId": 134,
+            "egogiftName": "기괴한 석상",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/c9b2b0cd-665e-48bc-b066-6764843a1614.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 79,
+            "egogiftId": 138,
+            "egogiftName": "파탄",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/4bf4ff02-9cd5-4cf5-b015-36ad0f2c02b4.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 137,
+    "recipes": [
+      {
+        "recipeId": 24,
+        "title": "황홀경",
+        "createdAt": "2025-12-06T15:38:51.088931",
+        "updatedAt": "2025-12-06T15:38:51.088932",
+        "items": [
+          {
+            "mapId": 85,
+            "egogiftId": 124,
+            "egogiftName": "근무용 통상 배터리",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/a470b32e-cc09-4588-ae8c-589fc8c82bd4.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 86,
+            "egogiftId": 112,
+            "egogiftName": "가시오랏줄",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/fa03d2c4-aa81-4984-8667-3d23645df851.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 87,
+            "egogiftId": 109,
+            "egogiftName": "부적 묶음",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/c9e25a17-65aa-4453-ac65-04a891d1d24a.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 88,
+            "egogiftId": 137,
+            "egogiftName": "황홀경",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/8441be31-4520-4b29-9fe3-02a6673a66e8.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 138,
+    "recipes": [
+      {
+        "recipeId": 22,
+        "title": "파탄 1",
+        "createdAt": "2025-12-06T15:37:55.616338",
+        "updatedAt": "2025-12-06T15:37:55.616339",
+        "items": [
+          {
+            "mapId": 76,
+            "egogiftId": 108,
+            "egogiftName": "부서진 리볼버",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/de3998f6-8859-456f-befe-9ad30c4b01ff.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 77,
+            "egogiftId": 125,
+            "egogiftName": "벼락가지",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/affd42d1-ec41-4065-9322-bcbc7d3f80d3.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 78,
+            "egogiftId": 134,
+            "egogiftName": "기괴한 석상",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/c9b2b0cd-665e-48bc-b066-6764843a1614.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 79,
+            "egogiftId": 138,
+            "egogiftName": "파탄",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/4bf4ff02-9cd5-4cf5-b015-36ad0f2c02b4.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      },
+      {
+        "recipeId": 23,
+        "title": "파탄 2",
+        "createdAt": "2025-12-06T15:38:27.183908",
+        "updatedAt": "2025-12-06T15:38:27.183909",
+        "items": [
+          {
+            "mapId": 80,
+            "egogiftId": 108,
+            "egogiftName": "부서진 리볼버",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/de3998f6-8859-456f-befe-9ad30c4b01ff.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 81,
+            "egogiftId": 125,
+            "egogiftName": "벼락가지",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/affd42d1-ec41-4065-9322-bcbc7d3f80d3.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 82,
+            "egogiftId": 110,
+            "egogiftName": "뼈 말뚝",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/56dcaa88-6c1e-40ef-993a-5bdc3e73e47e.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 83,
+            "egogiftId": 117,
+            "egogiftName": "종말의 파편",
+            "sortOrder": 4,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/28ba93ef-e84e-46e5-a31a-9b6885c1813c.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 84,
+            "egogiftId": 138,
+            "egogiftName": "파탄",
+            "sortOrder": 5,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/4bf4ff02-9cd5-4cf5-b015-36ad0f2c02b4.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 139,
+    "recipes": [
+      {
+        "recipeId": 25,
+        "title": "이전칠자",
+        "createdAt": "2025-12-06T15:39:08.278443",
+        "updatedAt": "2025-12-06T15:39:08.278444",
+        "items": [
+          {
+            "mapId": 89,
+            "egogiftId": 118,
+            "egogiftName": "괴문자 부적",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/0cf5000d-1cf7-4184-9629-307b07af24b6.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 90,
+            "egogiftId": 130,
+            "egogiftName": "새겨넣어진 괴문자",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/7820455f-1c57-4818-814b-d31cb9799f67.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 91,
+            "egogiftId": 139,
+            "egogiftName": "이전칠자",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/d2f3aa60-5b0d-49d7-9e51-7fef8d40c150.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 140,
+    "recipes": [
+      {
+        "recipeId": 26,
+        "title": "절차탁마",
+        "createdAt": "2025-12-06T15:39:33.406024",
+        "updatedAt": "2025-12-06T15:39:33.406025",
+        "items": [
+          {
+            "mapId": 92,
+            "egogiftId": 121,
+            "egogiftName": "덕목 - 지[智]",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/a2ef0392-252e-4ee5-9701-9dc86096a66b.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 93,
+            "egogiftId": 119,
+            "egogiftName": "덕목 - 용[勇]",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/d50f626f-b840-43b4-918d-e434c6562cd7.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 94,
+            "egogiftId": 120,
+            "egogiftName": "덕목 - 인[仁]",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/689d6259-70f4-4e3a-bfd8-f9c274254ef4.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 95,
+            "egogiftId": 140,
+            "egogiftName": "절차탁마(切磋琢磨)",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/d28b6247-9b02-4855-ae00-6a3e6bc60b74.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 141,
+    "recipes": [
+      {
+        "recipeId": 27,
+        "title": "부치지 못한 편지",
+        "createdAt": "2025-12-06T15:41:12.259734",
+        "updatedAt": "2025-12-06T15:41:12.259735",
+        "items": [
+          {
+            "mapId": 249,
+            "egogiftId": 115,
+            "egogiftName": "해진 우산",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/64197c6e-6bbe-4c3f-b8b2-527a0e674457.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 250,
+            "egogiftId": 142,
+            "egogiftName": "깨진 안경",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/98a2642b-45b5-44ee-84a4-931d422a4697.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 251,
+            "egogiftId": 141,
+            "egogiftName": "부치지 못한 편지",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/4a8718ad-b10d-4d08-a903-ce5bb3760e58.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      },
+      {
+        "recipeId": 63,
+        "title": "생강꽃, 안경 그리고 전해진 편지",
+        "createdAt": "2026-03-22T11:42:44.339818",
+        "updatedAt": "2026-03-22T11:42:44.339821",
+        "items": [
+          {
+            "mapId": 240,
+            "egogiftId": 347,
+            "egogiftName": "생강꽃 가지",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/46b65513-7526-4e76-873e-2b79692e6b5b.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 241,
+            "egogiftId": 141,
+            "egogiftName": "부치지 못한 편지",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/4a8718ad-b10d-4d08-a903-ce5bb3760e58.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 242,
+            "egogiftId": 406,
+            "egogiftName": "생강꽃, 안경 그리고 전해진 편지",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/e16b956a-d72c-4e09-acff-beae054deee9.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 166,
+    "recipes": [
+      {
+        "recipeId": 28,
+        "title": "서지 글로브",
+        "createdAt": "2025-12-06T16:37:54.578336",
+        "updatedAt": "2025-12-06T16:37:54.578337",
+        "items": [
+          {
+            "mapId": 99,
+            "egogiftId": 147,
+            "egogiftName": "칸타빌레",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/aff875d6-5830-4ee5-9897-643c65caf5b0.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 100,
+            "egogiftId": 153,
+            "egogiftName": "빛바랜 외투",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/7d56be5b-9d8a-4f1c-a43d-2a4256bc1ff9.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 101,
+            "egogiftId": 166,
+            "egogiftName": "서지 글로브",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/69c295bd-a6b4-499d-a69a-12773325784e.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      },
+      {
+        "recipeId": 29,
+        "title": "덮칠 파도 1",
+        "createdAt": "2025-12-06T16:38:20.848143",
+        "updatedAt": "2025-12-06T16:38:20.848144",
+        "items": [
+          {
+            "mapId": 102,
+            "egogiftId": 143,
+            "egogiftName": "가시밭길",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/b7348ffa-e90a-4580-8e4b-22196655bc70.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 103,
+            "egogiftId": 160,
+            "egogiftName": "머나먼 별",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/8dedb45a-6f2e-4e2a-8ad9-1aa7a027ab10.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 104,
+            "egogiftId": 166,
+            "egogiftName": "서지 글로브",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/69c295bd-a6b4-499d-a69a-12773325784e.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 105,
+            "egogiftId": 171,
+            "egogiftName": "덮칠 파도",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/f62da041-a7f8-4cc3-90d6-d70b535d3eb7.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 170,
+    "recipes": [
+      {
+        "recipeId": 31,
+        "title": "검은 악보",
+        "createdAt": "2025-12-06T16:39:28.083717",
+        "updatedAt": "2025-12-06T16:39:28.083718",
+        "items": [
+          {
+            "mapId": 111,
+            "egogiftId": 162,
+            "egogiftName": "한겨울 밤의 악몽",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/81bec713-114f-4649-87d5-d53b6c258a36.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 112,
+            "egogiftId": 149,
+            "egogiftName": "뒤엉킨 뼛조각",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/ca104f38-90a2-4939-9eb8-13e3229c7ef4.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 113,
+            "egogiftId": 146,
+            "egogiftName": "머리 없는 초상화",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/fe8e3d3e-3303-47ca-a687-1a749ac6207f.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 114,
+            "egogiftId": 170,
+            "egogiftName": "검은 악보",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/01d969b5-0270-4e1d-8cb4-8dd8b98cba2a.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "recipes": [
+      {
+        "recipeId": 29,
+        "title": "덮칠 파도 1",
+        "createdAt": "2025-12-06T16:38:20.848143",
+        "updatedAt": "2025-12-06T16:38:20.848144",
+        "items": [
+          {
+            "mapId": 102,
+            "egogiftId": 143,
+            "egogiftName": "가시밭길",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/b7348ffa-e90a-4580-8e4b-22196655bc70.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 103,
+            "egogiftId": 160,
+            "egogiftName": "머나먼 별",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/8dedb45a-6f2e-4e2a-8ad9-1aa7a027ab10.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 104,
+            "egogiftId": 166,
+            "egogiftName": "서지 글로브",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/69c295bd-a6b4-499d-a69a-12773325784e.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 105,
+            "egogiftId": 171,
+            "egogiftName": "덮칠 파도",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/f62da041-a7f8-4cc3-90d6-d70b535d3eb7.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      },
+      {
+        "recipeId": 30,
+        "title": "덮칠 파도 2",
+        "createdAt": "2025-12-06T16:39:00.287813",
+        "updatedAt": "2025-12-06T16:39:00.287814",
+        "items": [
+          {
+            "mapId": 106,
+            "egogiftId": 143,
+            "egogiftName": "가시밭길",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/b7348ffa-e90a-4580-8e4b-22196655bc70.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 107,
+            "egogiftId": 160,
+            "egogiftName": "머나먼 별",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/8dedb45a-6f2e-4e2a-8ad9-1aa7a027ab10.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 108,
+            "egogiftId": 147,
+            "egogiftName": "칸타빌레",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/aff875d6-5830-4ee5-9897-643c65caf5b0.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 109,
+            "egogiftId": 153,
+            "egogiftName": "빛바랜 외투",
+            "sortOrder": 4,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/7d56be5b-9d8a-4f1c-a43d-2a4256bc1ff9.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 110,
+            "egogiftId": 171,
+            "egogiftName": "덮칠 파도",
+            "sortOrder": 5,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/f62da041-a7f8-4cc3-90d6-d70b535d3eb7.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 172,
+    "recipes": [
+      {
+        "recipeId": 32,
+        "title": "서릿발 발자국",
+        "createdAt": "2025-12-06T16:39:43.423336",
+        "updatedAt": "2025-12-06T16:39:43.423338",
+        "items": [
+          {
+            "mapId": 115,
+            "egogiftId": 154,
+            "egogiftName": "귀신 들린 신발",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/511f700f-8446-4df1-a4cd-20d279cdfcc1.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 116,
+            "egogiftId": 156,
+            "egogiftName": "얼어붙은 아우성",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/b670cdf2-f332-4dac-a266-230c93be41e8.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 117,
+            "egogiftId": 172,
+            "egogiftName": "서릿발 발자국",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/3326acc4-83e4-43b3-8407-6fc66c2834b1.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 193,
+    "recipes": [
+      {
+        "recipeId": 33,
+        "title": "추억",
+        "createdAt": "2025-12-06T17:21:03.554272",
+        "updatedAt": "2025-12-06T17:21:03.554273",
+        "items": [
+          {
+            "mapId": 118,
+            "egogiftId": 182,
+            "egogiftName": "어느 날의 기억",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/f2298a27-bb5f-49ca-a901-501f13439f4d.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 119,
+            "egogiftId": 176,
+            "egogiftName": "추억의 펜던트",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/9baea054-913b-4483-b3fb-6a07bc3268e4.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 120,
+            "egogiftId": 193,
+            "egogiftName": "추억",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/afa46b01-b38a-4fc5-b65e-cea11998ae70.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      },
+      {
+        "recipeId": 34,
+        "title": "복주머니 1",
+        "createdAt": "2025-12-06T17:21:28.639351",
+        "updatedAt": "2025-12-06T17:21:31.736252",
+        "items": [
+          {
+            "mapId": 125,
+            "egogiftId": 187,
+            "egogiftName": "네잎클로버",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/39f1bfd7-e23e-4e7b-ab1e-6245a6bff526.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 126,
+            "egogiftId": 175,
+            "egogiftName": "장식된 편자",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/57dc4aaa-6770-42f4-b42d-c0f9c167ae1c.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 127,
+            "egogiftId": 193,
+            "egogiftName": "추억",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/afa46b01-b38a-4fc5-b65e-cea11998ae70.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 128,
+            "egogiftId": 199,
+            "egogiftName": "복주머니",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/ad213fc3-6186-42ca-aedb-05385e85a45e.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 199,
+    "recipes": [
+      {
+        "recipeId": 34,
+        "title": "복주머니 1",
+        "createdAt": "2025-12-06T17:21:28.639351",
+        "updatedAt": "2025-12-06T17:21:31.736252",
+        "items": [
+          {
+            "mapId": 125,
+            "egogiftId": 187,
+            "egogiftName": "네잎클로버",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/39f1bfd7-e23e-4e7b-ab1e-6245a6bff526.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 126,
+            "egogiftId": 175,
+            "egogiftName": "장식된 편자",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/57dc4aaa-6770-42f4-b42d-c0f9c167ae1c.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 127,
+            "egogiftId": 193,
+            "egogiftName": "추억",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/afa46b01-b38a-4fc5-b65e-cea11998ae70.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 128,
+            "egogiftId": 199,
+            "egogiftName": "복주머니",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/ad213fc3-6186-42ca-aedb-05385e85a45e.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      },
+      {
+        "recipeId": 35,
+        "title": "복주머니 2",
+        "createdAt": "2025-12-06T17:22:03.800157",
+        "updatedAt": "2025-12-06T17:22:03.800158",
+        "items": [
+          {
+            "mapId": 129,
+            "egogiftId": 187,
+            "egogiftName": "네잎클로버",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/39f1bfd7-e23e-4e7b-ab1e-6245a6bff526.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 130,
+            "egogiftId": 175,
+            "egogiftName": "장식된 편자",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/57dc4aaa-6770-42f4-b42d-c0f9c167ae1c.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 131,
+            "egogiftId": 182,
+            "egogiftName": "어느 날의 기억",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/f2298a27-bb5f-49ca-a901-501f13439f4d.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 132,
+            "egogiftId": 176,
+            "egogiftName": "추억의 펜던트",
+            "sortOrder": 4,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/9baea054-913b-4483-b3fb-6a07bc3268e4.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 133,
+            "egogiftId": 199,
+            "egogiftName": "복주머니",
+            "sortOrder": 5,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/ad213fc3-6186-42ca-aedb-05385e85a45e.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 200,
+    "recipes": [
+      {
+        "recipeId": 36,
+        "title": "캐스크 스피리츠",
+        "createdAt": "2025-12-06T17:22:29.589291",
+        "updatedAt": "2025-12-06T17:22:29.589292",
+        "items": [
+          {
+            "mapId": 134,
+            "egogiftId": 174,
+            "egogiftName": "데블스 셰어",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/f6dc229f-79c7-4f37-9f0e-d359a17b8961.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 135,
+            "egogiftId": 183,
+            "egogiftName": "엔젤스 컷",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/9b247582-77fc-4850-977d-9e84adb96e19.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 136,
+            "egogiftId": 189,
+            "egogiftName": "엔도르핀 키트",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/d50b46b9-1ae4-436d-a83e-9fb8bf6b4834.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 137,
+            "egogiftId": 200,
+            "egogiftName": "캐스크 스피리츠",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/29af31ce-4ff7-4744-8768-91d6ae12766f.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 201,
+    "recipes": [
+      {
+        "recipeId": 37,
+        "title": "기쁜 봉제인형",
+        "createdAt": "2025-12-06T17:24:11.412017",
+        "updatedAt": "2025-12-06T17:24:11.412019",
+        "items": [
+          {
+            "mapId": 138,
+            "egogiftId": 177,
+            "egogiftName": "털방울 모자",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/e9498f98-d1a6-47d3-a355-16f340b64a82.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 139,
+            "egogiftId": 184,
+            "egogiftName": "거대한 선물 보따리",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/7c8a99b8-eec6-4cf8-9ff7-0f0a630d53a3.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 140,
+            "egogiftId": 203,
+            "egogiftName": "슬픈 봉제인형",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/02466465-c665-43ae-bdd9-d0862bc2130d.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 141,
+            "egogiftId": 201,
+            "egogiftName": "기쁜 봉제인형",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/d0e8cb18-c650-4334-89f7-4dd6902eca32.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "recipes": [
+      {
+        "recipeId": 38,
+        "title": "앞을 비추는 가스등",
+        "createdAt": "2025-12-06T17:24:30.199281",
+        "updatedAt": "2025-12-06T17:24:30.199282",
+        "items": [
+          {
+            "mapId": 142,
+            "egogiftId": 179,
+            "egogiftName": "네뷸라이저",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/5e7fec82-dbf9-4e31-a1f8-ffb48bc9358a.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 143,
+            "egogiftId": 186,
+            "egogiftName": "작살 의족",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/fbc5c4e3-8588-432e-98ab-d6a3816ad2c3.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 144,
+            "egogiftId": 202,
+            "egogiftName": "앞을 비추는 가스등",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/54dfd21f-b9e6-4b0c-b208-e0f135dbecbd.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 227,
+    "recipes": [
+      {
+        "recipeId": 39,
+        "title": "인슐레이터",
+        "createdAt": "2025-12-06T18:17:40.952526",
+        "updatedAt": "2025-12-06T18:17:40.952528",
+        "items": [
+          {
+            "mapId": 145,
+            "egogiftId": 21,
+            "egogiftName": "무정전 전원장치",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/ca55e89a-5a96-49da-a92b-3219c5aadbce.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 146,
+            "egogiftId": 212,
+            "egogiftName": "미니어처 전봇대",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/3a044cbd-d883-4d92-9a88-8eae0d6dbac3.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 147,
+            "egogiftId": 227,
+            "egogiftName": "인슐레이터",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/24f94e74-d820-46e9-9178-de6aff49baae.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      },
+      {
+        "recipeId": 40,
+        "title": "제 5종 영구기관 1",
+        "createdAt": "2025-12-06T18:18:01.070767",
+        "updatedAt": "2025-12-06T18:18:06.106329",
+        "items": [
+          {
+            "mapId": 152,
+            "egogiftId": 222,
+            "egogiftName": "피뢰침",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/4275c5ed-9537-4fa4-985c-b847ae8fc460.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 153,
+            "egogiftId": 205,
+            "egogiftName": "이력서",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/c50fa7e7-60f4-4bdf-8394-ddd162de1379.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 154,
+            "egogiftId": 227,
+            "egogiftName": "인슐레이터",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/24f94e74-d820-46e9-9178-de6aff49baae.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 155,
+            "egogiftId": 231,
+            "egogiftName": "제 5종 영구기관",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/d76191d9-cd09-4528-9d37-c964765ac455.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 230,
+    "recipes": [
+      {
+        "recipeId": 42,
+        "title": "제 1종 영구기관",
+        "createdAt": "2025-12-06T18:18:55.758328",
+        "updatedAt": "2025-12-06T18:18:55.758329",
+        "items": [
+          {
+            "mapId": 161,
+            "egogiftId": 221,
+            "egogiftName": "물리 간섭 보호장",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/feb8ae60-447a-48fc-bdb3-a684c3857a67.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 162,
+            "egogiftId": 207,
+            "egogiftName": "1B 타입 팔각 볼트",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/16d4d62a-4cf4-4409-8703-6c017e52b7a3.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 163,
+            "egogiftId": 204,
+            "egogiftName": "손목 보호대",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/62b63fca-ca1b-4ac1-98c0-8060e0b1410f.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 164,
+            "egogiftId": 230,
+            "egogiftName": "제 1종 영구기관",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/52002ef1-8bcf-44de-aaa5-52987d26cd71.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 231,
+    "recipes": [
+      {
+        "recipeId": 40,
+        "title": "제 5종 영구기관 1",
+        "createdAt": "2025-12-06T18:18:01.070767",
+        "updatedAt": "2025-12-06T18:18:06.106329",
+        "items": [
+          {
+            "mapId": 152,
+            "egogiftId": 222,
+            "egogiftName": "피뢰침",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/4275c5ed-9537-4fa4-985c-b847ae8fc460.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 153,
+            "egogiftId": 205,
+            "egogiftName": "이력서",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/c50fa7e7-60f4-4bdf-8394-ddd162de1379.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 154,
+            "egogiftId": 227,
+            "egogiftName": "인슐레이터",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/24f94e74-d820-46e9-9178-de6aff49baae.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 155,
+            "egogiftId": 231,
+            "egogiftName": "제 5종 영구기관",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/d76191d9-cd09-4528-9d37-c964765ac455.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      },
+      {
+        "recipeId": 41,
+        "title": "제 5종 영구기관 2",
+        "createdAt": "2025-12-06T18:18:29.965061",
+        "updatedAt": "2025-12-06T18:18:29.965063",
+        "items": [
+          {
+            "mapId": 156,
+            "egogiftId": 205,
+            "egogiftName": "이력서",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/c50fa7e7-60f4-4bdf-8394-ddd162de1379.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 157,
+            "egogiftId": 222,
+            "egogiftName": "피뢰침",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/4275c5ed-9537-4fa4-985c-b847ae8fc460.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 158,
+            "egogiftId": 21,
+            "egogiftName": "무정전 전원장치",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/ca55e89a-5a96-49da-a92b-3219c5aadbce.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 159,
+            "egogiftId": 212,
+            "egogiftName": "미니어처 전봇대",
+            "sortOrder": 4,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/3a044cbd-d883-4d92-9a88-8eae0d6dbac3.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 160,
+            "egogiftId": 231,
+            "egogiftName": "제 5종 영구기관",
+            "sortOrder": 5,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/d76191d9-cd09-4528-9d37-c964765ac455.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 232,
+    "recipes": [
+      {
+        "recipeId": 43,
+        "title": "과충전된 배터리",
+        "createdAt": "2025-12-06T18:19:16.943913",
+        "updatedAt": "2025-12-06T18:19:16.943914",
+        "items": [
+          {
+            "mapId": 165,
+            "egogiftId": 214,
+            "egogiftName": "생체 발전형 배터리",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/8c205654-2082-470c-801e-4ba77e1f065d.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 166,
+            "egogiftId": 49,
+            "egogiftName": "결정화된 혈액",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/82976585-3fa0-480c-8483-3ddf8eb8f0eb.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 167,
+            "egogiftId": 232,
+            "egogiftName": "과충전된 배터리",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/b3963eb7-50e6-499d-8c34-34c44973bbfe.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 233,
+    "recipes": [
+      {
+        "recipeId": 44,
+        "title": "영구동력 서보모터",
+        "createdAt": "2025-12-06T18:19:32.690833",
+        "updatedAt": "2025-12-06T18:19:32.690834",
+        "items": [
+          {
+            "mapId": 168,
+            "egogiftId": 215,
+            "egogiftName": "심장 리액트 모듈",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/b00a1686-3062-4734-9ac8-adf92a701d8f.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 169,
+            "egogiftId": 216,
+            "egogiftName": "의체관절 서보모터",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/88692af5-2698-4de6-8b6c-4849d6d8999f.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 170,
+            "egogiftId": 233,
+            "egogiftName": "영구동력 서보모터",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/cd111c54-7148-4d0e-aa32-656c3a62f97d.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 234,
+    "recipes": [
+      {
+        "recipeId": 45,
+        "title": "자율 작동식 관절",
+        "createdAt": "2025-12-06T18:20:07.258764",
+        "updatedAt": "2025-12-06T18:20:07.258765",
+        "items": [
+          {
+            "mapId": 171,
+            "egogiftId": 214,
+            "egogiftName": "생체 발전형 배터리",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/8c205654-2082-470c-801e-4ba77e1f065d.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 172,
+            "egogiftId": 216,
+            "egogiftName": "의체관절 서보모터",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/88692af5-2698-4de6-8b6c-4849d6d8999f.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 173,
+            "egogiftId": 234,
+            "egogiftName": "자율 작동식 관절",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/8ee3094b-0d22-4e91-bb76-6e6f961887f7.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 235,
+    "recipes": [
+      {
+        "recipeId": 46,
+        "title": "하츠 파워드 쥬얼",
+        "createdAt": "2025-12-06T18:20:27.268806",
+        "updatedAt": "2025-12-06T18:20:27.268807",
+        "items": [
+          {
+            "mapId": 174,
+            "egogiftId": 215,
+            "egogiftName": "심장 리액트 모듈",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/b00a1686-3062-4734-9ac8-adf92a701d8f.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 175,
+            "egogiftId": 49,
+            "egogiftName": "결정화된 혈액",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/82976585-3fa0-480c-8483-3ddf8eb8f0eb.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 176,
+            "egogiftId": 235,
+            "egogiftName": "하츠 파워드 쥬얼",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/d61c4653-8d6e-489a-9062-096933574663.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 236,
+    "recipes": [
+      {
+        "recipeId": 47,
+        "title": "C형 정리 요원 장비 세트",
+        "createdAt": "2025-12-06T18:20:50.96409",
+        "updatedAt": "2025-12-06T18:20:50.964091",
+        "items": [
+          {
+            "mapId": 177,
+            "egogiftId": 219,
+            "egogiftName": "W사 보급 모자",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/053ae8fa-1f80-4a2b-8d06-56fed0c99dcb.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 178,
+            "egogiftId": 225,
+            "egogiftName": "E식 차원 단검",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/e03a6b56-e22b-41f5-9c0f-14dd3fa01a9a.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 179,
+            "egogiftId": 224,
+            "egogiftName": "휴대용 역장 배터리",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/ad9c8d5d-faf3-4565-abe3-40c97c9dbbd3.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 180,
+            "egogiftId": 236,
+            "egogiftName": "C형 정리 요원 장비 세트",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/6f318825-c248-4415-b901-2c611ea73925.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 254,
+    "recipes": [
+      {
+        "recipeId": 48,
+        "title": "부동",
+        "createdAt": "2025-12-06T18:53:19.016328",
+        "updatedAt": "2025-12-06T18:53:19.016329",
+        "items": [
+          {
+            "mapId": 181,
+            "egogiftId": 191,
+            "egogiftName": "부서진 칼날",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/cf1ee339-260a-43af-bb98-d5cf88555490.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 182,
+            "egogiftId": 247,
+            "egogiftName": "녹슨 칼자루",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/d808ddcf-f983-4044-9519-bf88baacc3fe.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 183,
+            "egogiftId": 254,
+            "egogiftName": "부동",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/3cdd7b00-ff11-47d9-8f72-72b90aea81bc.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 255,
+    "recipes": [
+      {
+        "recipeId": 49,
+        "title": "장관",
+        "createdAt": "2025-12-06T18:53:47.58285",
+        "updatedAt": "2025-12-06T18:53:47.582851",
+        "items": [
+          {
+            "mapId": 184,
+            "egogiftId": 54,
+            "egogiftName": "조각난 칼날",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/3b380756-3b25-4825-b8d8-9cab6959715a.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 185,
+            "egogiftId": 247,
+            "egogiftName": "녹슨 칼자루",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/d808ddcf-f983-4044-9519-bf88baacc3fe.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 186,
+            "egogiftId": 255,
+            "egogiftName": "장관",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/38a74cfa-7078-4de7-a73c-f07834308e8f.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 256,
+    "recipes": [
+      {
+        "recipeId": 50,
+        "title": "탁마",
+        "createdAt": "2025-12-06T18:54:06.428693",
+        "updatedAt": "2025-12-06T18:54:06.428707",
+        "items": [
+          {
+            "mapId": 187,
+            "egogiftId": 191,
+            "egogiftName": "부서진 칼날",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/cf1ee339-260a-43af-bb98-d5cf88555490.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 188,
+            "egogiftId": 66,
+            "egogiftName": "낡은 칼자루",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/ac26b7f5-f3f2-4d47-b9b9-86a4c35db21b.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 189,
+            "egogiftId": 256,
+            "egogiftName": "탁마",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/1a8dbcbd-7ccb-4451-9fc0-62ae5024a833.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 284,
+    "recipes": [
+      {
+        "recipeId": 51,
+        "title": "영속하는 인연 사슬",
+        "createdAt": "2025-12-06T19:37:24.390897",
+        "updatedAt": "2025-12-06T19:37:24.390899",
+        "items": [
+          {
+            "mapId": 190,
+            "egogiftId": 277,
+            "egogiftName": "강화 문신 - 중지",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/ee9d7f4a-6969-4556-ae48-fc03b89a19ba.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 191,
+            "egogiftId": 280,
+            "egogiftName": "의리 사슬",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/87a75ea9-23a1-4f11-9e78-c5082382f063.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 192,
+            "egogiftId": 284,
+            "egogiftName": "영속하는 인연 사슬",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/b1daa63d-2f43-40f2-bf05-500bb28aed77.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 366,
+    "recipes": [
+      {
+        "recipeId": 53,
+        "title": "고위험 작전용 장비",
+        "createdAt": "2025-12-06T23:50:14.087063",
+        "updatedAt": "2025-12-06T23:50:14.087064",
+        "items": [
+          {
+            "mapId": 196,
+            "egogiftId": 353,
+            "egogiftName": "통상 작전용 장비",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/8ad59b12-7b69-48ac-a593-c1e8fab13fb5.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 197,
+            "egogiftId": 349,
+            "egogiftName": "작전 승인 카드",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/d4045032-9df5-4ffb-ac5b-b3c70790460b.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 198,
+            "egogiftId": 366,
+            "egogiftName": "고위험 작전용 장비",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/5237e419-04e8-41fc-bec2-16af3dab0e59.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 367,
+    "recipes": [
+      {
+        "recipeId": 52,
+        "title": "선물",
+        "createdAt": "2025-12-06T23:49:51.709812",
+        "updatedAt": "2025-12-06T23:49:51.709814",
+        "items": [
+          {
+            "mapId": 193,
+            "egogiftId": 356,
+            "egogiftName": "포장용 끈",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/7078e853-e55b-49d3-a99c-9663274885c7.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 194,
+            "egogiftId": 295,
+            "egogiftName": "포장용 상자",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/80ce7356-c688-490c-9c24-f8b944d44d2a.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 195,
+            "egogiftId": 367,
+            "egogiftName": "선물",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/f956b4e5-b63f-4d23-8432-f9d14f0e14c6.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 387,
+    "recipes": [
+      {
+        "recipeId": 56,
+        "title": "제식 복장 - 리우 협회",
+        "createdAt": "2026-02-28T15:10:09.800058",
+        "updatedAt": "2026-02-28T15:10:09.800061",
+        "items": [
+          {
+            "mapId": 209,
+            "egogiftId": 16,
+            "egogiftName": "편광",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/4dbd9b27-9950-4d2d-87e7-7c8bf58c3613.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 210,
+            "egogiftId": 272,
+            "egogiftName": "가장 낮은 별",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/0320cd90-ea43-48ce-872b-c398b7eddf0a.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 211,
+            "egogiftId": 377,
+            "egogiftName": "붉은색 넥타이",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/c0b298e9-b14d-4037-87b8-91c461d985d4.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 212,
+            "egogiftId": 387,
+            "egogiftName": "제식 복장 - 리우 협회",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/88180cc1-6868-4135-8397-97697b8a4f99.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 388,
+    "recipes": [
+      {
+        "recipeId": 57,
+        "title": "수작",
+        "createdAt": "2026-02-28T15:17:14.40603",
+        "updatedAt": "2026-02-28T15:17:14.406032",
+        "items": [
+          {
+            "mapId": 252,
+            "egogiftId": 297,
+            "egogiftName": "귀로",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/e5be813f-0f6e-467b-ac80-e8f5c261cc7c.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 253,
+            "egogiftId": 379,
+            "egogiftName": "새하얀 캔버스",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/4f40d529-d720-4f27-aedd-51bfa9e84bb9.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 254,
+            "egogiftId": 378,
+            "egogiftName": "범작",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/5e2dc81c-0cf5-4e4b-bfb6-6d1ca3cf8212.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 255,
+            "egogiftId": 388,
+            "egogiftName": "수작",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/21f36e6d-73e9-4490-89b4-43ae07030fb0.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 389,
+    "recipes": [
+      {
+        "recipeId": 58,
+        "title": "미니어처 대관람차",
+        "createdAt": "2026-02-28T15:23:15.188724",
+        "updatedAt": "2026-02-28T15:23:15.188726",
+        "items": [
+          {
+            "mapId": 217,
+            "egogiftId": 41,
+            "egogiftName": "덧붙인 반창고",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/69840a79-d17f-496d-b1a2-3eae2e0a8bf1.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 218,
+            "egogiftId": 34,
+            "egogiftName": "전혈 플라스크",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/4a08e279-14e1-4845-8656-9fb471c717ac.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 219,
+            "egogiftId": 63,
+            "egogiftName": "퍼레이드의 가면",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/0c0762a5-caac-43dd-bd11-0692232a389f.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 220,
+            "egogiftId": 389,
+            "egogiftName": "미니어처 대관람차",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/8c748732-376c-4512-bab9-82ba15d33d9a.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 390,
+    "recipes": [
+      {
+        "recipeId": 59,
+        "title": "모든 악의 끝",
+        "createdAt": "2026-02-28T15:29:32.148354",
+        "updatedAt": "2026-02-28T15:29:32.148356",
+        "items": [
+          {
+            "mapId": 233,
+            "egogiftId": 324,
+            "egogiftName": "마을을 지킬 작살",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/afaf2b52-ba2e-4027-8eee-09db1f535296.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 234,
+            "egogiftId": 197,
+            "egogiftName": "고래의 심장",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/f7fcaf67-6a4e-4dd8-a004-e0dda91c14ca.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 235,
+            "egogiftId": 390,
+            "egogiftName": "모든 악의 끝",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/a54db329-7c43-4a4c-a980-8ac4377392b1.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 397,
+    "recipes": [
+      {
+        "recipeId": 61,
+        "title": "데스페라도",
+        "createdAt": "2026-03-07T16:11:13.872505",
+        "updatedAt": "2026-03-07T16:11:13.872507",
+        "items": [
+          {
+            "mapId": 229,
+            "egogiftId": 396,
+            "egogiftName": "노이즈 섞인 무전기",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/87f90650-3875-4793-99b2-f6aee1ba7ba9.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 230,
+            "egogiftId": 393,
+            "egogiftName": "부리 모양 목걸이",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/95233f40-35f2-47a8-bf11-17b38a47eb88.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 231,
+            "egogiftId": 262,
+            "egogiftName": "찢어진 밴돌리어",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/eb5be174-259c-4287-8d83-fd4f12c67014.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 232,
+            "egogiftId": 397,
+            "egogiftName": "데스페라도",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/91e639ab-c9fe-4aca-aa14-b20ab87d93da.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 399,
+    "recipes": [
+      {
+        "recipeId": 60,
+        "title": "분홍빛 꽃잎다발",
+        "createdAt": "2026-03-07T16:10:47.315406",
+        "updatedAt": "2026-03-07T16:10:47.315408",
+        "items": [
+          {
+            "mapId": 225,
+            "egogiftId": 263,
+            "egogiftName": "축복이었던",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/156aa990-6576-470b-a6a2-763cd113eeaf.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 226,
+            "egogiftId": 76,
+            "egogiftName": "잔향",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/e53f7dea-586f-43db-868b-8f6efeae1e75.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 227,
+            "egogiftId": 398,
+            "egogiftName": "분홍 꽃잎",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/379ce117-0a2f-4b30-8884-7cbe743ca064.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 228,
+            "egogiftId": 399,
+            "egogiftName": "분홍빛 꽃잎다발",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/491fdc26-841f-40f1-8134-3e944165162b.webp",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 401,
+    "recipes": [
+      {
+        "recipeId": 62,
+        "title": "조그맣고 근사한 바이올린",
+        "createdAt": "2026-03-22T10:59:22.104861",
+        "updatedAt": "2026-03-22T10:59:22.104863",
+        "items": [
+          {
+            "mapId": 236,
+            "egogiftId": 71,
+            "egogiftName": "기름때 찌든 스패너",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/882e8561-87ff-40fe-8aa6-8b2ddb9b1222.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 237,
+            "egogiftId": 314,
+            "egogiftName": "반짝이는 폐품",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/d35c37e3-3c9b-4f5b-98df-290f496ef476.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 238,
+            "egogiftId": 354,
+            "egogiftName": "부서진 바이올린",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/988bd299-748e-40e6-94ff-736382b967d9.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 239,
+            "egogiftId": 401,
+            "egogiftName": "조그맣고 근사한 바이올린",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/058f476e-ba82-411f-998e-1dbf096cd0ea.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 406,
+    "recipes": [
+      {
+        "recipeId": 63,
+        "title": "생강꽃, 안경 그리고 전해진 편지",
+        "createdAt": "2026-03-22T11:42:44.339818",
+        "updatedAt": "2026-03-22T11:42:44.339821",
+        "items": [
+          {
+            "mapId": 240,
+            "egogiftId": 347,
+            "egogiftName": "생강꽃 가지",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/46b65513-7526-4e76-873e-2b79692e6b5b.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 241,
+            "egogiftId": 141,
+            "egogiftName": "부치지 못한 편지",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/4a8718ad-b10d-4d08-a903-ce5bb3760e58.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 242,
+            "egogiftId": 406,
+            "egogiftName": "생강꽃, 안경 그리고 전해진 편지",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/e16b956a-d72c-4e09-acff-beae054deee9.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 422,
+    "recipes": [
+      {
+        "recipeId": 68,
+        "title": "수작 : 진화하는 약동",
+        "createdAt": "2026-04-16T20:24:13.330461",
+        "updatedAt": "2026-04-16T20:24:13.330462",
+        "items": [
+          {
+            "mapId": 259,
+            "egogiftId": 418,
+            "egogiftName": "작품 : 약동",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/5888c326-1950-4a7e-b715-c2b98a5df38f.png",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 260,
+            "egogiftId": 420,
+            "egogiftName": "모든 것의 뼈대",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/1e4f96f2-e57e-43ea-9e6c-56f51fe0dfe0.png",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 261,
+            "egogiftId": 422,
+            "egogiftName": "수작 : 진화하는 약동",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/f0f29386-51df-4c27-a61c-196b8196677b.png",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 423,
+    "recipes": [
+      {
+        "recipeId": 67,
+        "title": "수작 : 박제된 야성",
+        "createdAt": "2026-04-16T20:23:52.082841",
+        "updatedAt": "2026-04-16T20:23:52.082843",
+        "items": [
+          {
+            "mapId": 256,
+            "egogiftId": 419,
+            "egogiftName": "작품 : 야성",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/7db1acb4-d9d5-4157-8ca3-9d8f2e612ae8.png",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 257,
+            "egogiftId": 421,
+            "egogiftName": "모든 것의 본능",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/ce7f4ae4-739a-4273-aa55-0a608015a823.png",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 258,
+            "egogiftId": 423,
+            "egogiftName": "수작 : 박제된 야성",
+            "sortOrder": 3,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/b211ddeb-9e8c-4c24-98b6-b0bc669ab169.png",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 428,
+    "recipes": [
+      {
+        "recipeId": 70,
+        "title": "암약",
+        "createdAt": "2026-05-01T23:51:54.873665",
+        "updatedAt": "2026-05-01T23:51:54.873666",
+        "items": [
+          {
+            "mapId": 269,
+            "egogiftId": 122,
+            "egogiftName": "묘각",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/252dd79f-26dc-4df1-882c-45d0fbf5acf8.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 270,
+            "egogiftId": 427,
+            "egogiftName": "흑수환 - 묘󠄈󠄆󠄉󠄆󠄀󠄄󠄄󠄀󠄁",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/5b1fec89-aa6c-45cc-ad50-0e90439aee87.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 272,
+            "egogiftId": 246,
+            "egogiftName": "그림자 삿갓",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/508bbb2d-1a6c-4489-97b0-4649b37ab6cd.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 271,
+            "egogiftId": 428,
+            "egogiftName": "암약",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/dd6501d6-9ba5-489d-adff-a1d91c72ff42.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 429,
+    "recipes": [
+      {
+        "recipeId": 69,
+        "title": "작. 형. 등장",
+        "createdAt": "2026-05-01T23:51:25.25109",
+        "updatedAt": "2026-05-01T23:51:25.251092",
+        "items": [
+          {
+            "mapId": 262,
+            "egogiftId": 48,
+            "egogiftName": "안식처",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/98d6f654-8a2a-40ec-b57d-bedc0bf12e99.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 263,
+            "egogiftId": 37,
+            "egogiftName": "혈향도래",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/ae4dd197-9c9c-4986-b1f8-69decae3c40a.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 264,
+            "egogiftId": 426,
+            "egogiftName": "등장 전용 붐박스",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/84a23a02-bcf5-4eea-b785-3ff7c9e39d8d.webp",
+            "grades": [
+              "H"
+            ]
+          },
+          {
+            "mapId": 265,
+            "egogiftId": 429,
+            "egogiftName": "작. 형. 등장󠄈󠄆󠄉󠄆󠄀󠄄󠄄󠄀󠄁",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/e16ee9ca-ee09-4b07-9ff9-acf782743ca3.webp",
+            "grades": [
+              "H"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 441,
+    "recipes": [
+      {
+        "recipeId": 71,
+        "title": "본국검보[本國劍譜]",
+        "createdAt": "2026-06-13T22:31:06.981532",
+        "updatedAt": "2026-06-13T22:31:06.981533",
+        "items": [
+          {
+            "mapId": 273,
+            "egogiftId": 237,
+            "egogiftName": "닳고 닳은 숫돌",
+            "sortOrder": 1,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/3872b5bc-0264-4f65-9db8-89d6b4f8115c.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 274,
+            "egogiftId": 249,
+            "egogiftName": "붉은 색술",
+            "sortOrder": 2,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/757ee48d-acea-4fdd-a00b-d68c89e7c874.webp",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 275,
+            "egogiftId": 438,
+            "egogiftName": "민무늬 코등이",
+            "sortOrder": 3,
+            "type": "재료",
+            "thumbnail": "/uploads/EGO_GIFT/original/445fd5fb-e0a6-4bea-8910-1c44e561ac67.png",
+            "grades": [
+              "N"
+            ]
+          },
+          {
+            "mapId": 276,
+            "egogiftId": 441,
+            "egogiftName": "본국검보[本國劍譜]",
+            "sortOrder": 4,
+            "type": "결과",
+            "thumbnail": "/uploads/EGO_GIFT/original/b25a0003-cb87-4fc4-b403-7683c9f32b05.png",
+            "grades": [
+              "N"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
