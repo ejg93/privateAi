@@ -3,7 +3,7 @@ const fs = require('fs');
 const BASE = 'https://limbus.haneuk.info/api/user/egogift/';
 const MAX = 500;
 const CONCURRENCY = 10;
-const OUT = 'egogifts-api.json';
+const OUT = 'data/egogifts-api.json';
 
 async function fetchGift(id) {
   try {

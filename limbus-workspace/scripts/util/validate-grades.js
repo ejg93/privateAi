@@ -1,6 +1,8 @@
 const fs = require('fs');
-const api = JSON.parse(fs.readFileSync('egogifts-api.json', 'utf-8'));
-const html = fs.readFileSync('ego-universal-gifts.html', 'utf-8');
+const path = require('path');
+const HTML_PATH = path.join(__dirname, '..', '..', 'ego-gift-html', 'ego-universal-gifts.html');
+const api = JSON.parse(fs.readFileSync('data/egogifts-api.json', 'utf-8'));
+const html = fs.readFileSync(HTML_PATH, 'utf-8');
 
 // API에서 이름→grades 매핑
 const nameToGrade = {};

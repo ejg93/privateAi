@@ -1,5 +1,7 @@
 const fs = require('fs');
-let html = fs.readFileSync('ego-universal-gifts.html', 'utf-8');
+const path = require('path');
+const HTML_PATH = path.join(__dirname, '..', '..', 'ego-gift-html', 'ego-universal-gifts.html');
+let html = fs.readFileSync(HTML_PATH, 'utf-8');
 
 const original = `const CHAIN_LAYOUT = {
   fire:   [{ sources:['f11'],       targets:['f12'],               logic:'any' }],
@@ -20,5 +22,5 @@ if (!broken) {
   process.exit(1);
 }
 html = html.replace(/const CHAIN_LAYOUT = \{[\s\S]*?\};\r?\n\r?\nconst CHAIN_IDS/, original + '\r\n\r\nconst CHAIN_IDS');
-fs.writeFileSync('ego-universal-gifts.html', html, 'utf-8');
+fs.writeFileSync(HTML_PATH, html, 'utf-8');
 console.log('CHAIN_LAYOUT 복구 완료');

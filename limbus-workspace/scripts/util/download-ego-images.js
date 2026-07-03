@@ -2,8 +2,8 @@ const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
-const OUT_DIR = path.join(__dirname, 'ego-gift-images');
-const MAP_OUT = path.join(__dirname, 'ego-gift-img-map.json');
+const OUT_DIR = path.join(__dirname, '..', '..', 'ego-gift-html', 'ego-gift-images');
+const MAP_OUT = path.join(__dirname, '..', '..', 'data', 'ego-gift-img-map.json');
 const BASE = 'https://limbus.haneuk.info';
 const MAX_ID = 600;
 const CONCURRENCY = 8;

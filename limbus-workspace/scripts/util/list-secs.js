@@ -1,4 +1,6 @@
-const html = require('fs').readFileSync('ego-universal-gifts.html', 'utf-8');
+const path = require('path');
+const HTML_PATH = path.join(__dirname, '..', '..', 'ego-gift-html', 'ego-universal-gifts.html');
+const html = require('fs').readFileSync(HTML_PATH, 'utf-8');
 const dataStart = html.indexOf('const DATA = {');
 const dataEnd = html.indexOf('const CHAIN_LAYOUT');
 const block = html.slice(dataStart, dataEnd);

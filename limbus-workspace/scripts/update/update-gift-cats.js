@@ -1,5 +1,7 @@
 const fs = require('fs');
-let html = fs.readFileSync('ego-universal-gifts.html', 'utf-8');
+const path = require('path');
+const HTML_PATH = path.join(__dirname, '..', '..', 'ego-gift-html', 'ego-universal-gifts.html');
+let html = fs.readFileSync(HTML_PATH, 'utf-8');
 
 // 참/관/타 GIFT_CATS 추가/수정 목록
 const newEntries = {
@@ -91,7 +93,7 @@ for (const [id, cats] of Object.entries(newEntries)) {
 }
 
 html = html.slice(0, gcStart) + updatedBlock + html.slice(gcEnd);
-fs.writeFileSync('ego-universal-gifts.html', html, 'utf-8');
+fs.writeFileSync(HTML_PATH, html, 'utf-8');
 
 // 검증
 const verifyBlock = html.slice(html.indexOf('const GIFT_CATS = {'), html.indexOf('\n};', html.indexOf('const GIFT_CATS = {')) + 3);

@@ -1,5 +1,5 @@
 const fs = require('fs');
-const api = JSON.parse(fs.readFileSync('egogifts-api.json', 'utf-8'));
+const api = JSON.parse(fs.readFileSync('data/egogifts-api.json', 'utf-8'));
 const synthIds = api.filter(r => (r.egogift||r).synthesisYn === 'Y').map(r => r.id);
 
 async function fetchRecipe(id) {
@@ -19,7 +19,7 @@ async function crawl() {
     res.filter(Boolean).forEach(r => results.push(r));
     console.log(`${i+batch.length}/${synthIds.length}`);
   }
-  fs.writeFileSync('egogift-recipes.json', JSON.stringify(results, null, 2));
+  fs.writeFileSync('data/egogift-recipes.json', JSON.stringify(results, null, 2));
   console.log(`완료: ${results.length}개 레시피 저장`);
 }
 crawl();

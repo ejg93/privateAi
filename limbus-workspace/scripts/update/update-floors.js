@@ -1,6 +1,8 @@
 const fs = require('fs');
-const raw = JSON.parse(fs.readFileSync('ego-gifts-raw.json', 'utf-8'));
-const floorsMap = JSON.parse(fs.readFileSync('cardpack-floors.json', 'utf-8'));
+const path = require('path');
+const HTML_PATH = path.join(__dirname, '..', '..', 'ego-gift-html', 'ego-universal-gifts.html');
+const raw = JSON.parse(fs.readFileSync('data/ego-gifts-raw.json', 'utf-8'));
+const floorsMap = JSON.parse(fs.readFileSync('data/cardpack-floors.json', 'utf-8'));
 
 const nameToFloor = {};
 raw.forEach(item => {
@@ -20,7 +22,7 @@ raw.forEach(item => {
   nameToFloor[item.name] = `${packStr} ${floorStr}`;
 });
 
-let html = fs.readFileSync('ego-universal-gifts.html', 'utf-8');
+let html = fs.readFileSync(HTML_PATH, 'utf-8');
 let count = 0;
 
 for (const name of Object.keys(nameToFloor)) {
@@ -43,5 +45,5 @@ html = html.replace(
 );
 console.log('Added hard:true to u66');
 
-fs.writeFileSync('ego-universal-gifts.html', html, 'utf-8');
+fs.writeFileSync(HTML_PATH, html, 'utf-8');
 console.log('Done, updated', count, 'items');

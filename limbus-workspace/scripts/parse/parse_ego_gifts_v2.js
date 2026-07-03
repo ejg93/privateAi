@@ -2,7 +2,7 @@
 const fs = require('fs');
 
 const BASE_DIR = String.raw`C:\Users\EJG\Downloads\privateAi\limbus-workspace\crawled\Limbus Company\거울 던전\E.G.O 기프트`;
-const OUTPATH  = String.raw`C:\Users\EJG\Downloads\privateAi\limbus-workspace\ego-gifts-raw.json`;
+const OUTPATH  = String.raw`C:\Users\EJG\Downloads\privateAi\limbus-workspace\data\ego-gifts-raw.json`;
 
 const GRADE_MAP = { 'Ⅰ': 1, 'Ⅱ': 2, 'Ⅲ': 3, 'Ⅳ': 4 };
 const KW_7      = new Set(['화상','출혈','진동','파열','침잠','호흡','충전']);

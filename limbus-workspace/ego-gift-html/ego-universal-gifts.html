@@ -33,7 +33,7 @@
     --checked-border: #3fb950;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-serif; font-size: 16px; zoom: 1.25; }
+  body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-serif; font-size: 16px; }
   header { padding: 16px 20px 12px; border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
   header h1 { font-size: 16px; font-weight: 700; }
   header p { font-size: 12px; color: var(--muted); }
@@ -52,9 +52,9 @@
   .filter-label.cat-신속   { color: #7cc8dc; }
   .filter-label.cat-생존   { color: #3fb950; }
   .filter-label.cat-기타   { color: var(--muted); }
-  .tabs-wrap { display: flex; align-items: flex-end; padding: 10px 20px 0; border-bottom: 1px solid var(--border); }
-  .tabs { display: flex; gap: 4px; flex-wrap: wrap; }
-  .tabs-right { flex: 1; display: flex; justify-content: flex-end; align-items: flex-end; }
+  .tabs-wrap { display: flex; align-items: flex-end; padding: 10px 20px 0; }
+  .tabs { display: flex; gap: 4px; flex-wrap: wrap; border-bottom: 1px solid transparent; }
+  .tabs-right { flex: 1; display: flex; justify-content: flex-end; align-items: flex-end; border-bottom: 1px solid var(--border); }
   .tab { padding: 6px 14px 8px; border-radius: 8px 8px 0 0; border: 1px solid transparent; cursor: pointer; font-size: 13px; font-weight: 600; transition: all .15s; color: var(--muted); border-bottom: none; }
   .tab:hover { color: var(--text); background: #21262d; }
   .tab.active { color: var(--text); border-color: var(--border); border-bottom-color: var(--bg); background: var(--bg); margin-bottom: -1px; }
@@ -103,10 +103,7 @@
   .gift-name { font-weight: 600; font-size: 13px; display: flex; align-items: center; gap: 5px; flex-wrap: wrap; user-select: text; }
   .gift-desc { font-size: 11px; color: #c9d1d9; margin-top: 3px; line-height: 1.4; }
   .badge { display: inline-flex; align-items: center; padding: 1px 6px; border-radius: 10px; font-size: 10px; font-weight: 700; flex-shrink: 0; }
-  .g1 { background: #1a1a1a; color: #9ca3af; border: 1px solid #4b5563; }
-  .g2 { background: #0d1b35; color: #60a5fa; border: 1px solid #1d4ed8; }
-  .g3 { background: #1a0d35; color: #c084fc; border: 1px solid #7c3aed; }
-  .g4 { background: #1c1500; color: #d4a017; border: 1px solid #8a6a00; }
+  .g1, .g2, .g3, .g4 { background: #1c1500; color: #d4a017; border: 1px solid #8a6a00; }
   .g5 { background: linear-gradient(135deg,#0d0f2a,#1a0d35); color: #c4b5fd; border: 1px solid #7c3aed; font-weight: 900; animation: g5badge 2.5s ease-in-out infinite; }
   @keyframes g5badge {
     0%,100% { border-color:#7c3aed; color:#c4b5fd; box-shadow:none; }
@@ -228,6 +225,7 @@
     position: sticky; top: 0;
     height: 100vh;
     overflow-y: auto;
+    overflow-x: hidden;
   }
   .main-right.open { display: block; }
   .main-right.drag-over { outline: 2px dashed #f85149; outline-offset: -4px; background: rgba(248,81,73,0.05); }
@@ -237,7 +235,7 @@
   .panel-resizer {
     display: none; width: 14px; flex-shrink: 0; cursor: col-resize;
     background: #21262d; transition: background .15s;
-    position: relative; z-index: 10;
+    position: sticky; top: 0; height: 100vh; z-index: 10;
     align-items: center; justify-content: center;
   }
   .panel-resizer::before {
@@ -310,14 +308,14 @@
     pointer-events: none;
   }
   .discard-gift:hover .gift-desc { display: block !important; }
-  .discard-gift .gift-name { flex: 1; font-weight: 600; font-size: 13px; display: flex; align-items: center; gap: 5px; }
+  .discard-gift .gift-name { flex: 1; min-width: 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; font-weight: 600; font-size: 13px; display: flex; align-items: center; gap: 5px; }
   .discard-remove {
     padding: 2px 14px; border-radius: 4px; border: 1px solid #f85149;
     background: transparent; color: #f85149; cursor: pointer; font-size: 22px;
     flex-shrink: 0; transition: background .1s;
   }
   .discard-remove:hover { background: rgba(248,81,73,.15); }
-  #grid-discard { gap: 6px; }
+  #grid-discard { display: flex; flex-direction: column; gap: 6px; }
   #discard-empty { font-size: 12px; color: var(--muted); padding: 12px 0; }
   @keyframes descBtnPulse {
     0%, 100% { border-color: var(--border); color: var(--muted); box-shadow: none; }
@@ -526,6 +524,11 @@
   <button id="show-desc-btn" title="설명 표시/숨김" style="padding:3px 10px;border-radius:6px;border:1px solid var(--border);background:var(--card);color:var(--text);cursor:pointer;font-size:13px;display:flex;align-items:center;gap:5px;transition:border-color .15s,background .15s">👁 설명 항상 표시</button>
   <input type="checkbox" id="show-desc-cb" checked style="display:none">
   <button id="pool-all-btn" class="pool-all-btn">모든 에깊 보기</button>
+  <div class="formation-limit-wrap" style="display:flex;align-items:center;gap:4px;">
+    <span style="font-size:12px;color:#8baac0">n인 편성</span>
+    <input type="number" id="formation-limit-input" min="1" max="7" placeholder="7" title="편성 인원 수 (1~7)" style="width:42px;padding:3px 4px;border-radius:5px;border:1px solid var(--border);background:var(--card);color:var(--text);font-size:12px;text-align:center;">
+    <button id="formation-limit-btn" class="pool-all-btn" style="margin-left:0" title="입력한 인원 수로는 적용될 수 없는 편성 전용 에깊을 전부 제외(스킵) 처리">편성 제외 적용</button>
+  </div>
   <div style="width:100%;height:0"></div>
   <div class="floor-search-wrap">
     <span style="font-size:12px;color:#8baac0">층수</span>
@@ -1936,6 +1939,7 @@ function makeGiftEl(item) {
     toggleSkip(item.id);
   });
   div.addEventListener('click', e => {
+    pushUndo();
     const cb = div.querySelector('input[type=checkbox]');
     if (e.target !== cb && !e.target.closest('.gift-toggle')) cb.checked = !cb.checked;
     if (cb.checked) {
@@ -2139,6 +2143,7 @@ function applyFilter() {
 
 function resetAll() {
   if (!confirm('모든 체크를 초기화하시겠습니까? (새 런 시작)')) return;
+  pushUndo();
   // 체크 상태 초기화
   state = {};
   document.querySelectorAll('[data-gift-id]').forEach(el => {
@@ -2327,6 +2332,33 @@ document.getElementById('show-desc-btn').classList.add('pulsing');
   if (cb.checked) { btn.style.borderColor='#e8b84b'; btn.style.background='rgba(232,184,75,.18)'; btn.style.color='#e8b84b'; btn.style.textShadow='0 0 8px rgba(232,184,75,.6)'; }
   else { btn.style.color='var(--muted)'; btn.style.textShadow='none'; }
 })();
+document.getElementById('formation-limit-btn').addEventListener('click', () => {
+  const input = document.getElementById('formation-limit-input');
+  const n = parseInt(input.value, 10);
+  if (!n || n < 1 || n > 7) { alert('편성 인원 수(1~7)를 입력하세요.'); return; }
+  if (!confirm(`${n}인 편성 기준으로, 해당 인원으로는 효과를 받을 수 없는 편성 전용 에깊을 전부 제외(스킵) 처리하시겠습니까?`)) return;
+
+  pushUndo();
+  let changed = 0;
+  const grids = new Set();
+  ALL_GIFTS.forEach(item => {
+    const m = item.desc && item.desc.match(/\[편성([^\]]+)\]/);
+    if (!m) return;
+    const nums = [...m[1].matchAll(/\d+/g)].map(x => parseInt(x[0], 10));
+    if (!nums.length) return;
+    const usable = nums.some(x => x <= n);
+    if (usable) return;
+    if (!skipState.has(item.id)) { skipState.add(item.id); changed++; }
+    document.querySelectorAll(`[data-gift-id="${item.id}"]`).forEach(el => {
+      el.classList.add('skipped');
+      const grid = el.closest('.gift-grid');
+      if (grid) grids.add(grid);
+    });
+  });
+  saveSkip();
+  grids.forEach(resortGrid);
+  alert(`${changed}개 에깊을 제외 처리했습니다.`);
+});
 document.getElementById('pool-all-btn').addEventListener('click', () => {
   const btn = document.getElementById('pool-all-btn');
   btn.classList.remove('flashing');
@@ -2400,6 +2432,12 @@ document.querySelectorAll('.deck-cb').forEach(cb => {
   });
 });
 
+const TAB_LINE_COLOR = { fire:'#ff7b54', bleed:'#e05c5c', vibe:'#e8b84b', rupt:'#40c9a2', sink:'#4466cc', breath:'#7cc8dc', charge:'#c9b1ff', slash:'#e6edf3', pierce:'#e6edf3', blunt:'#e6edf3', univ:'#d4d4d4' };
+function setTabsLineColor(pane) {
+  const tabs = document.querySelector('.tabs');
+  if (tabs) tabs.style.borderBottomColor = TAB_LINE_COLOR[pane] || '';
+}
+
 document.querySelectorAll('.tab:not(#tab-discard-toggle)').forEach(tab => {
   tab.addEventListener('click', () => {
     document.querySelectorAll('.tab:not(#tab-discard-toggle)').forEach(t => t.classList.remove('active'));
@@ -2407,8 +2445,10 @@ document.querySelectorAll('.tab:not(#tab-discard-toggle)').forEach(tab => {
     tab.classList.add('active');
     document.getElementById('pane-' + tab.dataset.pane).classList.add('active');
     updatePoolCbState(tab.dataset.pane);
+    setTabsLineColor(tab.dataset.pane);
   });
 });
+setTabsLineColor('fire');
 
 // ===== 버려야할 에깊 =====
 const ALL_GIFTS = Object.values(DATA).flat();
@@ -2874,7 +2914,7 @@ const DISCARD_KEY = 'ego_discard_v1';
 let discardList = (() => { try { return JSON.parse(localStorage.getItem(DISCARD_KEY)) || []; } catch { return []; } })();
 
 function gradeClassD(g) { return ['','g1','g2','g3','g4','g5'][g] || 'g1'; }
-function gradeLabelD(g) { return ['','1등급','2등급','3등급','4등급','5등급'][g] || '?'; }
+function gradeLabelD(g) { return gradeLabel(g); }
 
 function saveDiscard() { localStorage.setItem(DISCARD_KEY, JSON.stringify(discardList)); }
 
@@ -2896,6 +2936,7 @@ function makeDiscardEl(gift, urgent) {
     (fullGift.desc ? `<div class="gift-desc">${fullGift.desc}</div>` : '') +
     `<button class="discard-remove" title="제거">✕</button>`;
   div.querySelector('.discard-remove').addEventListener('click', () => {
+    pushUndo();
     if (state[gift.id]) {
       delete state[gift.id];
       save(state); updateStat();
@@ -3015,6 +3056,7 @@ discardInput.addEventListener('keydown', e => {
     e.preventDefault();
     const target = acIndex >= 0 ? acMatches[acIndex] : acMatches[0];
     if (target) {
+      pushUndo();
       addDiscardGift(target);
       discardInput.value = '';
       discardAc.innerHTML = ''; discardAc.classList.remove('open');
@@ -3030,6 +3072,7 @@ discardAc.addEventListener('mousedown', e => {
   if (!li) return;
   e.preventDefault();
   const idx = parseInt(li.dataset.idx);
+  pushUndo();
   addDiscardGift(acMatches[idx]);
   discardInput.value = '';
   discardAc.innerHTML = ''; discardAc.classList.remove('open');
@@ -3069,7 +3112,7 @@ toggleDiscardPanel(true);
     hideOverlay();
     const id = e.dataTransfer.getData('text/plain');
     const gift = GIFT_MAP[id];
-    if (gift) addDiscardGift(gift);
+    if (gift) { pushUndo(); addDiscardGift(gift); }
   }
 
   document.addEventListener('dragstart', e => {
@@ -3115,6 +3158,7 @@ function switchToPane(pane) {
   const paneEl = document.getElementById('pane-' + pane);
   if (paneEl) paneEl.classList.add('active');
   updatePoolCbState(pane);
+  setTabsLineColor(pane);
 }
 
 function activateGift(giftId) {
@@ -3413,6 +3457,16 @@ document.querySelectorAll('.save-slot-name').forEach(el => { el.addEventListener
 (function initGeobjipRyoshuPreset() {
   if (localStorage.getItem(slotKey(1))) return;
   const preset = {"name":"거미집로슈","state":{"api436":"valid","api46":"valid","api29":"valid","b11":"valid"},"skip":["api35","api39","api36","api65","api410","api61","api422","api423","api388","api389","api58","b08","api200","api199","api390","api198","api192","api245","api242","api237","api239","api238","api254","api255","api256","api253","api252","api246","api401","api324","api321","api322","api315","api354","u51","u49","api366","api402","api420","api421","api292","api353","api345","api196","api183","api63","api62","api55","api373","api393","api395","api378","api394","api8","api18","api387","api11","api26","u47"],"deck":["fire","bleed","breath","slash","univ"],"discard":[]};
+
+  // 거미집로슈는 1인편성 전용 — 편성 전용 효과 중 1번이 포함되지 않은 에깊은 전부 스킵 처리
+  const formOnlySkip = ALL_GIFTS.filter(g => {
+    const m = g.desc && g.desc.match(/\[편성([^\]]+)\]/);
+    if (!m) return false;
+    const nums = [...m[1].matchAll(/\d+/g)].map(x => x[0]);
+    return nums.length > 0 && !nums.includes('1');
+  }).map(g => g.id);
+  preset.skip = [...new Set([...preset.skip, ...formOnlySkip])];
+
   localStorage.setItem(slotKey(1), JSON.stringify(preset));
   const nameEl = document.getElementById('ss-name-1');
   if (nameEl) nameEl.value = preset.name;
@@ -3450,6 +3504,59 @@ document.querySelectorAll('.save-slot-name').forEach(el => { el.addEventListener
     document.body.style.userSelect = '';
   });
 })();
+
+// ===== 실행취소(Ctrl+Z) / 다시실행(Ctrl+Y) =====
+const UNDO_LIMIT = 50;
+let undoStack = [];
+let redoStack = [];
+
+function snapshotState() {
+  return { state: JSON.parse(JSON.stringify(state)), discardList: JSON.parse(JSON.stringify(discardList)) };
+}
+
+function pushUndo() {
+  undoStack.push(snapshotState());
+  if (undoStack.length > UNDO_LIMIT) undoStack.shift();
+  redoStack = [];
+}
+
+function applySnapshot(snap) {
+  state = snap.state;
+  discardList = snap.discardList;
+  save(state);
+  saveDiscard();
+  const ids = new Set();
+  document.querySelectorAll('[data-gift-id]').forEach(el => ids.add(el.dataset.giftId));
+  ids.forEach(id => updateGiftEls(id));
+  renderDiscardList();
+  updateStat();
+  if (document.getElementById('hide-checked-cb')?.checked) applyFilter();
+}
+
+function undo() {
+  if (undoStack.length === 0) return;
+  redoStack.push(snapshotState());
+  applySnapshot(undoStack.pop());
+}
+
+function redo() {
+  if (redoStack.length === 0) return;
+  undoStack.push(snapshotState());
+  applySnapshot(redoStack.pop());
+}
+
+document.addEventListener('keydown', e => {
+  const tag = (e.target.tagName || '').toLowerCase();
+  if (tag === 'input' || tag === 'textarea' || e.target.isContentEditable) return;
+  const key = e.key.toLowerCase();
+  if ((e.ctrlKey || e.metaKey) && !e.shiftKey && key === 'z') {
+    e.preventDefault();
+    undo();
+  } else if ((e.ctrlKey || e.metaKey) && (key === 'y' || (e.shiftKey && key === 'z'))) {
+    e.preventDefault();
+    redo();
+  }
+});
 </script>
 <div style="position:fixed;bottom:8px;right:12px;font-size:10px;color:rgba(255,255,255,0.1);pointer-events:none;user-select:none;z-index:1">By 구그들</div>
 </body>

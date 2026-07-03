@@ -1,7 +1,9 @@
 const fs = require('fs');
-const api = JSON.parse(fs.readFileSync('egogifts-api.json', 'utf-8'));
-const floorsMap = JSON.parse(fs.readFileSync('cardpack-floors.json', 'utf-8'));
-let html = fs.readFileSync('ego-universal-gifts.html', 'utf-8');
+const path = require('path');
+const HTML_PATH = path.join(__dirname, '..', '..', 'ego-gift-html', 'ego-universal-gifts.html');
+const api = JSON.parse(fs.readFileSync('data/egogifts-api.json', 'utf-8'));
+const floorsMap = JSON.parse(fs.readFileSync('data/cardpack-floors.json', 'utf-8'));
+let html = fs.readFileSync(HTML_PATH, 'utf-8');
 
 // HTML에 있는 이름 수집
 const htmlNames = new Set();
@@ -85,6 +87,6 @@ for (const sec of SECTION_KEYS) {
   html = html.replace(marker, (match, body, tail) => body + block + '\n' + tail.trim() + (tail.includes('\n') ? '\n' : ''));
 }
 
-fs.writeFileSync('ego-universal-gifts.html', html, 'utf-8');
+fs.writeFileSync(HTML_PATH, html, 'utf-8');
 console.log(`완료: ${added}개 추가`);
 SECTION_KEYS.forEach(s => { if (toAdd[s].length) console.log(`  ${s}: +${toAdd[s].length}`); });

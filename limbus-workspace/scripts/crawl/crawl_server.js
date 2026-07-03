@@ -3,7 +3,7 @@ const fs   = require("fs");
 const path = require("path");
 
 const PORT     = 7477;
-const SAVE_DIR = path.join(__dirname, "crawled");
+const SAVE_DIR = path.join(__dirname, "..", "..", "crawled");
 
 function sanitizeSeg(seg) {
   return seg.replace(/[\\*?:"<>|]/g, "_").slice(0, 80).trim();
@@ -30,7 +30,7 @@ function resolveFilePath(segs) {
   return filepath;
 }
 
-const LOG_FILE = path.join(__dirname, "debug.log");
+const LOG_FILE = path.join(__dirname, "..", "..", "debug.log");
 
 if (!fs.existsSync(SAVE_DIR)) fs.mkdirSync(SAVE_DIR);
 

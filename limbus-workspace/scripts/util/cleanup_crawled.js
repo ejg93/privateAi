@@ -1,7 +1,7 @@
 const fs   = require('fs');
 const path = require('path');
 
-const CRAWLED = path.join(__dirname, 'crawled');
+const CRAWLED = path.join(__dirname, '..', '..', 'crawled');
 
 // 제거할 패턴 (display:none 잔재)
 const NOISE_LINE = /^\s*(\[스킬 \d+\] 효과|텍스트)\s*$/;

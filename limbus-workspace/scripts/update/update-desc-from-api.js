@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const apiData = JSON.parse(fs.readFileSync(path.join(__dirname, 'egogifts-api.json'), 'utf8'));
-let html = fs.readFileSync(path.join(__dirname, 'ego-universal-gifts.html'), 'utf8');
+const apiData = JSON.parse(fs.readFileSync(path.join(__dirname, '..', '..', 'data', 'egogifts-api.json'), 'utf8'));
+let html = fs.readFileSync(path.join(__dirname, '..', '..', 'ego-gift-html', 'ego-universal-gifts.html'), 'utf8');
 
 // Strip [[keyword]] brackets → keyword
 function stripBrackets(s) {
@@ -50,7 +50,7 @@ for (const [name, newDesc] of Object.entries(apiMap)) {
   }
 }
 
-fs.writeFileSync(path.join(__dirname, 'ego-universal-gifts.html'), html, 'utf8');
+fs.writeFileSync(path.join(__dirname, '..', '..', 'ego-gift-html', 'ego-universal-gifts.html'), html, 'utf8');
 
 console.log(`업데이트: ${updated}개`);
 console.log(`매칭 실패 (HTML에 없거나 이름 다름): ${notFound.length}개`);

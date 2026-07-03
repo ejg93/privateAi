@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const map = JSON.parse(fs.readFileSync(path.join(__dirname, 'ego-gift-img-map.json'), 'utf8'));
-const imgDir = path.join(__dirname, 'ego-gift-images');
+const map = JSON.parse(fs.readFileSync(path.join(__dirname, '..', '..', 'data', 'ego-gift-img-map.json'), 'utf8'));
+const imgDir = path.join(__dirname, '..', '..', 'ego-gift-html', 'ego-gift-images');
 
 // Verify each file exists
 const verified = {};
@@ -20,7 +20,7 @@ const lines = Object.entries(verified).map(([name, file]) => {
 });
 
 const jsOut = `const GIFT_IMG_BASE = './ego-gift-images/';\nconst GIFT_IMG = {\n${lines.join(',\n')}\n};\n`;
-fs.writeFileSync(path.join(__dirname, 'gift-img-const.js'), jsOut, 'utf8');
+fs.writeFileSync(path.join(__dirname, '..', '..', 'data', 'gift-img-const.js'), jsOut, 'utf8');
 console.log(`총 ${Object.keys(verified).length}개 매핑 생성`);
 console.log('gift-img-const.js 저장 완료');
 

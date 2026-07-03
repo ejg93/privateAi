@@ -1,6 +1,6 @@
 'use strict';
 const fs = require('fs');
-const d = JSON.parse(fs.readFileSync('./ego-gifts-raw.json', 'utf-8'));
+const d = JSON.parse(fs.readFileSync('./data/ego-gifts-raw.json', 'utf-8'));
 const find = name => d.find(g => g.name === name);
 
 const DESC = {
