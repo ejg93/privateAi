@@ -1,4 +1,5 @@
 # Limbus Company Workspace
+# 2026년 4월 25일 게임 처음으로 시작
 
 이 워크스페이스는 **림버스 컴퍼니(Limbus Company)** 전용. 게임 관련 모든 질문(메타/덱/스토리/설정/인격/EGO)에 답한다.
 

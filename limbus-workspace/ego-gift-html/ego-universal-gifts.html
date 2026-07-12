@@ -1187,6 +1187,7 @@ const DATA = {
     { id:'api392', g:3, name:'로열 젤리 퍼퓸', floors:'호박색 어스름의 시련 4~10층', desc:'[편성 6번 인격 전용 효과]<br>스테이지 시작 시 페로몬 1 얻음<br>화상이 있는 적에게 받는 피해량 -15%<br>턴 종료 시 자신에게 피해를 가장 많이 준 적 1명(집중 전투에서는 부위로 판정)에게 다음 턴에 페로몬 표식 부여<br>- 적에게 피해를 받지 않았으면, 무작위 적 1명(집중 전투에서는 부위로 판정)에게 다음 턴에 페로몬 표식 부여' },
     { id:'api403', g:3, hard:true, name:'시험 추출 : 홍염살', floors:'LCB 정기검진 BokGak 4~10층', desc:'화상 위력, 화상 횟수 또는 특수 화상을 부여하는 공격 스킬의 피해량 +10%<br>- 자신의 화상 횟수를 증가하는 스킬이면, 추가로 합 위력 +1<br>- 자신의 잃은 체력 2%당, 추가로 피해량 +1% (최대 15%)' },
     { id:'api417', g:4, hard:true, name:'달궈진 놋쇠', floors:'해방된 분노·화왕지절 4~10층', desc:'화상 위력 최댓값 +11<br>전투 중 가장 처음으로 부여하는 화상 위력 부여 값 3배로 증가 (전투당 1회)' },
+    { id:'api444', g:3, hard:true, name:'날개 모양 양초', floors:'해방된 분노·화왕지절 4~10층', desc:'턴 시작시, 새벽 사무소 소속 인격이 3인 이상일 때 발동 (편성 인원을 기준으로 함)<br>첫 턴이면, 모든 아군에게 새벽맞이 2 부여<br>새벽 사무소 해결사 싱클레어가 전투 시작시 정신력을 10 회복하고, \'불안정한 자아의 껍질\' 패시브 효과로 불안정 E.G.O 밀랍날개 상태가 되는 정신력 조건이 25로 감소<br>[새벽 사무소 소속 인격 전용 효과]<br>기본 스킬의 공격 적중 시 대상에게 화상 2, 진동 2 부여 (스킬당 1회)<br>새벽 사무소 소속 인격을 화상, 진동을 부여하는 인격으로 취급됨<br>- 이 효과로 인해서 기본 스킬이 화상, 진동을 부여하는 스킬로 취급됨<br>스테이지 시작시 새벽 사무소 해결사 파우스트 인격이 전투에 등장해 있으면, 전투 감각 1 부여' },
 ],
 
 
@@ -1289,6 +1290,7 @@ const DATA = {
     { id:'api104', g:4, synth:true, name:'회중시계: 타입 P', floors:'시간살인시간·시간살인시간 BokGak 4~10층', desc:'턴 시작 시, 진동 위력 또는 진동 횟수 또는 특수 진동을 부여하는 공격 스킬을 보유한 인격이 5인 이상이면, 이번 전투 동안 발동 (E.G.O 스킬 제외. 대기 인원 제외)<br>진동 위력 또는 진동 횟수 또는 특수 진동을 부여하는 아군이 사용하는 3스킬의 더하기 코인 위력 +2, 피해량 +25%.<br>빼기 코인 스킬일 경우, 코인 위력 대신 기본 위력 +(8/코인 수) (최소 1, 소수점 버림)<br>진동 위력 또는 진동 횟수 또는 특수 진동을 부여하는 아군이 합을 진행할 때, 자신보다 속도가 2 이상 높은 적과 진행할 경우 합 위력 +2, 피해량 +(대상이 보유한 진동 위력, 최대 50)%.<br>턴 시작 시, 속도가 제일 느린 아군 셋이 속도가 느린 순으로 공격 레벨 증가 5, 공격 레벨 증가 3, 공격 레벨 증가 2를 얻음.' },
     { id:'api105', g:4, synth:true, name:'회중시계: 타입 Y', floors:'시간살인시간·시간살인시간 BokGak 4~10층', desc:'턴 시작 시, 진동 위력 또는 진동 횟수 또는 특수 진동을 부여하는 공격 스킬을 보유한 인격이 5인 이상이면, 이번 전투 동안 발동 (E.G.O 스킬 제외. 대기 인원 제외)<br>진동 위력 또는 진동 횟수 또는 특수 진동을 부여하는 아군이 사용하는 3스킬의 더하기 코인 위력 +2, 피해량 +25%.<br>유로지비 소속 인격일 경우 효과가 강화되어 스킬 3의 더하기 코인 위력 +2, 피해량 +(25 + 대상이 보유한 진동 위력과 진동 횟수의 합, 최대 100)%.<br>빼기 코인 스킬일 경우, 코인 위력 대신 기본 위력 +(8/코인 수) (최소 1, 소수점 버림)<br>유로지비 소속 인격이 턴 시작 시, 자신의 진동 횟수 3 증가.' },
     { id:'api376', g:3, hard:true, name:'달궈진 망치', floors:'교본 5~10층', desc:'적에게 진동 - 작열이 있을 경우 다음 효과 적용<br>- 기본 스킬 적중 시 화상 위력 1 부여 (스킬당 최대 3회)<br>- 기본 스킬 적중 시 진동 - 작열이 15 이상이면, 화상 횟수 1 증가 (스킬당 최대 2회)<br>- 화상 3당, 진동 폭발로 인한 흐트러짐 손상 +1% (최대 15%)' },
+    { id:'api445', g:4, hard:true, name:'상납된 시가', floors:'교본 5~10층', desc:'턴 시작시, 엄지 소속 인격이 3인 이상일 때 발동 (출격 인원을 기준으로 함)<br>엄지 소속 인격이 턴 시작 시 더하기 코인 강화 1, 피해량 증가 2 얻음<br>엄지 소속 인격 1명당 엄지 소속 인격이 공격 레벨 증가 1 얻음 (최대 4)<br>대상이 보유한 진동 - 작열 1당 피해량 +1% (최대 20%)<br>- 탄환을 소모하는 스킬이면, 추가로 +1% (최대 20%)<br>- 엄지 소속이면, 추가로 +1% (최대 20%)<br>자신의 스킬 효과로 진동 폭발이 발동되었다면, 다음 턴에 공격 레벨 증가 2 얻음 (턴당 3회)<br>거미집 엄지 아비 로쟈의 스킬 3 공격 종료시 거미집 엄지 제자 히스클리프에게 완성되어가는 교본 1 부여' },
 ],
 
 
@@ -2458,6 +2460,8 @@ const SEC_COLOR = { fire:'var(--fire)', bleed:'var(--bleed)', vibe:'var(--vibe)'
 const _img = (src) => `<img src="${src}" style="width:11px;height:11px;object-fit:contain;vertical-align:middle;">`;
 const SEC_ICON  = { fire:_img('./icons/Burn.webp'), bleed:_img('./icons/Bleed.webp'), vibe:_img('./icons/Tremor.webp'), rupt:_img('./icons/Rupture.webp'), sink:_img('./icons/Sinking.webp'), breath:_img('./icons/Poise.webp'), charge:_img('./icons/Charge.webp'), slash:_img('./icons/slash.webp'), pierce:_img('./icons/penetration.webp'), blunt:_img('./icons/blow.webp'), univ:'🌐' };
 GIFT_IMG = {
+  '상납된 시가':'a0ec7e6e-cac7-4071-b65d-ec7b129f7cc5.png',
+  '날개 모양 양초':'b503c883-bc3c-489f-a00a-32bf0209a7e2.png',
   '융해된 파라핀':'95bc47bd-990b-4464-b53b-754616806663.webp',
   '만년 화롯불':'9b41fdfb-e194-44b0-8a7d-63df51316162.webp',
   '불꽃의 편린':'b1b60232-1928-41d3-a832-1e56ebda47c5.webp',
@@ -3457,7 +3461,7 @@ document.querySelectorAll('.save-slot-name').forEach(el => { el.addEventListener
 
 (function initGeobjipRyoshuPreset() {
   if (localStorage.getItem(slotKey(1))) return;
-  const preset = {"name":"거미집로슈","state":{"api436":"valid","api46":"valid","api29":"valid","b11":"valid"},"skip":["api35","api39","api36","api65","api410","api61","api422","api423","api388","api389","api58","b08","api200","api199","api390","api198","api192","api245","api242","api237","api239","api238","api254","api255","api256","api253","api252","api246","api401","api324","api321","api322","api315","api354","u51","u49","api366","api402","api420","api421","api292","api353","api345","api196","api183","api63","api62","api55","api373","api393","api395","api378","api394","api8","api18","api387","api11","api26","u47"],"deck":["fire","bleed","breath","slash","univ"],"discard":[]};
+  const preset = {"name":"거미집로슈","state":{"api436":"valid","api46":"valid","api29":"valid","b11":"valid"},"skip":["api444","api35","api39","api36","api65","api410","api61","api422","api423","api388","api389","api58","b08","api200","api199","api390","api198","api192","api245","api242","api237","api239","api238","api254","api255","api256","api253","api252","api246","api401","api324","api321","api322","api315","api354","u51","u49","api366","api402","api420","api421","api292","api353","api345","api196","api183","api63","api62","api55","api373","api393","api395","api378","api394","api8","api18","api387","api11","api26","u47"],"deck":["fire","bleed","breath","slash","univ"],"discard":[]};
 
   // 거미집로슈는 1인편성 전용 — 편성 전용 효과 중 1번이 포함되지 않은 에깊은 전부 스킵 처리
   const formOnlySkip = ALL_GIFTS.filter(g => {
