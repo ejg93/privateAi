@@ -1,0 +1,746 @@
+<div id="copy-target">
+  <p style="font-size:26px;font-weight:bold;line-height:1.3;margin:22px 0 12px;padding:0">림버스 컴퍼니 - 전투 시스템 요약</p>
+  <p style="font-size:13px;margin:10px 0">출처: 나무위키 Limbus Company/전투 + 디씨 림버스 마이너갤 신입 관리자를 위한 안내서 + 덩기덕 유튜브 [림컴] 스토리만 열심히 본 청년 - 전투 배우기 1탄</p>
+  <p style="font-size:13px;margin:10px 0">
+    <span style="color:#969696">표기: ⌊x⌋ = 내림(소수점 버림, 예 ⌊2.7⌋=2) · |x| = 절댓값(부호 떼고 크기만, 예 |−15|=15)</span>
+  </p>
+  <hr style="height:1px;padding:0;margin:18px 0;border:0;border-top:1px solid #c8c8c8">
+  <p style="font-size:21px;font-weight:bold;line-height:1.3;margin:24px 0 10px;padding:0">1. 합과 공격 (기초)</p>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">스킬 위력 = <b>기본위력 + 코인위력×앞면 나온 코인 수</b>
+      <span style="color:#969696">+ ⌊레벨차÷3⌋</span>
+    </li>
+    <li style="margin:2px 0">
+      <b>합</b>: 양쪽 코인을 한번에 다 던져 위력 비교 → 진 쪽 코인 1개 파괴 → 한쪽 코인이 다 깨질 때까지 반복</li>
+    <li style="margin:2px 0">
+      <b>합 성립 조건</b>: 양쪽 다 합 가능해야 함. 합 가능 = <b>공격 스킬 · 강화 가드 · 강화 반격</b>
+    </li>
+    <li style="margin:2px 0">합 아닌 예: 공격 vs <b>가드·회피·반격</b>, 일방공격 — 코인 상호 파괴 없음</li>
+    <li style="margin:2px 0">
+      <b>공격</b>: 합에서 이기고 남은 코인으로 타격. 코인을 <b>1개씩</b> 던지며 앞면마다 누적 위력에 코인위력 가산</li>
+    <li style="margin:2px 0">코인 많은 스킬이 합·공격 둘 다 유리</li>
+    <li style="margin:2px 0">코인은 <b>앞에서부터</b> 파괴 — 깨진 코인 효과는 발동 안 함 (4코인 중 2개 깨지면 3·4번만)</li>
+    <li style="margin:2px 0">
+      <b>코인 앞면 확률 = 50 + 정신력(%)</b> (5~95%)</li>
+    <li style="margin:2px 0">
+      <b>화살표 색</b>: 아군 일방 = <span style="color:#1c7ed6">청색</span> / 적 일방 = <span style="color:#d32f2f">적색</span> / 합 = <span style="color:#b8860b">황색</span> / 수비·상쇄 = 양쪽에서 출발해 중간 충돌</li>
+  </ul>
+  <p style="font-size:17px;font-weight:bold;line-height:1.3;margin:18px 0 8px;padding:0">합 뺏기</p>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">
+      <b>집중 전투 전용</b>. 아군 속도가 적보다 빠르면 이미 걸린 합을 가로챌 수 있음 — 마지막에 지정한 공격이 최종 합</li>
+    <li style="margin:2px 0">원래 대상이던 아군은 속도 느려도 되뺏기 가능</li>
+    <li style="margin:2px 0">합은 원하는 스킬로 받고 나머지는 일방공격 — <b>림버스 전투 최중요 테크닉</b>
+    </li>
+  </ul>
+  <p style="font-size:17px;font-weight:bold;line-height:1.3;margin:18px 0 8px;padding:0">일반 전투 vs 집중 전투</p>
+  <table style="margin-top:16px;margin-bottom:16px;width:100%;max-width:100%;border-collapse:collapse;table-layout:fixed;font-size:13px">
+    <thead>
+    <tr>
+      <th style="padding:6px 8px;border:1px solid #000;word-break:break-word"></th>
+      <th style="padding:6px 8px;border:1px solid #000;word-break:break-word">일반 전투</th>
+      <th style="padding:6px 8px;border:1px solid #000;word-break:break-word">집중 전투</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">공격 대상</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">자동 (속도순, 왼쪽 적부터)</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">직접 지정</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">대상 선사망 시</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">다른 적 일방공격</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">공격 취소 (턴 낭비)</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">일점사</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">불가</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">가능</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">패널 슬롯</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">계속 증가</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">편성 인원 이상 안 늘어남</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">쓰는 곳</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">스토리 등 일반 스테이지</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">환상체전·보스전·거울굴절철도</td>
+    </tr>
+    </tbody>
+  </table>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">
+      <b>오토</b>: 승률 오토 / 피해량 오토. 집중 전투에선 합이 제대로 걸렸는지 항상 재확인 (속도 밀리면 합 0개 가능)</li>
+    <li style="margin:2px 0">집중 전투 기본 전략: 위험한 공격만 합으로 막고, 나머지는 한 부위에 <b>먼저 일방공격</b> → 흐트러뜨린 뒤 극딜</li>
+  </ul>
+  <p style="font-size:17px;font-weight:bold;line-height:1.3;margin:18px 0 8px;padding:0">부위(환상체) 시스템</p>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">부위별 내성·스킬·체력 별개. 부위 체력 0 = <b>파괴</b>
+    </li>
+    <li style="margin:2px 0">
+      <b>적출</b>(파괴 시 슬롯 제거) vs 비적출(슬롯 유지, 계속 공격받음)</li>
+    <li style="margin:2px 0">파괴된 부위는 <b>물리 내성 전부 취약</b> (비적출은 다음 턴 복구)</li>
+    <li style="margin:2px 0">흐트러짐은 <b>부위별</b> — 한 부위 흐트러져도 환상체 전체는 멀쩡</li>
+    <li style="margin:2px 0">일부 부위는 몇 턴 후 재생 (환상체마다 다름)</li>
+  </ul>
+  <p style="font-size:17px;font-weight:bold;line-height:1.3;margin:18px 0 8px;padding:0">도발치 (집중 전투 전용)</p>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">슬롯 위 수치 + <span style="color:#e8590c">주황</span> 줄무늬. 그 수치만큼 <b>가상 슬롯</b>을 만들어 공격 대상이 될 확률을 올림</li>
+    <li style="margin:2px 0">주로 탱커가 보유 — 딜러 대신 고위력 합을 받거나, 합 성능 낮은 강효과 스킬을 적중시킬 때</li>
+    <li style="margin:2px 0">0 이상 1 미만으로 <b>낮추는</b> 것도 가능 (아이콘 흐려지고 피격 확률 하락)</li>
+    <li style="margin:2px 0">'특정 조건의 수감자 지정' 패시브를 가진 적에겐 <b>미적용</b>
+    </li>
+  </ul>
+  <hr style="height:1px;padding:0;margin:18px 0;border:0;border-top:1px solid #c8c8c8">
+  <p style="font-size:21px;font-weight:bold;line-height:1.3;margin:24px 0 10px;padding:0">2. 내성과 흐트러짐</p>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">공격 유형(참격/관통/타격) × 죄악 속성(<span style="color:#d32f2f">분노</span>/<span style="color:#e8590c">색욕</span>/<span style="color:#b8860b">나태</span>/<span style="color:#2f9e44">탐식</span>/<span style="color:#1c7ed6">우울</span>/<span style="color:#364fc7">오만</span>/<span style="color:#9c36b5">질투</span>) 각각 내성 존재</li>
+    <li style="margin:2px 0">
+      <b>5단계</b>: 취약 +1(×2) / 약점 +0.5(×1.5) / 보통 0(×1) / 견딤 <b>-0.125</b>(×0.75) / 내성 <b>-0.25</b>(×0.5)</li>
+    <li style="margin:2px 0">모든 인격은 공격 유형에 취약·보통·내성 각 1개 (24.5 기준). 죄악 내성은 <b>최저 등급 에고</b>로 시작, 새 에고 <b>적중 시</b> 교체</li>
+    <li style="margin:2px 0">유형 내성 + 속성 내성은 <b>합연산</b>: 둘 다 취약 = 3배 / 둘 다 내성 = <b>0.5배</b> / 취약+내성 = <b>1.75배</b>
+    </li>
+    <li style="margin:2px 0">내성 확인: ①적 클릭 ②합 지정 시 우측상단 아이콘 ③스킬 드래그 시 슬롯 색 (<span style="color:#b8860b">노랑</span>=취약 계열 / <span style="background-color:#666;color:#fff;padding:0 3px">하양</span>=보통 / <span style="color:#d32f2f">빨강</span>=내성 계열) — 첫 조우 적도 유추 가능</li>
+  </ul>
+  <p style="font-size:17px;font-weight:bold;line-height:1.3;margin:18px 0 8px;padding:0">흐트러짐</p>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">체력바 '흐트선' 통과 시 발동: 이번+다음 턴 행동 불가, <b>공격 유형 내성 전부 취약 고정</b> (죄악 내성은 유지)</li>
+    <li style="margin:2px 0">증감값: 흐트러짐 +1 / 흐트러짐+ +1.5 / 흐트러짐++ +2</li>
+    <li style="margin:2px 0">+/++는 <b>한 턴에 흐트선 2개/3개 동시 통과</b> 시에만</li>
+    <li style="margin:2px 0">딜러는 흐트선이 많아 한 번 뚫리면 흐트러짐++ 끔살 위험</li>
+    <li style="margin:2px 0">
+      <b>도트 피해</b>로 흐트선 아래로 내려가면 즉시 발동 안 함 — 이후 공격 1회에 <b>실피해 0이어도 즉시 흐트러짐</b>
+    </li>
+    <li style="margin:2px 0">└ 회복으로 선에 걸쳐도 안 흐트러짐 / <b>보호막 남아 있으면 안 흐트러짐</b>
+    </li>
+    <li style="margin:2px 0">
+      <b>강제 흐트러짐</b>: 게이지 무관하게 발동 (전투 이벤트 등). 일부 '흐트러짐 무시' 효과는 강제 흐트러짐엔 미발동</li>
+  </ul>
+  <hr style="height:1px;padding:0;margin:18px 0;border:0;border-top:1px solid #c8c8c8">
+  <p style="font-size:21px;font-weight:bold;line-height:1.3;margin:24px 0 10px;padding:0">3. 공격·방어 레벨과 데미지 공식</p>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">공/방 레벨 = 인격 레벨 + 스킬별 보정값</li>
+    <li style="margin:2px 0">
+      <b>공격레벨</b> 쓰는 스킬: 공격 스킬 · 일반 반격 · 강화 반격(=합 가능 반격)</li>
+    <li style="margin:2px 0">
+      <b>방어레벨</b> 쓰는 스킬: 가드 · 회피 · 강화 가드(=합 가능 가드)</li>
+    <li style="margin:2px 0">합에서 상대가 수비 스킬이면 그 스킬 레벨이 상대 방어값 (가드/회피는 방어레벨, 일반 반격은 공격레벨로 공·방 둘 다 대체)</li>
+    <li style="margin:2px 0">
+      <b>합 위력 보너스</b> = ⌊레벨차÷3⌋ (레벨차 = 내 공격레벨 − 상대 레벨값). <b>레벨 높은 쪽만</b> 가산, 낮은 쪽 0 (마이너스 페널티 아님 — 저렙도 총 합 위력 크면 합 승리 가능)</li>
+    <li style="margin:2px 0">상대 레벨값 = 맞합이면 상대 공격레벨 / 가드·회피면 방어레벨 / 일반 반격이면 반격 공격레벨</li>
+    <li style="margin:2px 0">이 합 위력 보너스는 아래 데미지 레벨차 보정과 <b>별개</b> — 전자는 합 승률, 후자는 최종 딜</li>
+    <li style="margin:2px 0">
+      <b>데미지 레벨차 보정</b> = (공격레벨−방어레벨) ÷ (|차이|+25)</li>
+  </ul>
+  <table style="margin-top:16px;margin-bottom:16px;width:100%;max-width:100%;border-collapse:collapse;table-layout:fixed;font-size:13px">
+    <thead>
+    <tr>
+      <th style="padding:6px 8px;border:1px solid #000;word-break:break-word">레벨차</th>
+      <th style="padding:6px 8px;border:1px solid #000;word-break:break-word">데미지 증감</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">3</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">+10.7%</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">5</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">+16.7%</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">10</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">+28.6%</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">15</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">+37.5%</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">20</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">+44.4%</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">25</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">+50% (근사 상한)</td>
+    </tr>
+    </tbody>
+  </table>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">공렙 버프가 방렙 디버프보다 좋음 (합 위력에도 영향). 버프/디버프는 1턴 지속 → 한 턴에 몰아 극딜이 핵심</li>
+  </ul>
+  <p style="font-size:17px;font-weight:bold;line-height:1.3;margin:18px 0 8px;padding:0">최종 데미지 공식</p>
+  <pre style="margin:10px 0;padding:12px;font-size:12px;line-height:1.5;font-family:monospace;border:1px solid #c8c8c8;border-radius:3px;overflow-x:auto">(스킬 위력 + 고정 스킬 피해량 증감)
+	× [ 1 + 유형내성 + 속성내성 + 레벨차보정 + 치명타(+0.2) + 합횟수×0.03 ]
+	× [ %증감 총합 (합연산) ]
+	+ 고정 피해량 증감 (합연산)</pre>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">치명타(호흡 버프) +0.2 / 합 1회당 +0.03</li>
+    <li style="margin:2px 0">
+      <b>취약 디버프</b> = 수치×10% 데미지 증가 (R사 히스클리프 1티어 근거)</li>
+    <li style="margin:2px 0">
+      <b>%증감</b> 감소는 합연산 — 중첩하면 데미지 0 근처까지 깎임</li>
+    <li style="margin:2px 0">스킬 아이콘 위 <span style="color:#b8860b">노란</span> 숫자 = 예상 피해 증감값 (첫 조우 적은 ???)</li>
+  </ul>
+  <hr style="height:1px;padding:0;margin:18px 0;border:0;border-top:1px solid #c8c8c8">
+  <p style="font-size:21px;font-weight:bold;line-height:1.3;margin:24px 0 10px;padding:0">4. 코인 종류</p>
+  <table style="margin-top:16px;margin-bottom:16px;width:100%;max-width:100%;border-collapse:collapse;table-layout:fixed;font-size:13px">
+    <thead>
+    <tr>
+      <th style="padding:6px 8px;border:1px solid #000;word-break:break-word">종류</th>
+      <th style="padding:6px 8px;border:1px solid #000;word-break:break-word">특징</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">
+        <b>더하기</b> (기본)</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">앞면 = 위력 추가. 정신력 높을수록 유리</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">
+        <b>빼기</b>
+      </td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">앞면 = 위력 감소. 정신력 낮을수록 고점</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">
+        <b>파괴 불가</b> (<span style="color:#d32f2f">빨강</span>)</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">합 패배해도 안 깨짐, 코인 위력 <b>기본값 1로 변경</b>(증가 수단 있으면 1 이상). 유사 반격 발동</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">
+        <b>적출</b> (<span style="color:#2f9e44">초록</span>)</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">파괴 불가 + 상대 파괴불가 코인은 승리로 파괴 가능</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">
+        <b>소멸</b> (<span style="color:#9c36b5">보라</span>)</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">합 중 상대 코인 확률 소멸. 전부 소멸 시 그 스킬 자체 삭제</td>
+    </tr>
+    </tbody>
+  </table>
+  <p style="font-size:17px;font-weight:bold;line-height:1.3;margin:18px 0 8px;padding:0">빼기 코인 상세 (쥐싱클, 여히스)</p>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">위력이 최댓값에서 시작해 깎이는 구조 → 코인이 파괴될수록 <b>남은 코인 위력 하한이 올라감</b>
+    </li>
+    <li style="margin:2px 0">같은 수치면 더하기보다 데미지 높음 (매 코인을 최댓값으로 타격 가능)</li>
+    <li style="margin:2px 0">운용: 정신력 <b>-20~-30 유지</b> → <b>만렙 필수</b>(레벨 낮으면 처치 시 정신력이 쉽게 회복됨) → 합보다 <b>일방공격 우선</b>(합 승리 = 정신력 회복 = 손해) → 에고로 정신력 조절 → 광역 에고 장착 금지(침식 팀킬)</li>
+    <li style="margin:2px 0">
+      <b>코인 위력 증가 버프는 손해</b>(하한 하락), 최종 위력 증가 버프가 적합. 거던 상위 기프트가 코인 위력 증가 위주라 거던에서 약함</li>
+  </ul>
+  <hr style="height:1px;padding:0;margin:18px 0;border:0;border-top:1px solid #c8c8c8">
+  <p style="font-size:21px;font-weight:bold;line-height:1.3;margin:24px 0 10px;padding:0">5. 수비 스킬</p>
+  <table style="margin-top:16px;margin-bottom:16px;width:100%;max-width:100%;border-collapse:collapse;table-layout:fixed;font-size:13px">
+    <thead>
+    <tr>
+      <th style="padding:6px 8px;border:1px solid #000;word-break:break-word">종류</th>
+      <th style="padding:6px 8px;border:1px solid #000;word-break:break-word">발동 시점</th>
+      <th style="padding:6px 8px;border:1px solid #000;word-break:break-word">동작</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">
+        <b>가드</b>
+      </td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">상대 공격 <b>전</b>
+      </td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">코인 위력만큼 보호막 후 피격. [적중시] 효과는 받음</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">
+        <b>회피</b>
+      </td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">상대 코인 토스마다</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">내 위력 ≥ 상대면 그 코인 무효. 성공 시 재사용, [적중시] 무효</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">
+        <b>일반 반격</b>
+      </td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">상대 공격 <b>후</b>
+      </td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">흐트러지지 않으면 일방 공격. 반격 공격레벨이 공/방 레벨 대체</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">
+        <b>강화 가드(합 가능 가드)</b>
+      </td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">합 진행</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">[합 승리] 위력만큼 <b>흐트러짐 피해</b> / [합 패배] 위력만큼 상대 위력 경감 후 피격. <b>보호막 없음</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">
+        <b>강화 반격(합 가능 반격)</b>
+      </td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">합 진행</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">승리 시 공격, 패배 시 그냥 피격. 합 불가 공격엔 미발동</td>
+    </tr>
+    </tbody>
+  </table>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">용어: <b>일반 수비</b> = 가드·회피·일반 반격 / <b>강화 수비</b> = 강화 가드·강화 반격</li>
+    <li style="margin:2px 0">공격 안 받으면 <b>[전투 시작시]</b> 효과만 발동</li>
+    <li style="margin:2px 0">
+      <b>가드·회피 발동 조건</b> = “지정한 슬롯이 나를 공격할 때”. 침식 공격에 가드/회피가 안 터지는 건 지정 안 한 슬롯의 공격이라서</li>
+    <li style="margin:2px 0">└ 예외: 지정 대상 사망 시 슬롯 무관하게 <b>처음 오는 공격</b>에 발동 / 지정 슬롯보다 빠른 공격엔 미발동</li>
+    <li style="margin:2px 0">
+      <b>일반 반격 발동 조건</b> = 슬롯 무관, <b>자신에게 오는 가장 빠른 공격</b>
+    </li>
+    <li style="margin:2px 0">
+      <b>강화 수비 발동 조건</b>(수동) = 자신에게 오는 가장 빠른 <b>일방공격</b>
+    </li>
+    <li style="margin:2px 0">죄악 속성: <b>일반 반격은 항상 보유</b>, 가드/회피는 4동기화부터 (쥐어들 자 싱클레어 예외). 속성이 있어야 공명·자원 수급 가능</li>
+    <li style="margin:2px 0">활용: 가드 = 실데미지 감소 / 회피 = 다단히트 적 무력화 / 합 승률 낮으면 수비로 회피</li>
+  </ul>
+  <p style="font-size:17px;font-weight:bold;line-height:1.3;margin:18px 0 8px;padding:0">강화 가드 — 일반 가드와 별개 스킬</p>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">코인은 <b>파괴 불가 코인 1개 고정</b>, 예외 없음</li>
+    <li style="margin:2px 0">
+      <b>보호막 없음</b> — 가드는 광역기 전체를 막지만, 강화 가드는 <b>합 붙은 스킬 1개만</b> 대응</li>
+    <li style="margin:2px 0">[합 패배] 위력만큼 <b>상대 위력 경감</b> 후 피격 — 화면 표시 없음 / 광역기는 <b>자신 몫만</b>(서브 타겟 미적용) / 경감 위력엔 <b>레벨차·공명 보정 미적용</b>
+    </li>
+    <li style="margin:2px 0">[합 승리] 위력만큼 <b>흐트러짐 피해</b> — 흐트선 당김</li>
+  </ul>
+  <p style="font-size:17px;font-weight:bold;line-height:1.3;margin:18px 0 8px;padding:0">일반 반격 vs 강화 반격</p>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">
+      <b>일반 반격</b>: 합 없이 상대 공격 후 되받아침. 흐트러지면 불발</li>
+    <li style="margin:2px 0">
+      <b>강화 반격</b>: 기능상 <b>공격 스킬과 거의 동일</b>. 차이는 <b>합 불가 공격엔 미발동</b>뿐 — <b>1스킬보다 나은 경우도</b> 있음</li>
+    <li style="margin:2px 0">말그대로 '반격'이라 <b>적 공격이 와야 발동</b>
+    </li>
+  </ul>
+  <p style="font-size:17px;font-weight:bold;line-height:1.3;margin:18px 0 8px;padding:0">회피 겹치기 — 한 공격 슬롯에 회피 2개</p>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">슬롯 2개로 <b>같은 적 공격에 회피 겹쳐 지정</b> 가능</li>
+    <li style="margin:2px 0">진행: 1번 회피가 코인마다 위력 비교 → 지면 그 타만 피격 + 1번 파괴 → <b>남은 타수는 2번 회피가 이어받음</b>
+    </li>
+    <li style="margin:2px 0">활용: <b>파괴 불가 코인 공격</b>은 합 대신 회피 겹치기로 대응 — 전 타수 무시 가능, 하나 깨져도 뒤 회피가 커버</li>
+  </ul>
+  <p style="font-size:17px;font-weight:bold;line-height:1.3;margin:18px 0 8px;padding:0">강화 수비 발동 타이밍 — 능동/수동 선택 가능</p>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">일반 수비는 <b>수동 발동뿐</b> (피격 직전)</li>
+    <li style="margin:2px 0">
+      <b>능동 발동</b>: 적 공격에 직접 합 지정. '합' 취급이라 <b>시전자 속도 따름</b> (10번 예외)</li>
+    <li style="margin:2px 0">
+      <b>수동 발동</b>: <b>강화 가드·강화 반격 공통</b> — 합 미지정 시 <b>1번째로 오는 일방공격</b>에 발동 (적 속도 타이밍)</li>
+  </ul>
+  <hr style="height:1px;padding:0;margin:18px 0;border:0;border-top:1px solid #c8c8c8">
+  <p style="font-size:21px;font-weight:bold;line-height:1.3;margin:24px 0 10px;padding:0">6. 상쇄</p>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">수비 스킬로 상대 수비 스킬에 대응하면 뜨는 표시. 실제로 둘 다 지워지는 건 <b>가드·회피끼리</b>뿐</li>
+    <li style="margin:2px 0">
+      <b>일반 반격은 어떤 방법으로도 상쇄 불가</b> — 표시가 떠도 절대 안 사라짐</li>
+    <li style="margin:2px 0">강화 가드·강화 반격은 <b>상쇄당하지 않음</b> — 회피/가드를 대도 일방공격이 들어오면 그대로 발동</li>
+    <li style="margin:2px 0">└ 반대는 가능: <b>반격·강화 반격으로 상대 가드/회피 상쇄</b> — 상대만 지워짐</li>
+    <li style="margin:2px 0">상쇄돼도 [전투 시작시]/[턴 시작시] 효과는 발동</li>
+  </ul>
+  <table style="margin-top:16px;margin-bottom:16px;width:100%;max-width:100%;border-collapse:collapse;table-layout:fixed;font-size:13px">
+    <thead>
+    <tr>
+      <th style="padding:6px 8px;border:1px solid #000;word-break:break-word">매치업</th>
+      <th style="padding:6px 8px;border:1px solid #000;word-break:break-word">상쇄 표시</th>
+      <th style="padding:6px 8px;border:1px solid #000;word-break:break-word">실제 결과</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">
+        <b>가드/회피</b> ↔ <b>가드/회피</b>
+      </td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">뜸</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">둘 다 사라짐 (진짜 상쇄)</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">
+        <b>일반 반격</b> ↔ <b>일반 반격</b>
+      </td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">뜸 (표시만)</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">둘 다 발동</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">
+        <b>일반 반격</b> ↔ <b>가드/회피</b>
+      </td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">뜸 (표시만)</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">가드/회피만 사라짐</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">전부 → <b>강화 가드/강화 반격</b>
+      </td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">안 뜸</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">강화 수비는 상쇄당하지 않고 그대로 발동</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">
+        <b>강화 반격</b> → <b>가드/회피</b>
+      </td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">뜸</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">가드/회피만 사라지고 강화 반격은 발동</td>
+    </tr>
+    </tbody>
+  </table>
+  <hr style="height:1px;padding:0;margin:18px 0;border:0;border-top:1px solid #c8c8c8">
+  <p style="font-size:21px;font-weight:bold;line-height:1.3;margin:24px 0 10px;padding:0">7. 죄악 공명과 패시브</p>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">패널에서 같은 죄악 속성 스킬 2개 이상 연결 = 공명: ①공격 레벨 증가 ②공명 패시브 발동</li>
+    <li style="margin:2px 0">공명 수치가 높을수록 공격 레벨 증가폭이 큼 (수치는 아래 표)</li>
+    <li style="margin:2px 0">
+      <b>완전공명</b> = 같은 속성 3개 이상 연속. 모든 스킬 공격 레벨 최대 증가</li>
+    <li style="margin:2px 0">실전은 공명보다 <b>위력 센 스킬 우선</b> (5턴 내 종료 흔함) — 공명은 인격풀 넓어진 뒤 전용 덱에서</li>
+    <li style="margin:2px 0">패시브 = 2동기화 해금·참전 시 발동 / 서포트 패시브 = 3동기화·미참전도 편성만 되면 발동</li>
+    <li style="margin:2px 0">패시브 조건: 죄악 자원 보유 or 공명 수. 스킬 사용 시 그 속성 자원 +1</li>
+    <li style="margin:2px 0">수비 스킬·에고도 속성 있으면 공명·자원 획득 가능</li>
+    <li style="margin:2px 0">공명 자체가 핵심인 인격도 있음 (피쿼드호 히스클리프, 검계 뫼르소)</li>
+  </ul>
+  <p style="font-size:17px;font-weight:bold;line-height:1.3;margin:18px 0 8px;padding:0">공명 수치별 공격 레벨 증가</p>
+  <div style="overflow-x:auto;margin:16px 0">
+    <table style="border-collapse:collapse;table-layout:auto;font-size:12px;margin:0">
+      <tbody>
+      <tr>
+        <th style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap;background-color:#f0f0f0">공명 수치</th>
+        <th style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap;background-color:#f0f0f0">1</th>
+        <th style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap;background-color:#f0f0f0">2</th>
+        <th style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap;background-color:#f0f0f0">3</th>
+        <th style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap;background-color:#f0f0f0">4</th>
+        <th style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap;background-color:#f0f0f0">5</th>
+        <th style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap;background-color:#f0f0f0">6</th>
+        <th style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap;background-color:#f0f0f0">7</th>
+        <th style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap;background-color:#f0f0f0">8</th>
+        <th style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap;background-color:#f0f0f0">9</th>
+        <th style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap;background-color:#f0f0f0">10</th>
+        <th style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap;background-color:#f0f0f0">11</th>
+        <th style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap;background-color:#f0f0f0">12</th>
+      </tr>
+      <tr>
+        <th style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap;background-color:#f0f0f0">일반 공명</th>
+        <td style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap">+0</td>
+        <td style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap">+1</td>
+        <td style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap">+3</td>
+        <td style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap">+3</td>
+        <td style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap">+5</td>
+        <td style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap">+5</td>
+        <td style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap">+7</td>
+        <td style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap">+7</td>
+        <td style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap">+9</td>
+        <td style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap">+9</td>
+        <td style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap">+11</td>
+        <td style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap">측정X</td>
+      </tr>
+      <tr>
+        <th style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap;background-color:#f0f0f0">완전 공명</th>
+        <td style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap">측정X</td>
+        <td style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap">측정X</td>
+        <td style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap">+3</td>
+        <td style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap">+5</td>
+        <td style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap">+5</td>
+        <td style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap">+7</td>
+        <td style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap">+7</td>
+        <td style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap">+9</td>
+        <td style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap">+9</td>
+        <td style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap">+11</td>
+        <td style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap">+13</td>
+        <td style="padding:5px 7px;border:1px solid #000;text-align:center;white-space:nowrap">+13</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">증가하는 건 <b>공격 레벨뿐</b> — 수비 레벨은 공명해도 안 변함</li>
+    <li style="margin:2px 0">같은 수치라도 <b>완전 공명이 일반 공명보다 증가폭이 큼</b> (4 이상부터 벌어짐)</li>
+    <li style="margin:2px 0">측정X = 성립 불가 구간 (완전 공명은 3개 이상부터, 일반 공명 12는 곧 완전 공명)</li>
+  </ul>
+  <hr style="height:1px;padding:0;margin:18px 0;border:0;border-top:1px solid #c8c8c8">
+  <p style="font-size:21px;font-weight:bold;line-height:1.3;margin:24px 0 10px;padding:0">8. 정신력과 패닉</p>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">범위 -45~+45 (시작 0). <b>코인 앞면 확률 = 50 + 정신력(%)</b>
+    </li>
+  </ul>
+  <table style="margin-top:16px;margin-bottom:16px;width:100%;max-width:100%;border-collapse:collapse;table-layout:fixed;font-size:13px">
+    <thead>
+    <tr>
+      <th style="padding:6px 8px;border:1px solid #000;word-break:break-word">조건</th>
+      <th style="padding:6px 8px;border:1px solid #000;word-break:break-word">변동</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">합 승리</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">+10 (2합부터 합당 +20% 추가)</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">자기 레벨 이상 적 처치</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">+10</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">아군이 그런 적 처치</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">+5</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">자기 레벨 이상 아군 사망</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">-10 - (레벨차×10)</td>
+    </tr>
+    </tbody>
+  </table>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">
+      <b>-30~-44</b>: 사기 저하 (유형별 디버프) / <b>-45</b>: 패닉(1턴 행동불가 + 죄악내성 전부 취약) 또는 에고 침식</li>
+  </ul>
+  <hr style="height:1px;padding:0;margin:18px 0;border:0;border-top:1px solid #c8c8c8">
+  <p style="font-size:21px;font-weight:bold;line-height:1.3;margin:24px 0 10px;padding:0">9. E.G.O</p>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">죄악 자원 + 정신력 소모. 등급 <span style="color:#0f0">자인</span>→<span style="color:#19d">테스</span>→<span style="color:#ffdd00">헤</span>→<span style="color:#a2e">바브</span>→<span style="color:#f00">알레프</span> 순 소모량↑ (24.5 기준 <span style="color:#f00">알레프</span> 미출시)</li>
+    <li style="margin:2px 0">용도: ①합 승리(고위력) ②유틸(회복·디버프) ③광역 딜(가중치 5+)</li>
+    <li style="margin:2px 0">
+      <b>침식 스킬</b>: 정신력 -45 시 <b>다음 턴</b> 강제 발동, 피아식별 없음. 1턴 뒤 정신력 0</li>
+    <li style="margin:2px 0">
+      <b>오버클록</b>(수감자 꾹 → 에고 꾹): 자원·정신력 1.5배 소모로 침식 스킬을 피아식별 있게 사용. 자원 부족 시 피아식별 없는 불안정 오버클록으로 대체</li>
+    <li style="margin:2px 0">E.G.O 패시브: 사용 성공 시 그 전투 내내 발동, 중첩 가능</li>
+  </ul>
+  <p style="font-size:17px;font-weight:bold;line-height:1.3;margin:18px 0 8px;padding:0">에고 활용 팁</p>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">
+      <b>합 순서 바꾸기</b>: 대상 지정형 에고(이스마엘 작살박이, 싱클레어 평생스튜 등)가 일반 전투 합 순서를 바꾸는 유일한 방법</li>
+    <li style="margin:2px 0">
+      <b>정신력 강제 하락</b>: 빼기 코인 인격 예열 단축</li>
+    <li style="margin:2px 0">
+      <b>의도적 침식</b>: 대상 지정형 침식 스킬(로쟈 얼음다리 등)로 고정 타겟 극딜 (솔플 유효)</li>
+    <li style="margin:2px 0">정신력 0에서 <span style="color:#a2e">바브</span> 에고(소모 35) 오버클록 = 즉시 -45 확정 침식</li>
+  </ul>
+  <hr style="height:1px;padding:0;margin:18px 0;border:0;border-top:1px solid #c8c8c8">
+  <p style="font-size:21px;font-weight:bold;line-height:1.3;margin:24px 0 10px;padding:0">10. 속도와 행동 순서</p>
+  <p style="font-size:17px;font-weight:bold;line-height:1.3;margin:18px 0 8px;padding:0">행동 순서</p>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">
+      <b>① 속도 높은 쪽부터</b> 행동</li>
+    <li style="margin:2px 0">
+      <b>② 동속이면 편성 앞순서(=왼쪽)</b>: 아군은 편성순서 우선 / 환상체는 오른쪽 부위 우선 (한 부위 안의 슬롯은 왼쪽부터)</li>
+    <li style="margin:2px 0">
+      <b>③ 동속 공격·한 인격의 여러 슬롯이면 합 걸린 것부터</b> 행동 → 나머지는 일방공격</li>
+  </ul>
+  <p style="font-size:17px;font-weight:bold;line-height:1.3;margin:18px 0 8px;padding:0">속도 판정 규칙</p>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">
+      <b>합</b>은 양쪽 중 <b>빠른 쪽 속도</b>로 처리 (느린 쪽과 합해도 빠른 속도)</li>
+    <li style="margin:2px 0">
+      <b>수비 스킬</b>(가드·회피·일반 반격)은 피격자 속도 무관, <b>공격자 속도</b> 타이밍에 발동 → 빠른 아군이 수비를 잡으면 그 슬롯 행동이 공격자 순번까지 밀림, 그 사이 다른 아군이 일방공격 먼저 넣기 가능. 예외: 강화 수비를 합으로 지정하면 시전자 속도 따름 (5번 참고)</li>
+  </ul>
+  <p style="font-size:17px;font-weight:bold;line-height:1.3;margin:18px 0 8px;padding:0">편성·배치</p>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">편성 앞순서는 위 ②(동속 시 우선)뿐 아니라, 서포트 패시브 대상이 여럿일 때도 앞순서 인격이 적용받음</li>
+    <li style="margin:2px 0">배치: 일반 전투 = 딜러 앞 / 집중 전투 = 버프·디버프 요원 앞 / 위치 기반 버프 인격 = 중앙</li>
+  </ul>
+  <hr style="height:1px;padding:0;margin:18px 0;border:0;border-top:1px solid #c8c8c8">
+  <p style="font-size:21px;font-weight:bold;line-height:1.3;margin:24px 0 10px;padding:0">11. 공격 가중치와 광역기</p>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">공격 가중치 = 공격하는 슬롯 수. 2 이상 = 광역기</li>
+    <li style="margin:2px 0">대상이 먼저 죽어도 타겟 이월 없음 → 광역기는 속도 빠른 아군이 유리</li>
+    <li style="margin:2px 0">[적중시] 효과는 <b>맞은 수만큼 중복</b> (5명 = 5회분)</li>
+    <li style="margin:2px 0">같은 적/부위의 슬롯 여러 개 맞혀도 데미지 중복 없음 → 부위 적은 환상체엔 효율↓</li>
+    <li style="margin:2px 0">
+      <b>슬롯 가중치</b>: 그 슬롯을 여러 개로 계산하는 스탯 (2면 슬롯 2개 취급)</li>
+    <li style="margin:2px 0">
+      <b>서브 타겟</b>: 메인 = 실선, 서브 = 점선. 광역기는 <b>미지정 슬롯 우선</b> → 원하는 서브 타겟은 다른 아군으로 나머지 슬롯을 먼저 지정. 도중 아군이 수비/에고를 새로 잡으면 초기화됨</li>
+    <li style="margin:2px 0">가중치 증가·스킬 재사용 효과도 미지정 슬롯 우선 → 저체력 잡몹을 재사용/가중치 스킬이 처리하게 유도 가능</li>
+  </ul>
+  <hr style="height:1px;padding:0;margin:18px 0;border:0;border-top:1px solid #c8c8c8">
+  <p style="font-size:21px;font-weight:bold;line-height:1.3;margin:24px 0 10px;padding:0">12. 효과 발동 타이밍 표기</p>
+  <p style="font-size:13px;margin:10px 0">[태그]는 효과 발동 시점. <b>단계 / 사용 / 적중</b> 세 계열, 계열 순서는 고정 아님.</p>
+  <table style="margin-top:16px;margin-bottom:16px;width:100%;max-width:100%;border-collapse:collapse;table-layout:fixed;font-size:13px">
+    <thead>
+    <tr>
+      <th style="padding:6px 8px;border:1px solid #000;word-break:break-word">태그</th>
+      <th style="padding:6px 8px;border:1px solid #000;word-break:break-word">발동 시점</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">[전투 시작시]</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">타겟팅 후 엔터 시점 ([턴 시작 시]는 이미 지남)</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">[턴 시작 시]</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">매 턴 시작</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">[사용전]</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">사용 조건 판정 직전 (강화판 스킬 전환 판정 시점)</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">[사용시]</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">스킬 코인이 구르기 시작할 때</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">[공격 시작 전]</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">공격 코인 토스 전</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">[코인 시작 시]</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">각 코인 판정 시작</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">[합 진행 시]/[합 시작 시]</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">합 진행 중 / 합 시작</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">[일방 공격 시]</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">합 없이 공격이 들어갈 때</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">[합 패배]/[합 승리시]</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">합 결과 직후</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">[적중시]</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">코인이 맞았을 때</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">[대상 처치 시]</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">공격으로 처치 시</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">[이 코인 공격 종료시]</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">해당 코인 공격 종료</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">[공격 종료시]</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">스킬 전체 공격 종료 (합 패배 후 상대 스킬 종료 시에도 발동)</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">[스킬 종료시]</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">스킬 사용 완전 종료</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">[턴 종료 시]</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">매 턴 종료</td>
+    </tr>
+    </tbody>
+  </table>
+  <hr style="height:1px;padding:0;margin:18px 0;border:0;border-top:1px solid #c8c8c8">
+  <p style="font-size:21px;font-weight:bold;line-height:1.3;margin:24px 0 10px;padding:0">13. 연속 전투와 컨티뉴</p>
+  <p style="font-size:17px;font-weight:bold;line-height:1.3;margin:18px 0 8px;padding:0">연속 전투</p>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">4호선 도입, <b>6.5-2 이후 상시</b>. <b>대기 인원</b>을 편성해야 판정됨</li>
+    <li style="margin:2px 0">핵심: <b>죽어도 조작 패널을 안 먹음</b> — 인격 적어도 대기는 넣는 게 이득</li>
+    <li style="margin:2px 0">사망·퇴각 시 순번대로 자동 투입, 서포트 패시브 → 전투 패시브 전환</li>
+    <li style="margin:2px 0">
+      <b>'아군 사망 시 정신력 감소' 비활성화</b> (8번 표 항목). '특정 아군 사망 시'는 유지</li>
+    <li style="margin:2px 0">편성 순번은 유지 → 1번 인격이 빠지면 '1번 편성' 조건 효과 전부 무효</li>
+    <li style="margin:2px 0">
+      <b>퇴각·복귀</b>: 복귀 시 버프·디버프 전부 해제, 체력·정신력은 유지</li>
+  </ul>
+  <p style="font-size:17px;font-weight:bold;line-height:1.3;margin:18px 0 8px;padding:0">컨티뉴(스토리 전용)</p>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">전멸 시 <b>40광기</b>로 재개, 횟수 제한 없음 (9장부터 전 스테이지)</li>
+    <li style="margin:2px 0">적 상태 유지 / 아군 체력·정신력 최대 회복 / 흐트선 복구 / 모든 속성 자원 +10</li>
+    <li style="margin:2px 0">빼기 코인 인격은 <b>정신력 -30</b>으로 부활</li>
+    <li style="margin:2px 0">버프·디버프·에고 패시브는 초기화 (스테이지 핵심 효과 제외)</li>
+    <li style="margin:2px 0">99턴 경과·광기 부족·특수 패배 조건이면 <b>사용 불가</b>. 사용 시 <b>EX 클리어 미기록</b>
+    </li>
+  </ul>
+  <hr style="height:1px;padding:0;margin:18px 0;border:0;border-top:1px solid #c8c8c8">
+  <p style="font-size:21px;font-weight:bold;line-height:1.3;margin:24px 0 10px;padding:0">14. 빛의 묘목</p>
+  <ul style="padding:0 0 0 2em;margin:10px 0;font-size:13px">
+    <li style="margin:2px 0">메인 6장 이후 해금. 하루 <b>1회</b> (8-30부터 2회, 같은 능력 중복 사용 불가). 패배 시 기회 반환</li>
+  </ul>
+  <table style="margin-top:16px;margin-bottom:16px;width:100%;max-width:100%;border-collapse:collapse;table-layout:fixed;font-size:13px">
+    <thead>
+    <tr>
+      <th style="padding:6px 8px;border:1px solid #000;word-break:break-word">능력</th>
+      <th style="padding:6px 8px;border:1px solid #000;word-break:break-word">해금</th>
+      <th style="padding:6px 8px;border:1px solid #000;word-break:break-word">효과</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">
+        <span style="color:#b8860b"><b>PIGRITIA</b> (나태)</span>
+      </td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">6-44</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">모든 적 속도 절반 (홀수는 내림)</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">
+        <span style="color:#364fc7"><b>SUPERBIA</b> (오만)</span>
+      </td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">7-36</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">에고 1회 자원 소모 없이 생성. 침식 스킬도 가능</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">
+        <span style="color:#1c7ed6"><b>MOROSITAS</b> (우울)</span>
+      </td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">8-30</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">3턴간 공·방 레벨 평준화. 아군은 추가로 공렙+3·방렙+6. 고난 버프는 평준화 제외</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">
+        <span style="color:#d32f2f"><b>IRA</b> (분노)</span>
+      </td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">9-50</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">1턴간 1인 강화 — 전 코인 파괴불가화, 피해량 +100%, 흐트러짐 무시, 불사, 흡혈</td>
+    </tr>
+    </tbody>
+  </table>
+  <hr style="height:1px;padding:0;margin:18px 0;border:0;border-top:1px solid #c8c8c8">
+  <p style="font-size:21px;font-weight:bold;line-height:1.3;margin:24px 0 10px;padding:0">빠른 참조</p>
+  <table style="margin-top:16px;margin-bottom:16px;width:100%;max-width:100%;border-collapse:collapse;table-layout:fixed;font-size:13px">
+    <thead>
+    <tr>
+      <th style="padding:6px 8px;border:1px solid #000;word-break:break-word">질문</th>
+      <th style="padding:6px 8px;border:1px solid #000;word-break:break-word">답</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">합 위력 최대는?</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">기본위력 + 코인수×코인위력 + ⌊|내 공격레벨 − 상대 레벨값|÷3⌋<br>(상대 레벨값 = 상대가 공격이면 공격레벨·수비면 방어레벨, 3번 참고)</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">코인 앞면 확률?</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">50 + 정신력 (%)</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">1사이클 스킬 구성?</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">1스킬×3 + 2스킬×2 + 3스킬×1</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">완전 공명 조건?</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">인접 같은 속성 3개 이상</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">패닉/침식 조건?</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">정신력 -45</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">E.G.O 순서?</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">합 → 정신력 소모 → 코인 토스</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">마비 시 합 승률?</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">상대 코인값 0 취급 (표시 승률 신뢰 불가)</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">합 뺏는 조건?</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">집중 전투 + 아군이 더 빠름 (마지막 지정이 합)</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">흐트러짐+/++?</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">한 턴에 흐트선 2/3개 동시 통과</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">슬롯 가중치란?</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">광역기 계산 시 슬롯을 여러 개로 취급</td>
+    </tr>
+    <tr>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">수비 스킬 행동 순서?</td>
+      <td style="padding:6px 8px;border:1px solid #000;word-break:break-word">피격자 무관, 공격자 속도 기준</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
