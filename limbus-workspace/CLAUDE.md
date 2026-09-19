@@ -17,7 +17,7 @@
 |-----------|-----------|
 | 인격/EGO 목록, 현재 배너 | `crawled/Limbus Company/인격 & E.G.O.md` |
 | 가챠/추출 시스템 | `crawled/Limbus Company/추출.md` |
-| 전투 시스템, 스킬 | `crawled/요약_전투시스템.md` — 유일 정답 문서(편집본 요약 + 전투.md 보충정보 통합본). 이것만 보면 됨 |
+| 전투 시스템, 스킬 | `편집본/요약_전투시스템.md` — 유일 정답 문서(편집본 요약 + 전투.md 보충정보 통합본). 이것만 보면 됨 |
 | 배틀 패스 | `crawled/Limbus Company/배틀 패스.md` |
 | 아나운서 | `crawled/Limbus Company/아나운서.md` |
 | 키워드(출혈/화상/진동 등) | `crawled/Limbus Company/키워드.md` |
